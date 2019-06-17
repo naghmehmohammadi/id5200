@@ -1,0 +1,237 @@
+\section{Systematic uncertainties}
+\label{Sec:Systematics}
+%The systematic uncertainties are estimated by varying the selection criteria for all particle species as well as topological reconstruction requirements for \Ks, \lambdas~and $\phi$.
+
+The systematic uncertainties are estimated by varying the selection criteria for all particle species as well as topological reconstruction requirements for \Ks, \lambdas~and $\phi$. The contributions from different sources are extracted from the relative ratio of the \pT-differential $v_{n,mk}$ between the default selection criteria described in Section~\ref{Sec:EventTrackIdentification} and their variations summarised in Tabs.~\ref{SysVar} and \ref{tab:V0scuts}. Each source with a statistically significant contribution, i.e. $|x_1 - x_2| / \sqrt(|\sigma_{1}^{2} \pm \sigma_{2}^{2}|)  > 1$ (known as barlow check) was fitted to create a smooth change along \pT~and then the value of these fits were added in quadrature to form the final value of the systematic uncertainties on the non-linear flow modes. An overview of the magnitude of the relative systematic uncertainties per particle species is given in Tab. \ref{SystematicsValues:PID} for \pion, \kaon~and \proton~and Tab. \ref{SystematicsValues:V0} for \Ks, \lambdas~and $\phi$-meson. Systematic uncertainties are grouped into five categories, i.e. event selection, tracking, particle identification, topological cuts and non-flow contribution and are described below.
+
+
+\begin{table}
+\centering
+ \resizebox{0.75\textwidth}{!}{\begin{tabular}[!b]{|l|c|c|}
+\hline
+Selection requirement & Default cut & Variations\\
+\hline
+\hline
+Primary $vtx_{z}$ & $\pm$10cm & $\pm$6cm, $\pm$8cm\\ 
+Centrality estimator  & V0M & CL0, CL1\\ 
+Magnetic field polarity & both fields & ++, - - \\
+pile-up rejection & strict & loose \\ \hline
+Tracking mode & global (96) & hybrid (768)\\
+Number of \TPC~space-points &70& 80, 90, 100\\
+$\chi^2$ per \TPC~space-point & 4 & 2 \\
+$\rm{DCA}_{xy}$ cm&$p_{\rm{T}}$ dependant& 0.2, 0.15~cm\\
+$\rm{DCA}_{z}$ cm&2~cm& 0.2, 0.3~cm\\\hline
+PID method & \pT-dependent &  tight \pT-dependent, Bayesian prob. >80\% \\ \hline
+POI vs. RFP charges & All & ++, - - \\
+$\eta$ gap & 0.0 & 0.4 \\ 
+\hline
+\end{tabular}}
+\caption{List of the selection criteria and the corresponding variations used for the estimation of the systematic uncertainties of \pion, \kaon~and \proton}\label{SysVar}
+\end{table}
+
+\begin{table}
+  \centering
+  \resizebox{0.75\textwidth}{!}{\begin{tabular}[!b]{|l|c|c|}
+  \hline
+  Selection requirements & Default cut & Variations\\
+  \hline
+  \hline
+  Reconstruction method (\vo~finder) & offline & online \\
+  TPC refit for both daughters & {\tt AliAODTrack::kTPCrefit} & --\\
+  Kink vertex rejection & {\tt not AliAODVertex::kKink} & --\\
+  Decay vertex (radial position) & 5 < r < 100 cm & 10 < r < 100 cm \\
+  Cosine of pointing angle & > 0.998 & > 0.99 \\
+  Number of crossed TPC clusters & > 70 & > 90 \\
+  Number of TPC clusters used for PID & > 70 & > 90 \\
+  Number of findable TPC clusters & > 1 & -- \\
+  Ratio of crossed to findable TPC clusters & > 0.8 & > 1.0\\
+  DCA decay products to primary vertex & > 0.1 cm  & > 0.3 cm\\
+  DCA among daughters & < 0.5 cm & < 0.3 cm\\
+  Daughter \pT~acceptance & -- & > 0.2 \GeV\\
+  TPC PID on daugthers &  < 3$\sigma$ & -- \\
+  %Lifetime & < 20 cm \\
+  Armenteros-Podolanski (\Ks) & $q > 0.2 |\alpha|$ & --\\
+  Daughter $\eta$ acceptance & $|\eta|$ < 0.8 & --\\
+  Mother $\eta$ acceptance & $|\eta|$ < 0.8 & --\\
+  Competing inv. mass rejection (\Ks) & < 5~\MeV$^2$ & --\\
+  Competing inv. mass rejection (\lambdas) & < 10~\MeV$^2$ & --\\
+  \hline 
+  \end{tabular}}
+ \caption{List of topological reconstruction requirements and cuts applied on \vo~candidates including variations for systematical uncertainty study where applicable.} \label{tab:V0scuts}
+\end{table}
+
+Effect of {\it event selection} criteria on the measurements are studied by:  (i) varying primary vertex position along the beam axis ($z_{vtx}$) from a nominal $\pm$10 cm to $\pm$8 cm and $\pm$6 cm; (ii) changing centrality estimator from the signal amplitudes in the \vo scintillator detectors to the multiplicity of TPC tracks or the number of SPD clusters; (iii) analysing events recorded for different magnetic field polarities independently; (iv) not rejecting events with tracks caused by pileup. 
+
+Effect of {\it tracking} cuts are then studies by: (i) changing the tracking from global to hybrid mode; (ii) increasing the number of TPC space points from 70 up to 100 and (iii) the $\chi^{2}$ per TPC space point per degree of freedom from 4 to 2; (iv) varying the selection criteria on both the longitudinal and transverse components of the DCA to estimate the impact of secondary particles from a strick \pT-dependent cut to 0.15 cm and 2 cm to 0.2 cm, respectively.
+
+Systematic uncertainties associated with the {\it particle identification} procedure were studied by varying the PID method from a \pT-dependent method described in \ref{SubSec:Identification} to a stricter version where the purity increases to 95\% (\pion), 80\% (\kaon) and 80\% (\proton) across the entire \pT~range of study. The second method used is Bayesian method with a probability of at least 80\% which gives an increase in purity to 97\% (\pion), 87\% (\kaon) and 90\% (\proton) across the entire \pT~range of study. 
+
+The {\it non-flow contribution} is studied by (i) selecting like sign pairs of particles of interest and reference particles to decrease the effect from decay of resonance particles; (ii) applying pseudorapidity gaps between the two subevents from $|\Delta\eta|>0.0$ to $|\Delta\eta|>0.4$.
+
+The {\it topological cuts} were also varied to account for \vo~and $\phi$-meson reconstruction. The default \vo~finding method is described in Sec. \ref{SubSec:K0sLambdaRec}. These selection criteria are varied by (i) changing the reconstruction method for \vo~particles from offline to online method; 
+(ii) varying the minimum radial distance to the primary vertex at which the \vo~can be produced from 5 cm to 10 cm; (iii) changing the minimum value of cosine of pointing angle from 0.998 to 0.99; (iv) varying the minimum number of TPC space points crossed by the \vo~daughter tracks from 70 to 90; (v) changing the requirement on the minimum number of TPC space points that are used in the reconstruction of the \vo~daughter tracks form 70 to 90; (vi) requesting a minimum ratio of crossed to findable TPC clusters from 0.8 to 1.0; (vii) changing the minimum DCA of the \vo~daughter tracks to the primary vertex from 0.1 cm to 0.3 cm; (viii) changing the maximum DCA of the \vo~daughter tracks to the secondary vertex from 0.5 cm to 0.3 cm; (ix) requiring a minimum \pT~of the \vo~daughter tracks of 0.2 \GeV. \\
+
+%Tables \ref{SystematicsValues:v422}, \ref{SystematicsValues:v532}, \ref{SystematicsValues:v633} and \ref{SystematicsValues:v6222} summarise the maximum deviations for each individual systematic source over all transverse momenta and centrality intervals in five aforementioned categories. %Selection criteria are grouped into different categories, i.e. event selection, tracking, particle identification, topological cuts and non-flow contribution.
+
+
+%This change resulted in a minimum and maximum contribution of 0-2\% (\pion), 1-3\% (\kaon), 0-3\% (proton), 0\% (\Ks), 0-2\% (\lambdas) and 1\% ($\phi$-meson) for $v_{4,22}$ across the entire transverse momenta of interest and centrality intervals. Similar effect is observed for $v_{5,32}$ with a minimum and maximum contribution of 0-3\% (\pion), 1-3\% (\kaon), 1-4\% (proton), 0\% (\Ks) and 0-3\% (\lambdas). The variations resulted in larger systematic uncertainties for the sixth order non-linear modes with a minimum and maximum contribution of 3-5\% (\pion), 2-5\% (\kaon), 3-5\% (proton), 0\% (\Ks) and 1-3\% (\lambdas) for $v_{6,33}$ and 2-7\% (\pion), 2-7\% (\kaon) and 4-7\% (proton) for $v_{6,222}$.
+
+\begin{table}[!ht]
+\resizebox{\textwidth}{!}{\begin{tabular}{ |p{4.5cm} |l|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{1}{| c |}{} & \multicolumn{3}{| c |}{ $v_{4,22}$ } & \multicolumn{3}{| c |}{ $v_{5,32}$} & \multicolumn{3}{| c |}{ $v_{6,33}$} & \multicolumn{3}{| c |}{ $v_{6,222}$} \\
+\hline
+Error source  & \pion &  \kaon & \proton &  \pion & \kaon & \proton &  \pion &  \kaon & \proton &  \pion &  \kaon & \proton \\ \hline  \hline
+Primary $z_{vtx}$  & 0-2\% & 1-3\% & 0-3\% & 0-3\% & 1-3\% & 1-4\% & 3-5\% & 2-5\% & 3-5\% & 2-7\% & 2-7\% & 4-7\%\\
+Centrality estimator  & 0-4\% & 1-4\% & 1-5\% & 0-4\% & 1-3\% & 2-4\% & 4-10\% & 4-10\% & 5-10\% & 3-10\% & 5-10\% & 4-10\%\\
+Magnetic field polarity & 0-2\% & 0-3\% & 0-3\% & 0-4\% & 0-5\% & 0-5\% & 0-10\% & 0-10\% & 0-10\% & 0-10\% & 0-10\% & 0-10\% \\
+Pileup rejection & 0-4\% & 0-4\% & 0-4\% & 0-5\% & 1-5\% & 0-5\% & 5-7\% & 5-10\% & 5-8\% & 4-10\% & 4-10\% & 2-10\%\\\hline
+Tracking mode  & 1-4\% & 1-5\% & 1-4\% & 2-6\% & 3-5\% & 2-8\% & 0-8\% & 0-7\% & 3-8\% & 1-10\% & 4-10\% & 2-10\% \\
+Number of \TPC~space-points &  1-2\% & 0-2\% & 0-2\% & 0-3\% & 1-3\% & 1-3\% & 4-8\% & 3-8\% & 3-8\% & 2-8\% & 4-8\% & 4-8\% \\
+$\chi^2$ per \TPC~space-point & 0-2\% & 1-2\% & 1-3\% & 1-3\% & 1-3\% & 2-4\% & 3-5\% & 3-6\% & 3-6\% & 2-6\% & 4-7\% & 4-7\%\\
+DCAxy & 0-2\% & 0-2\% & 1-3\% & 0-3\% & 1-3\% & 1-3\% & 2-7\% & 2-8\% & 4-8\% & 2-8\% & 4-8\% & 3-8\%\\
+DCAz & 0-3\% & 0-2\% & 1-2\% & 1-2\% & 1-3\% & 2-3\% & 3-7\% & 3-7\% & 5-7\% & 2-7\% & 4-8\% & 2-8\%\\\hline
+Particle identification & 1-5\% & 1-5\% & 1-3\% & 1-5\% & 2-5\% & 1-5\% & 5-10\% & 5-10\% & 6-12\% & 4-12\% & 6-15\% & 4-15\%\\\hline
+POI vs. RFP charges & 0-2\% & 0-3\% & 2-3\% & 0-4\% & 0-4\% & 2-4\% & 0-4\% & 0-6\% & 0-6\% & 0\% & 0\% & 0\% \\ 
+$\eta$ gap & 1-3\% & 1-4\% & 1-2\% & 1-4\% & 1-4\% & 1-5\% & 0-5\% & 0-5\% & 0-5\% & 0\% & 0\% & 0\%  \\\hline 
+%\hline
+\end{tabular}}
+\caption{List of the maximum systematic uncertainties from each individual source for $v_{n,mk}$ of \pion, \kaon~and \proton. The uncertainties depend on the transverse momenta and centrality interval. Hence here maximum and minimum values are listed.}\label{SystematicsValues:PID}
+\end{table}
+
+\begin{table}[!ht]
+\centering
+\resizebox{0.75\textwidth}{!}{\begin{tabular}{ |p{6.7cm} |l|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{1}{| c |}{} & \multicolumn{3}{| c |}{ $v_{4,22}$ } & \multicolumn{2}{| c |}{ $v_{5,32}$} & \multicolumn{2}{| c |}{ $v_{6,33}$} \\
+\hline
+Error source  & \Ks &  \lambdas & $\phi$ &  \Ks &  \lambdas & \Ks &  \lambdas   \\ \hline  \hline
+Primary $z_{vtx}$  & 0\% & 0-2\% & 1\% & 0\% & 0-3\% & 0\% & 1-3\%\\ \hline
+Tracking mode  & - & - & 2\% & - & - & - & - \\
+Number of \TPC~space-points & 0-3\% & 1-2\% & 2\% & 0\% & 2\% & 0\% & 2\%  \\ \hline
+Particle identification & - & - & 4-6\% & - & - & - & -\\\hline
+Reconstruction method (\vo~finder) & 3-5\% & 2-3\% & N/A & 5\% & 1\% & 5\% & 1\%   \\
+Decay radius & 3-5\% & 1-3\% & N/A & 5-6\% & 0-2\% & 5\% & 2\%\\
+Ratio of crossed to findable TPC clusters & 0-2\% & 0-3\% & N/A & 0\%  & 1-2\% & 0\% & 3\%  \\
+DCA decay products to primary vertex & 2-5\% & 2-4\% & N/A & 4-5\% & 2-3\% & 5\% & 2-3\%  \\
+DCA between decay products & 0-3\% & 1-2\% & N/A & 0-4\% & 0-4\% & 0\% & 0-4\% \\
+Pointing angle $\cos(\theta_{\rm p})$ & 3-4\% & 0-2\% & N/A & 3-4\% & 0-3\% & 3\% & 1\%  \\
+Minimum \pT~of daughter tracks & 1-3\% & 0-1\% & N/A & 2-3\% & 2-3\% & 0\% & 0-3\%  \\ \hline
+%$\eta$ gap & - & - & - & - & - & - & -  \\\hline 
+%\hline
+\end{tabular}}
+\caption{List of the maximum systematic uncertainties from each individual source for $v_{n,mk}$ of \Ks, \lambdas~and $\phi$-meson. The uncertainties depend on the transverse momenta and centrality interval. Hence here maximum and minimum values are listed. "N/A" indicates that a certain check was not applicable to the given particle of interest. If a source was checked and proved to be of negligible effect, the field is marked with "-".}\label{SystematicsValues:V0}
+\end{table}
+
+
+%\begin{table}[!htb]
+%\centering
+%\begin{tabular}{ |p{7cm} |l|c|c|c|c|c|}
+%\hline
+%Error source  & \pion &  \kaon & \proton &  \Ks & \lambdas & $\phi$ \\ \hline  \hline
+%Primary $z_{vtx}$  & 0-2\% & 1-3\% & 0-3\% & 0\% & 0-2\% & 1\%  \\
+%Centrality estimator  & 0-4\% & 1-4\% & 1-5\% & - & - & -  \\
+%Magnetic field polarity & 0-2\% & 0-3\% & 0-3\% & - & - & -  \\
+%Pileup rejection & 0-4\% & 0-4\% & 0-4\% & - & - & -  \\\hline
+%Tracking mode  & 1-4\% & 1-5\% & 1-4\% & - & - & 2\%  \\
+%Number of \TPC~space-points & 1-2\% & 0-2\% & 0-2\% & 0-3\% & 1-2\% & 2\%  \\
+%$\chi^2$ per \TPC~space-point & 0-2\% & 1-2\% & 1-3\% & - & - & -  \\
+%DCAxy & 0-2\% & 0-2\% & 1-3\% & - & - & -  \\
+%DCAz & 0-3\% & 0-2\% & 1-2\% & - & - & -  \\ \hline
+%Particle identification & 1-5\% & 1-5\% & 1-3\% & - & - & 4-6\% \\\hline
+%Reconstruction method (\vo~finder) & N/A & N/A & N/A & 3-5\% & 2-3\% & N/A  \\
+%Decay radius & N/A & N/A & N/A & 3-5\% & 1-3\% & N/A  \\
+%Ratio of crossed to findable TPC clusters & N/A & N/A & N/A & 0-2\% & 0-3\% & N/A  \\
+%DCA decay products to primary vertex & N/A & N/A & N/A & 2-5\% & 2-4\% & N/A  \\
+%DCA between decay products & N/A & N/A & N/A & 0-3\% & 1-2\% & N/A  \\
+%Pointing angle $\cos(\theta_{\rm p})$ & N/A & N/A & N/A & 3-4\% & 0-2\% & N/A  \\
+%Minimum \pT~of daughter tracks & N/A & N/A & N/A & 1-3\% & 0-1\% & N/A  \\ \hline
+%POI vs. RFP charges & 0-2\% & 0-3\% & 2-3\% & - & - & - \\
+%$\eta$ gap & 1-3\% & 1-4\% & 1-2\% & - & - & - \\
+%\hline 
+%\end{tabular}
+%\caption{List of the maximum systematic uncertainties from each individual source for $v_{4,22}$ of \pion, \kaon, \proton, \Ks, \lambdas~and $\phi$-meson. The uncertainties depend on the transverse momenta and centrality interval. Hence here maximum and minimum values are listed. "N/A" indicated that a certain check was not applicable to the given particle of interest. If a source was checked and proved to be of negligible effect, the field is marked with "-".}\label{SystematicsValues:v422}
+%\end{table}
+
+
+%\begin{table}[!htb]
+%\centering
+%\begin{tabular}{ |p{7cm} |l|c|c|c|c|c|}
+%\hline
+%Error source  & \pion &  \kaon & \proton &  \Ks & \lambdas  \\ \hline  \hline
+%Primary $z_{vtx}$  & 0-3\% & 1-3\% & 1-4\% & 0\% & 0-3\%   \\
+%Centrality estimator  & 0-4\% & 1-3\% & 2-4\% & - & -   \\
+%Magnetic field polarity & 0-4\% & 0-5\% & 0-5\% & - & -    \\
+%Pileup rejection & 0-5\% & 1-5\% & 0-5\% & - & - \\\hline
+%Tracking mode  & 2-6\% & 3-5\% & 2-8\% & - & -   \\
+%Number of \TPC~space-points & 0-3\% & 1-3\% & 1-3\% & 0\% & 2\%   \\
+%$\chi^2$ per \TPC~space-point & 1-3\% & 1-3\% & 2-4\% & - & -   \\
+%DCAxy & 0-3\% & 1-3\% & 1-3\% & - & -  \\
+%DCAz & 1-2\% & 1-3\% & 2-3\% & - & -   \\ \hline
+%Particle identification & 1-5\% & 2-5\% & 1-5\% & - & -  \\\hline
+%Reconstruction method (\vo~finder) & N/A & N/A & N/A & 5\% & 1\%  \\
+%Decay radius & N/A & N/A & N/A & 5-6\% & 0-2\%   \\
+%Ratio of crossed to findable TPC clusters & N/A & N/A & N/A & 0\%  & 1-2\%  \\
+%DCA decay products to primary vertex & N/A & N/A & N/A & 4-5\% & 2-3\%  \\
+%DCA between decay products & N/A & N/A & N/A & 0-4\% & 0-4\%  \\
+%Pointing angle $\cos(\theta_{\rm p})$ & N/A & N/A & N/A & 3-4\% & 0-3\%  \\
+%Minimum \pT~of daughter tracks & N/A & N/A & N/A & 2-3\% & 2-3\%  \\ \hline
+%POI vs. RFP charges & 0-4\% & 0-4\% & 2-4\% & - & -  \\
+%$\eta$ gap & 1-4\% & 1-4\% & 1-5\% & - & -  \\
+%\hline 
+%\end{tabular}
+%\caption{List of the maximum systematic uncertainties from each individual source for $v_{5,32}$ of \pion, \kaon, \proton, \Ks~and \lambdas. The uncertainties depend on the transverse momenta and centrality interval. Hence here maximum and minimum values are listed. "N/A" indicated that a certain check was not applicable to the given particle of interest. If a source was checked and proved to be of negligible effect, the field is marked with "-".}\label{SystematicsValues:v532}
+%\end{table}
+
+%\begin{table}[!htb]
+%\centering
+%\begin{tabular}{ |p{7cm} |l|c|c|c|c|c|}
+%\hline
+%Error source  & \pion &  \kaon & \proton &  \Ks & \lambdas  \\ \hline  \hline
+%Primary $z_{vtx}$  & 3-5\% & 2-5\% & 3-5\% & 0\% & 1-3\%   \\
+%Centrality estimator  & 4-10\% & 4-10\% & 5-10\% & - & -   \\
+%Magnetic field polarity & 0-10\% & 0-10\% & 0-10\% & - & -    \\
+%Pileup rejection & 5-7\% & 5-10\% & 5-8\% & - & - \\\hline
+%Tracking mode  & 0-8\% & 0-7\% & 3-8\% & - & -   \\
+%Number of \TPC~space-points & 4-8\% & 3-8\% & 3-8\% & 0\% & 2\%   \\
+%$\chi^2$ per \TPC~space-point & 3-5\% & 3-6\% & 3-6\% & - & -   \\
+%DCAxy & 2-7\% & 2-8\% & 4-8\% & - & -  \\
+%DCAz & 3-7\% & 3-7\% & 5-7\% & - & -   \\ \hline
+%Particle identification & 5-10\% & 5-10\% & 6-12\% & - & -  \\\hline
+%Reconstruction method (\vo~finder) & N/A & N/A & N/A & 5\% & 1\%  \\
+%Decay radius & N/A & N/A & N/A & 5\% & 2\%   \\
+%Ratio of crossed to findable TPC clusters & N/A & N/A & N/A & 0\% & 3\%  \\
+%DCA decay products to primary vertex & N/A & N/A & N/A & 5\% & 2-3\%  \\
+%DCA between decay products & N/A & N/A & N/A & 0\% & 0-4\%  \\
+%Pointing angle $\cos(\theta_{\rm p})$ & N/A & N/A & N/A & 3\% & 1\%  \\
+%Minimum \pT~of daughter tracks & N/A & N/A & N/A & 0\% & 0-3\%  \\ \hline
+%POI vs. RFP charges & 0-4\% & 0-6\% & 0-6\% & - & -  \\
+%$\eta$ gap & 0-5\% & 0-5\% & 0-5\% & - & -  \\
+%\hline 
+%\end{tabular}
+%\caption{List of the maximum systematic uncertainties from each individual source for $v_{6,33}$ of \pion, \kaon, \proton, \Ks~and \lambdas. The uncertainties depend on the transverse momenta and centrality interval. Hence here maximum and minimum values are listed. "N/A" indicated that a certain check was not applicable to the given particle of interest. If a source was checked and proved to be of negligible effect, the field is marked with "-".}\label{SystematicsValues:v633}
+%\end{table}
+
+
+%\begin{table}[!htb]
+%\centering
+%\begin{tabular}{ |p{6cm} |l|c|c|c|}
+%\hline
+%Error source  & \pion &  \kaon & \proton  \\ \hline  \hline
+%Primary $z_{vtx}$  & 2-7\% & 2-7\% & 4-7\%  \\
+%Centrality estimator  & 3-10\% & 5-10\% & 4-10\%  \\
+%Magnetic field polarity & 0-10\% & 0-10\% & 0-10\%  \\
+%Pileup rejection & 4-10\% & 4-10\% & 2-10\% \\\hline
+%Tracking mode  & 1-10\% & 4-10\% & 2-10\%   \\
+%Number of \TPC~space-points & 2-8\% & 4-8\% & 4-8\%  \\
+%$\chi^2$ per \TPC~space-point & 2-6\% & 4-7\% & 4-7\%   \\
+%DCAxy & 2-8\% & 4-8\% & 3-8\%  \\
+%DCAz & 2-7\% & 4-8\% & 2-8\%   \\ \hline
+%Particle identification & 4-12\% & 6-15\% & 4-15\%  \\\hline
+%POI vs. RFP charges & 0\% & 0\% & 0\% \\
+%$\eta$ gap & 0\% & 0\% & 0\% \\
+%\hline 
+%\end{tabular}
+%\caption{List of the maximum systematic uncertainties from each individual source for $v_{6,222}$ of \pion, \kaon, \proton, \Ks~and \lambdas. The uncertainties depend on the transverse momenta and centrality interval. Hence here maximum and minimum values are listed. "N/A" indicated that a certain check was not applicable to the given particle of interest. If a source was checked and proved to be of negligible effect, the field is marked with "-".}\label{SystematicsValues:v6222}
+%\end{table}
+
