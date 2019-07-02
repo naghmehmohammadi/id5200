@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {2}Experimental setup}{5}{section.2}
+\contentsline {section}{\numberline {3}Event sample, track selection and particle identification}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Trigger selection and data sample}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}{\color {red}\sout {Track selection}}{\color {blue}\uwave {Selection of primary }}$\pi ^{\pm }${\color {blue}\uwave {, }}$\rm {K}^{\pm }${\color {blue}\uwave {\nobreakspace {}and }}$\rm {p+\mathaccentV {bar}016{p}}$}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}{\color {red}\sout {Identification of }}{\color {red}\sout {, }}{\color {red}\sout {\nobreakspace {}$\rm {and}$ }}}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Reconstruction of $\rm {K^{0}_{S}}${\color {blue}\uwave {, }}$\Lambda +\mathaccentV {bar}016{\Lambda }$\nobreakspace {}and {\color {blue}\uwave {$\phi $ meson}}}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}{\color {red}\sout {Reconstruction of $\phi $ meson}}}{9}{subsection.3.4}
+\contentsline {section}{\numberline {4}Analysis method}{9}{section.4}
+\contentsline {section}{\numberline {5}Systematic uncertainties}{10}{section.5}
+\contentsline {section}{\numberline {6}Results and discussion}{13}{section.6}
+\contentsline {subsection}{\numberline {6.1}Centrality and $p_{\mathrm {T}}$\nobreakspace {}dependence of non-linear flow modes}{13}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}{\color {red}\sout {Test of scaling properties}}}{17}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.2}Comparison with models}{19}{subsection.6.2}
+\contentsline {section}{\numberline {7}Summary}{22}{section.7}
+\contentsline {section}{\numberline {A}Additional figures}{31}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}$\rm {KE_{T}}$ scaling}{31}{subsection.A.1}
+\contentsline {section}{\numberline {B}The ALICE Collaboration}{31}{appendix.B}
