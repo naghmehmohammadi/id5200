@@ -1,0 +1,431 @@
+****************************
+* Physics+analysis related *
+****************************
+L146: You mention that the start time is estimated efficiently for the top 50% Pb-Pb collisions.Why not also above? I could imagine problems with the very peripheral bins (e.g. above 90%) butbetween 50 and 80% I would naively expect little to no problems. What am I missing?
+
+Answer: You're absolutely right. It does indeed go up to 80%. I fixed the text accordingly.
+________________________________________________________________________________________________
+
+L218: You write here that the PID for the daughters is applied using the TPC info in the entire pTrange. Is this really true? Also for Λ you only use the TPC to identify the proton? I guess this isthen only in the very low pT region e.g. below 1GeV/c of the proton?
+
+Answer:
+We used 3 sigma TPC cleanup for both pions of K0s and also both proton and pion for lambdas, which is independent of pT. However if I recall correctly, this “cleanup” is effectively happening more in low pt while in higher pt, everything overlaps and majority particles having low num. sigmas difference.
+Perhaps it should be noted, in addition, the track is rejected if it does not have “Valid/Correct” PID info in PIDResponse according to Twiki: https://twiki.cern.ch/twiki/bin/viewauth/ALICE/PIDInAnalysis#Checking_PID_status
+
+
+In the twiki page (https://twiki.cern.ch/twiki/bin/view/ALICE/V0reconstruction), you can find two QA plots with Proton daughters in Lambda (please note that this does not include anti-p in anti-Λ) after ALL selection and before ALL cuts (so the difference is not exclusively due to only PID cut, but all reconstruction cuts).
+________________________________________________________________________________________________
+L293-294: It can’t be that you checked the pile-up contribution by removing the pileuprequirement, right? Can it be that you simply made the selection stricter?
+
+Answer: Good question. The pileup rejection was used as a systematic source only in the case of non-central collisions (>20%) where this strict pile-up rejection cut was not required.
+
+________________________________________________________________________________________________
+L339-343: I would find a paper to cite where the centrality dependence of triangularity (ε3) isdiscussed. I would also expand the discussion of the result by making the connection betweenv5,32 vs centrality and to how ε2 and ε3 depend on centrality
+
+
+Answer: I added the citation as proposed and I elaborated further in the same paragraph about the dependence of ε3 on centrality.
+The paragraph now reads: 
+"Figure 3 presents the non-linear term for the fifth order flow coefficient, i.e. v5,32(pT), of p, K, p+p¯,Λ+Λ¯ and K0S for the same range of centrality intervals, i.e. 0-60%. Statistical precision limits extending the measurements of non-linear flow modes of f-meson for n > 4. The measurements show a significant increase in the magnitude of this non-linear flow mode with increasing centrality percentile. This is due to the fact that v5,32(pT) has a contribution from both e2 and e3. It is shown in MC studies that both e2 and e3 increase for peripheral collisions [?]. Although, this increase is less pronounced for e3. "
+
+citation: arxiv:1003.0194
+________________________________________________________________________________________________
+L344-348: Why is v6,222 missing for the decays? + explain briefly the expectation for v6,33 andv6,222 vs centrality based on the relevant dependence of ε2 and ε3
+
+
+Answer: The correlators required for v_6,222 are d_6,222, a 4-particle correlator and c_222,222, a 6-particle correlator, in contrast to other mixed harmonics, where 4-particle correlator is needed in denominator. For V0s and phi the statistics needed for these correlators are simply not enough and we couldn't extend the measurements of V0s to v6,222.
+
+________________________________________________________________________________________________
+Section 6.3: I think the paper is missing a punchline; this can be done in the section where thedata are compared with models. We should try to make a point on how good/bad the samemodels describe the total vn e.g. if they describe them better but fail here then the message isclear
+
+
+Answer: You are absolutely right. I elaborated on this part, adding the study from total flow measurements and how the models described v_n. 
+Now it reads: 
+
+"Measurements of total flow coefficients at RHIC and LHC are described well by hydrodynamic calculations [53–55]. A recent comparison between total flow measurements at ALICE [19] and two hydrodynamic calculations from [55] shed new light on the initial conditions and the transport properties of the created system in Pb–Pb collisions. Both calculations are based on iEBE-VISHNU [56], an event-by-event version of the VISHNU hybrid model [57] coupling 2+1 dimensional viscous hydrodynamics (VISH2+1) [58] to a hadronic cascade model (UrQMD). The initial conditions used for these calculations are described by AMPT [59] and TRENTo [60] both with t0=0.6 fm/c and Tsw =148 MeV [61]. These values are obtained by using Bayesian statistics from a simultaneous fit of final charged-particle density,mean transverse momentum, and integrated total flow coefficients vn in Pb–Pb collisions at sNN = 2.76 TeV. For AMPT initial conditions, constant values of specific shear viscosity (eta/s = 0.08), the lower limit conjectured by AdS/CFT) and bulk viscosity (zeta/s = 0) are utilised, and TRENTo [60] initial conditions incorporates a temperature dependent specific shear and bulk viscosity. The comparison between the total flow measurements and these two calculations illustrates a qualitative agreement. This agreement between the data and the models depends on the particle species, transverse momentum range and centrality percentile and overall the AMPT model reproduces these measurements more accurately than TRENTo [19]."
+
+________________________________________________________________________________________________
+***************************
+*   Cosmetics for plots   *
+***************************
+In general all plots need to be enlarged in height
+Fig. 2: did u try a 3x2 format? I would, in any case, expand the height of the plots
+Fig. 3, 4: Maybe 3x2 or add height and move the legend to the 6th pad
+Fig. 8: maybe try 3x2?
+Fig. 6, 7, 9, 10, 11, 12, 13: maybe 3x3?
+Fig. 14: Modify it to look like the previous plots i.e. don’t have six separate pads with individual y-axis for example. I would also split the legends and not repeat them e.g. keep the “ALICE” legend on the top left, the “AMPT IC” legend on the top-middle and the “TRENTO-IC” on the top right.
+
+Answer: done
+
+________________________________________________________________________________________________
+
+
+***************************
+*        Editorial        *
+***************************
+
+
+L7: “...for identified particles have...” ==> replace the “identified particles” by putting the names
+
+Answer: done
+
+________________________________________________________________________________________________
+
+L9: “...with a multi-particle correlation technique...” ==> “...with a multi-particle technique...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L10: “...with the reference particles...” ==> “...with reference particles...”
+
+Answer: done
+
+________________________________________________________________________________________________
+
+L11-14: The lines that read “The second and third order anisotropic flow coefficients are mostly related to their corresponding initial spatial anisotropy. It has been shown that higher harmonics (n > 3) have significant contribution from lower order flow harmonics giving rise to non-linear flow modes in the higher flow harmonics.” can be easily removed; I don’t think they belong to the abstract
+
+Answer: done
+
+________________________________________________________________________________________________
+L18: “...magnitude by increasing the centrality percentile,...” ==> “...magnitude with increasing centrality percentile,...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L22: “...as well as a new stringent constraint to...” ==> “...as well as new stringent constraints to...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L44: “...confined to hadrons.” ==> “...confined into hadrons.”
+
+Answer: done 
+
+________________________________________________________________________________________________
+L46-47: “...such as the speed of the sound in this medium, the equation of state and its transport properties, e.g. shear and bulk viscosity.” ==> “...such as the speed of sound, the equation of state and its shear and bulk viscosities.
+
+Answer: done
+
+________________________________________________________________________________________________
+
+L51: Add sth like “reflected in the value of the impact parameter” right after “...centrality of the collisions”
+
+Answer: done
+________________________________________________________________________________________________
+L53-54: “...into the anisotropy in momentum space which is usually expressed by the Fourier...” ==>  “...into an anisotropy in momentum space. The latter is usually expressed by a Fourier...”
+
+
+Answer: done
+
+________________________________________________________________________________________________
+L63-64: “...of shear viscosity over entropy density (η/s) very close to the conjectured lower limit of 1/4π from AdS/CFT [18]. In addition, both viscous...” ==>  “...of its shear viscosity over entropy density (η/s), very close to the lower limit of 1/4π conjectured by AdS/CFT [18]. In addition, the comparison between experimental data and both viscous...”
+
+
+Answer: done
+
+________________________________________________________________________________________________
+L68: “The initial state...” ==> “This initial state...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L69-70: “...planes, Φn, the initial anisotropy coefficients can be calculated from the transverse positions of the participating nucleons as...” ==>  “...planes, Φn, εn can be calculated from the transverse positions of the nucleons participating in a collisions according to...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L71: “where the brackets denote the average over the transverse position of all participating nucleons, φ is azimuthal angle and r the polar distance.” ==> “where the brackets denote an average over the transverse position of all participating nucleons that have an azimuthal angle φand a polar distance from the centre r.”
+
+Answer: done
+
+________________________________________________________________________________________________
+L74: “...realised that Vn (n>3) are not...” ==> “...realised that for n>3 Vn are not...”
+
+Answer: done
+
+________________________________________________________________________________________________
+Eq.4: explain what are these prime parameters on the LHS of the equation
+
+Answer: done, it now reads: 
+"where \epsilon_{4}' is the cumulant-based spatial anisotropy coefficient \cite{Teaney:2013dta,Qian:2017ier}"
+
+________________________________________________________________________________________________
+L80: “...but also non-linear...” ==> “...but also a non-linear...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L82: “It was shown...” ==> “In particular, it was shown...”
+
+Answer: done
+
+________________________________________________________________________________________________
+
+L86: I would spend a couple of sentences here summarising the basic findings of the relevant study for charged particles
+
+Answer: Done 
+
+
+
+________________________________________________________________________________________________
+
+L87: If you follow the suggestion above, we would need a sentence that will motivate the transition from charged to identified
+
+Answer: done
+
+________________________________________________________________________________________________
+L89: “...in the low pT region...” ==> “...in the low transverse momentum (pT)region...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L90: maybe remove “for all total flow coefficients”
+
+Answer: done
+
+________________________________________________________________________________________________
+L94: “...and in turn flow of produced...is a sum of the flow of its...” ==> “...and, in turn, the flow coefficients of produced...is the sum of the vn values of its...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L99: “...models to further constrain...” ==> “...models and have the potential to further constrain...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L103: “...via coalescence mechanism...” ==> “...via the coalescence mechanism...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L106: “...at the centre of mass...” ==> “...at a centre of mass...”
+
+Answer: done
+________________________________________________________________________________________________
+L107: “...TeV with the ALICE...” ==> “...TeV, recorded with the ALICE...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L109-110: Replace “The results are obtained...and in detail in [30].” With “The analysis methodology and technique is presented in Section 4.”
+
+Answer: done
+
+________________________________________________________________________________________________
+L111: “...plane (non-flow)...” ==> “...plane (known as non-flow)...”
+
+Answer: done 
+
+________________________________________________________________________________________________
+L126: “...and the TPC...” ==> “...and the Time Projection Chamber (TPC)...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L148-149: “...V0C, that are are positioned on each side of the interaction point and cover the pseudorapidity ranges...” ==> “...V0C, positioned on each side of the interaction point, covering the pseudorapidity ranges...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L154: “...on the minimum bias...” ==> “...on minimum bias...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L162: “...is found to be negligible.” ==> “...is negligible.”
+
+Answer: done
+
+________________________________________________________________________________________________
+L165: “...interval were analysed...” ==> “...interval was analysed...”
+
+Answer: done
+
+________________________________________________________________________________________________
+I propose to merge 3.2 and 3.3 under the title “Selection of primary $\pi^{\pm}, $\mathrm{K^{\pm}}, $\mathrm{p}$ and $\overline{\mathrm{p}}$”Mention here Table 1!
+
+Answer: done
+
+________________________________________________________________________________________________
+L200-203: Break the long sentence in two + try to phrase better the second part
+
+Answer: done
+
+________________________________________________________________________________________________
+L210: “...vertices denoted as...” ==> “...vertices, denoted as...”Mention Table 2 somewhere here!
+
+Answer: done
+
+________________________________________________________________________________________________
+L218: “...background, the PID is...” ==> “...background, PID is...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L232-237: I feel that these lines belong to the analysis methodology part. They do not describe how you select the V0 candidates
+
+Answer: you're right. I moved them to the methodology section.
+
+________________________________________________________________________________________________
+I propose to merge 3.4 and 3.5 
+
+Answer:done
+
+________________________________________________________________________________________________
+L239: “...via its following hadronic...” ==> “...via the hadronic...”
+
+Answer: done
+________________________________________________________________________________________________
+
+L248-251: Similarly to the comment before, I feel that these lines belong to the analysis methodology part.
+
+Answer: done
+________________________________________________________________________________________________
+L242: missing citation to the Bayesian PID approach
+
+Answer: done
+
+________________________________________________________________________________________________
+
+
+L248-251: Similarly to the comment before, I feel that these lines belong to the analysis methodology part.
+
+Answer: done
+
+________________________________________________________________________________________________
+L253-256 + equations 6-9: I feel that these lines do not belong here but rather to the introduction?I would start Section 4 with something that reads like “In this article the pT-differential NL modes are calculated with the generic framework [] according to Eq.10...”; I would then discuss about the sub-events and continue accordingly...
+
+Answer: thanks, that was clear. I moved those lines to the introduction. and changed this section accordingly. 
+
+________________________________________________________________________________________________
+L269: “...species, dn,mk correlators...” ==> “...species, the dn,mk correlators...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L271: “...based on additivity...as described in” ==> “...is based on the additivity...according to”
+
+Answer: done
+
+________________________________________________________________________________________________
+L275-276: “...procedure for φ-meson,...distribution for φ-meson in...” ==> “...procedure for the φ-meson,...distribution in...”
+
+Answer: done
+
+________________________________________________________________________________________________
+Table 1: I would remove the word “cut” from the title of the second column
+
+Answer: done
+
+________________________________________________________________________________________________
+********************
+Table 2: I would remove the word “cut” from the title of the second column + change the AliAODTrack::kTPCrefit and kKink to something that people outside ALICE can understand
+
+Answer: I removed them as they were not even described in the text and the systematics were checked and were negligible. 
+
+________________________________________________________________________________________________
+L283: Missing citation after “Barlow check”
+
+Answer: done
+
+________________________________________________________________________________________________
+L290: “Effect of event selection...(i) varying primary vertex...” ==> “The effects of event selection...(i) varying the primary vertex...” + “event selection” should not be in italic
+
+Answer: ok, done
+
+________________________________________________________________________________________________
+L291: “...changing centrality...” ==> “...changing the centrality...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L292: V0 should not have the 0 as a superscript
+
+Answer: done
+
+________________________________________________________________________________________________
+L295: This sentence can read “Systematic uncertainties induced by the selection criteria imposed at the track level were investigated by...” + explain what the “hybrid mode” is! Nobody outside ALICE (and in some cases within ALICE) knows what this is.
+
+Answer: right, I changed it. 
+
+________________________________________________________________________________________________
+L296: Add “decreasing the value of the chi^2”
+
+Answer: done
+
+________________________________________________________________________________________________
+L298: “strick” typo
+Answer: fixed it. 
+
+________________________________________________________________________________________________
+L301: “...pT-dependent method described...” ==> “...pT-dependent one described...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L302: “The second method used is Bayesian method...” ==>“The second approach used relied on the Bayesian method...”
+
+Answer: done
+
+________________________________________________________________________________________________
+L305: Start with. “In addition, the non-flow...” + “non-flow” should not be italic
+
+Answer: done
+
+________________________________________________________________________________________________
+L308: “Topological” should not be in italic + add “the” before the V0
+
+Answer: done
+
+________________________________________________________________________________________________
+L310: remove “method” just after the “online”
+
+Answer: done
+
+________________________________________________________________________________________________
+I would end this section by writing something like “The contributions from each source were added in quadrature to form the total systematic uncertainties. This will be represented in all plots of this article as a box around each data point while the statistical uncertainty will be shown by the error bars”
+
+Answer: done
+
+________________________________________________________________________________________________
+L323: Add “The” just before “Scaling properties”
+
+Answer: done
+
+________________________________________________________________________________________________
+L334-335: Replace “and the eccentricity...colliding nuclei” by “which” 
+
+Answer: done
+
+________________________________________________________________________________________________
+L338: replace “stops” with “prevents”
+
+Answer:done
+
+________________________________________________________________________________________________
+L361: Add “of various particle species” right after “[11-17]”
+
+Answer: done 
+
+________________________________________________________________________________________________
+L362: Maybe add right after the “coalescence” something that reads like “This suggest that flow develops at the parsonic level and if so, combining two or three quarks to form hadronic states might result into hadrons inheriting the same the transverse momentum and vn of their constituents”
+
+Answer: done
+
+________________________________________________________________________________________________
+I propose that you merge 6.2 here
+
+Answer: ok
+
+________________________________________________________________________________________________
+L375: Add “of” inside the parenthesis
+
+Answer: I don't understand. Where do I add "of"? 
+
+________________________________________________________________________________________________
+L377: Remove “the” before “hydrodynamical”
+
+Answer: done
+
+________________________________________________________________________________________________
+

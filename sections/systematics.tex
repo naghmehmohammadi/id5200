@@ -2,14 +2,14 @@
 \label{Sec:Systematics}
 %The systematic uncertainties are estimated by varying the selection criteria for all particle species as well as topological reconstruction requirements for \Ks, \lambdas~and $\phi$.
 
-The systematic uncertainties are estimated by varying the selection criteria for all particle species as well as topological reconstruction requirements for \Ks, \lambdas~and $\phi$. The contributions from different sources are extracted from the relative ratio of the \pT-differential $v_{n,mk}$ between the default selection criteria described in Section~\ref{Sec:EventTrackIdentification} and their variations summarised in Tabs.~\ref{SysVar} and \ref{tab:V0scuts}. Each source with a statistically significant contribution, i.e. $|x_1 - x_2| / \sqrt(|\sigma_{1}^{2} \pm \sigma_{2}^{2}|)  > 1$ (known as barlow check) was fitted to create a smooth change along \pT~and then the value of these fits were added in quadrature to form the final value of the systematic uncertainties on the non-linear flow modes. An overview of the magnitude of the relative systematic uncertainties per particle species is given in Tab. \ref{SystematicsValues:PID} for \pion, \kaon~and \proton~and Tab. \ref{SystematicsValues:V0} for \Ks, \lambdas~and $\phi$-meson. Systematic uncertainties are grouped into five categories, i.e. event selection, tracking, particle identification, topological cuts and non-flow contribution and are described below.
+The systematic uncertainties are estimated by varying the selection criteria for all particle species as well as topological reconstruction requirements for \Ks, \lambdas~and $\phi$. The contributions from different sources are extracted from the relative ratio of the \pT-differential $v_{n,mk}$ between the default selection criteria described in Section~\ref{Sec:EventTrackIdentification} and their variations summarised in Tabs.~\ref{SysVar} and \ref{tab:V0scuts}. Each source with a statistically significant contribution, i.e. $|x_1 - x_2| / \sqrt(|\sigma_{1}^{2} \pm \sigma_{2}^{2}|)  > 1$ (known as barlow check \cite{Barlow:2002yb}) was fitted to create a smooth change along \pT~and then the value of these fits were added in quadrature to form the final value of the systematic uncertainties on the non-linear flow modes. An overview of the magnitude of the relative systematic uncertainties per particle species is given in Tab. \ref{SystematicsValues:PID} for \pion, \kaon~and \proton~and Tab. \ref{SystematicsValues:V0} for \Ks, \lambdas~and $\phi$-meson. Systematic uncertainties are grouped into five categories, i.e. event selection, tracking, particle identification, topological cuts and non-flow contribution and are described below.
 
 
 \begin{table}
 \centering
  \resizebox{0.75\textwidth}{!}{\begin{tabular}[!b]{|l|c|c|}
 \hline
-Selection requirement & Default cut & Variations\\
+Selection requirement & Default & Variations\\
 \hline
 \hline
 Primary $vtx_{z}$ & $\pm$10cm & $\pm$6cm, $\pm$8cm\\ 
@@ -33,12 +33,12 @@ $\eta$ gap & 0.0 & 0.4 \\
   \centering
   \resizebox{0.75\textwidth}{!}{\begin{tabular}[!b]{|l|c|c|}
   \hline
-  Selection requirements & Default cut & Variations\\
+  Selection requirements & Default & Variations\\
   \hline
   \hline
   Reconstruction method (\vo~finder) & offline & online \\
-  TPC refit for both daughters & {\tt AliAODTrack::kTPCrefit} & --\\
-  Kink vertex rejection & {\tt not AliAODVertex::kKink} & --\\
+  %TPC refit for both daughters & {\tt AliAODTrack::kTPCrefit} & --\\
+  %Kink vertex rejection & {\tt not AliAODVertex::kKink} & --\\
   Decay vertex (radial position) & 5 < r < 100 cm & 10 < r < 100 cm \\
   Cosine of pointing angle & > 0.998 & > 0.99 \\
   Number of crossed TPC clusters & > 70 & > 90 \\
@@ -60,16 +60,21 @@ $\eta$ gap & 0.0 & 0.4 \\
  \caption{List of topological reconstruction requirements and cuts applied on \vo~candidates including variations for systematical uncertainty study where applicable.} \label{tab:V0scuts}
 \end{table}
 
-Effect of {\it event selection} criteria on the measurements are studied by:  (i) varying primary vertex position along the beam axis ($z_{vtx}$) from a nominal $\pm$10 cm to $\pm$8 cm and $\pm$6 cm; (ii) changing centrality estimator from the signal amplitudes in the \vo scintillator detectors to the multiplicity of TPC tracks or the number of SPD clusters; (iii) analysing events recorded for different magnetic field polarities independently; (iv) not rejecting events with tracks caused by pileup. 
+The effects of event selection criteria on the measurements are studied by:  (i) varying the primary vertex position along the beam axis ($z_{vtx}$) from a nominal $\pm$10 cm to $\pm$8 cm and $\pm$6 cm; (ii) changing the centrality estimator from the signal amplitudes in the V0 scintillator detectors to the multiplicity of TPC tracks or the number of SPD clusters; (iii) analysing events recorded for different magnetic field polarities independently; (iv) not rejecting events with tracks caused by pileup. 
 
-Effect of {\it tracking} cuts are then studies by: (i) changing the tracking from global to hybrid mode; (ii) increasing the number of TPC space points from 70 up to 100 and (iii) the $\chi^{2}$ per TPC space point per degree of freedom from 4 to 2; (iv) varying the selection criteria on both the longitudinal and transverse components of the DCA to estimate the impact of secondary particles from a strick \pT-dependent cut to 0.15 cm and 2 cm to 0.2 cm, respectively.
 
-Systematic uncertainties associated with the {\it particle identification} procedure were studied by varying the PID method from a \pT-dependent method described in \ref{SubSec:Identification} to a stricter version where the purity increases to 95\% (\pion), 80\% (\kaon) and 80\% (\proton) across the entire \pT~range of study. The second method used is Bayesian method with a probability of at least 80\% which gives an increase in purity to 97\% (\pion), 87\% (\kaon) and 90\% (\proton) across the entire \pT~range of study. 
+Systematic uncertainties induced by the selection criteria imposed at the track level were investigated by: (i) changing the tracking from global mode where combined track information from both TPC and ITS detectors are used to hybrid mode in which track parameters from TPC are used if the algorithm is unable to match the track reconstructed in the TPC with associated ITS clusters; (ii) increasing the number of TPC space points from 70 up to 100 and (iii) decreasing the value of the $\chi^{2}$ per TPC space point per degree of freedom from 4 to 2; (iv) varying the selection criteria on both the longitudinal and transverse components of the DCA to estimate the impact of secondary particles from a strict \pT-dependent cut to 0.15 cm and 2 cm to 0.2 cm, respectively.
 
-The {\it non-flow contribution} is studied by (i) selecting like sign pairs of particles of interest and reference particles to decrease the effect from decay of resonance particles; (ii) applying pseudorapidity gaps between the two subevents from $|\Delta\eta|>0.0$ to $|\Delta\eta|>0.4$.
+%requiring the third layer of the ITS to be part of the track reconstruction rather than the first two layers only; (ii) using only tracks that have at least three hits per track in theI TS, complemented by tracks without hits in the first two layers of the ITS (in which case the primary interaction vertex is used as an additional constraint for the momentum determination);
 
-The {\it topological cuts} were also varied to account for \vo~and $\phi$-meson reconstruction. The default \vo~finding method is described in Sec. \ref{SubSec:K0sLambdaRec}. These selection criteria are varied by (i) changing the reconstruction method for \vo~particles from offline to online method; 
-(ii) varying the minimum radial distance to the primary vertex at which the \vo~can be produced from 5 cm to 10 cm; (iii) changing the minimum value of cosine of pointing angle from 0.998 to 0.99; (iv) varying the minimum number of TPC space points crossed by the \vo~daughter tracks from 70 to 90; (v) changing the requirement on the minimum number of TPC space points that are used in the reconstruction of the \vo~daughter tracks form 70 to 90; (vi) requesting a minimum ratio of crossed to findable TPC clusters from 0.8 to 1.0; (vii) changing the minimum DCA of the \vo~daughter tracks to the primary vertex from 0.1 cm to 0.3 cm; (viii) changing the maximum DCA of the \vo~daughter tracks to the secondary vertex from 0.5 cm to 0.3 cm; (ix) requiring a minimum \pT~of the \vo~daughter tracks of 0.2 \GeV. \\
+
+Systematic uncertainties associated with the particle identification procedure were studied by varying the PID method from a \pT-dependent one described in \ref{SubSec:Track} to a stricter version where the purity increases to 95\% (\pion), 80\% (\kaon) and 80\% (\proton) across the entire \pT~range of study. The second approach used relied on the Bayesian method with a probability of at least 80\% which gives an increase in purity to 97\% (\pion), 87\% (\kaon) and 90\% (\proton) across the entire \pT~range of study. 
+
+In addition, the non-flow contribution is studied by (i) selecting like sign pairs of particles of interest and reference particles to decrease the effect from decay of resonance particles; (ii) applying pseudorapidity gaps between the two subevents from $|\Delta\eta|>0.0$ to $|\Delta\eta|>0.4$.
+
+The topological cuts were also varied to account for the \vo~and $\phi$-meson reconstruction. The default \vo~finding method is described in Sec. \ref{SubSec:K0sLambdaPhiRec}. These selection criteria are varied by (i) changing the reconstruction method for \vo~particles from offline to online; (ii) varying the minimum radial distance to the primary vertex at which the \vo~can be produced from 5 cm to 10 cm; (iii) changing the minimum value of cosine of pointing angle from 0.998 to 0.99; (iv) varying the minimum number of TPC space points crossed by the \vo~daughter tracks from 70 to 90; (v) changing the requirement on the minimum number of TPC space points that are used in the reconstruction of the \vo~daughter tracks form 70 to 90; (vi) requesting a minimum ratio of crossed to findable TPC clusters from 0.8 to 1.0; (vii) changing the minimum DCA of the \vo~daughter tracks to the primary vertex from 0.1 cm to 0.3 cm; (viii) changing the maximum DCA of the \vo~daughter tracks to the secondary vertex from 0.5 cm to 0.3 cm; (ix) requiring a minimum \pT~of the \vo~daughter tracks of 0.2 \GeV. 
+
+The contributions from each source were added in quadrature to form the total systematic uncertainties. This will be represented in all plots of this article as a box around each data point while the statistical uncertainty will be shown by the error bars.
 
 %Tables \ref{SystematicsValues:v422}, \ref{SystematicsValues:v532}, \ref{SystematicsValues:v633} and \ref{SystematicsValues:v6222} summarise the maximum deviations for each individual systematic source over all transverse momenta and centrality intervals in five aforementioned categories. %Selection criteria are grouped into different categories, i.e. event selection, tracking, particle identification, topological cuts and non-flow contribution.
 
