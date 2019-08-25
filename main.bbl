@@ -89,14 +89,16 @@ S.~Voloshin and Y.~Zhang, ``{Flow study in relativistic nuclear collisions by
   [hep-ph]}}.
 %%CITATION = HEP-PH/9407282;%%.
 
-\bibitem{Poskanzer:1998yz}
-A.~M. Poskanzer and S.~A. Voloshin, ``{Methods for analyzing anisotropic flow
-  in relativistic nuclear collisions}'',
-  \href{http://dx.doi.org/10.1103/PhysRevC.58.1671}{{\em Phys. Rev.} {\bfseries
-  C58} (1998) },
-\href{http://arxiv.org/abs/nucl-ex/9805001}{{\ttfamily arXiv:nucl-ex/9805001
-  [nucl-ex]}}.
-%%CITATION = NUCL-EX/9805001;%%.
+\bibitem{Voloshin:2006gz}
+S.~A. Voloshin, ``{Toward the energy and the system size dependece of elliptic
+  flow: Working on flow fluctuations}'', in {\em {22nd Winter Workshop on
+  Nuclear Dynamics (WWND 2006) La Jolla, California, March 11-19, 2006}}.
+\newblock 2006.
+\newblock
+\href{http://arxiv.org/abs/nucl-th/0606022}{{\ttfamily arXiv:nucl-th/0606022
+  [nucl-th]}}.
+\newblock
+%%CITATION = NUCL-TH/0606022;%%.
 
 \bibitem{Adams:2003am}
 {\bfseries STAR} Collaboration, J.~Adams {\em et~al.}, ``{Particle type
@@ -136,6 +138,185 @@ A.~M. Poskanzer and S.~A. Voloshin, ``{Methods for analyzing anisotropic flow
   [nucl-ex]}}.
 %%CITATION = NUCL-EX/0608033;%%.
 
+\bibitem{Alver:2007qw}
+{\bfseries PHOBOS} Collaboration, B.~Alver {\em et~al.}, ``{Event-by-Event
+  Fluctuations of Azimuthal Particle Anisotropy in Au + Au Collisions at
+  $\sqrt{s_{NN}}= 200$ GeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.104.142301}{{\em Phys. Rev.
+  Lett.} {\bfseries 104} (2010) },
+\href{http://arxiv.org/abs/nucl-ex/0702036}{{\ttfamily arXiv:nucl-ex/0702036
+  [nucl-ex]}}.
+%%CITATION = NUCL-EX/0702036;%%.
+
+\bibitem{Adcox:2002ms}
+{\bfseries PHENIX} Collaboration, K.~Adcox {\em et~al.}, ``{Flow measurements
+  via two particle azimuthal correlations in Au+Au collisions at s(NN)**(1/2) =
+  130-GeV}'', \href{http://dx.doi.org/10.1103/PhysRevLett.89.212301}{{\em Phys.
+  Rev. Lett.} {\bfseries 89} (2002) },
+\href{http://arxiv.org/abs/nucl-ex/0204005}{{\ttfamily arXiv:nucl-ex/0204005
+  [nucl-ex]}}.
+%%CITATION = NUCL-EX/0204005;%%.
+
+\bibitem{Adamczyk:2013gw}
+{\bfseries STAR} Collaboration, L.~Adamczyk {\em et~al.}, ``{Elliptic flow of
+  identified hadrons in Au+Au collisions at $\sqrt{s_{NN}}=$ 7.7-62.4 GeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevC.88.014902}{{\em Phys. Rev.}
+  {\bfseries C88} (2013) },
+\href{http://arxiv.org/abs/1301.2348}{{\ttfamily arXiv:1301.2348 [nucl-ex]}}.
+%%CITATION = ARXIV:1301.2348;%%.
+
+\bibitem{Adler:2004cj}
+{\bfseries PHENIX} Collaboration, S.~S. Adler {\em et~al.}, ``{Saturation of
+  azimuthal anisotropy in Au + Au collisions at s(NN)**(1/2) 62-GeV to
+  200-GeV}'', \href{http://dx.doi.org/10.1103/PhysRevLett.94.232302}{{\em Phys.
+  Rev. Lett.} {\bfseries 94} (2005) },
+\href{http://arxiv.org/abs/nucl-ex/0411040}{{\ttfamily arXiv:nucl-ex/0411040
+  [nucl-ex]}}.
+%%CITATION = NUCL-EX/0411040;%%.
+
+\bibitem{Afanasiev:2009wq}
+{\bfseries PHENIX} Collaboration, S.~Afanasiev {\em et~al.}, ``{Systematic
+  Studies of Elliptic Flow Measurements in Au+Au Collisions at s**(1/2) =
+  200-GeV}'', \href{http://dx.doi.org/10.1103/PhysRevC.80.024909}{{\em Phys.
+  Rev.} {\bfseries C80} (2009) },
+\href{http://arxiv.org/abs/0905.1070}{{\ttfamily arXiv:0905.1070 [nucl-ex]}}.
+%%CITATION = ARXIV:0905.1070;%%.
+
+\bibitem{Adare:2011tg}
+{\bfseries PHENIX} Collaboration, A.~Adare {\em et~al.}, ``{Measurements of
+  Higher-Order Flow Harmonics in Au+Au Collisions at $\sqrt{s_{NN}} = 200$
+  GeV}'', \href{http://dx.doi.org/10.1103/PhysRevLett.107.252301}{{\em Phys.
+  Rev. Lett.} {\bfseries 107} (2011) },
+\href{http://arxiv.org/abs/1105.3928}{{\ttfamily arXiv:1105.3928 [nucl-ex]}}.
+%%CITATION = ARXIV:1105.3928;%%.
+
+\bibitem{Ackermann:2000tr}
+{\bfseries STAR} Collaboration, K.~H. Ackermann {\em et~al.}, ``{Elliptic flow
+  in Au + Au collisions at (S(NN))**(1/2) = 130 GeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.86.402}{{\em Phys. Rev. Lett.}
+  {\bfseries 86} (2001) },
+\href{http://arxiv.org/abs/nucl-ex/0009011}{{\ttfamily arXiv:nucl-ex/0009011
+  [nucl-ex]}}.
+%%CITATION = NUCL-EX/0009011;%%.
+
+\bibitem{Adler:2001nb}
+{\bfseries STAR} Collaboration, C.~Adler {\em et~al.}, ``{Identified particle
+  elliptic flow in Au + Au collisions at s(NN)**(1/2) = 130-GeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.87.182301}{{\em Phys. Rev. Lett.}
+  {\bfseries 87} (2001) },
+\href{http://arxiv.org/abs/nucl-ex/0107003}{{\ttfamily arXiv:nucl-ex/0107003
+  [nucl-ex]}}.
+%%CITATION = NUCL-EX/0107003;%%.
+
+\bibitem{Adler:2002ct}
+{\bfseries STAR} Collaboration, C.~Adler {\em et~al.}, ``{Azimuthal anisotropy
+  and correlations in the hard scattering regime at RHIC}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.90.032301}{{\em Phys. Rev. Lett.}
+  {\bfseries 90} (2003) },
+\href{http://arxiv.org/abs/nucl-ex/0206006}{{\ttfamily arXiv:nucl-ex/0206006
+  [nucl-ex]}}.
+%%CITATION = NUCL-EX/0206006;%%.
+
+\bibitem{Adler:2002pu}
+{\bfseries STAR} Collaboration, C.~Adler {\em et~al.}, ``{Elliptic flow from
+  two and four particle correlations in Au+Au collisions at $\sqrt{s_{NN}} =
+  $130~GeV}'', \href{http://dx.doi.org/10.1103/PhysRevC.66.034904}{{\em Phys.
+  Rev.} {\bfseries C66} (2002) },
+\href{http://arxiv.org/abs/nucl-ex/0206001}{{\ttfamily arXiv:nucl-ex/0206001
+  [nucl-ex]}}.
+%%CITATION = NUCL-EX/0206001;%%.
+
+\bibitem{Adams:2003zg}
+{\bfseries STAR} Collaboration, J.~Adams {\em et~al.}, ``{Azimuthal anisotropy
+  at RHIC: The First and fourth harmonics}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.92.062301}{{\em Phys. Rev. Lett.}
+  {\bfseries 92} (2004) },
+\href{http://arxiv.org/abs/nucl-ex/0310029}{{\ttfamily arXiv:nucl-ex/0310029
+  [nucl-ex]}}.
+%%CITATION = NUCL-EX/0310029;%%.
+
+\bibitem{Adams:2004wz}
+{\bfseries STAR} Collaboration, J.~Adams {\em et~al.}, ``{Azimuthal anisotropy
+  and correlations at large transverse momenta in p+p and Au+Au collisions at
+  $\sqrt{s_{NN}} = $200~GeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.93.252301}{{\em Phys. Rev. Lett.}
+  {\bfseries 93} (2004) },
+\href{http://arxiv.org/abs/nucl-ex/0407007}{{\ttfamily arXiv:nucl-ex/0407007
+  [nucl-ex]}}.
+%%CITATION = NUCL-EX/0407007;%%.
+
+\bibitem{Adams:2004bi}
+{\bfseries STAR} Collaboration, J.~Adams {\em et~al.}, ``{Azimuthal anisotropy
+  in Au+Au collisions at s(NN)**(1/2) = 200-GeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevC.72.014904}{{\em Phys. Rev.}
+  {\bfseries C72} (2005) },
+\href{http://arxiv.org/abs/nucl-ex/0409033}{{\ttfamily arXiv:nucl-ex/0409033
+  [nucl-ex]}}.
+%%CITATION = NUCL-EX/0409033;%%.
+
+\bibitem{Aamodt:2010pa}
+{\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{Elliptic flow of
+  charged particles in Pb-Pb collisions at 2.76 TeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.105.252302}{{\em Phys. Rev.
+  Lett.} {\bfseries 105} (2010) },
+\href{http://arxiv.org/abs/1011.3914}{{\ttfamily arXiv:1011.3914 [nucl-ex]}}.
+%%CITATION = ARXIV:1011.3914;%%.
+
+\bibitem{ALICE:2011ab}
+{\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{Higher harmonic
+  anisotropic flow measurements of charged particles in Pb-Pb collisions at
+  $\sqrt{s_{NN}}$=2.76 TeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.107.032301}{{\em Phys. Rev.
+  Lett.} {\bfseries 107} (2011) },
+\href{http://arxiv.org/abs/1105.3865}{{\ttfamily arXiv:1105.3865 [nucl-ex]}}.
+%%CITATION = ARXIV:1105.3865;%%.
+
+\bibitem{Abelev:2012di}
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Anisotropic flow of
+  charged hadrons, pions and (anti-)protons measured at high transverse
+  momentum in Pb-Pb collisions at $\sqrt{s_{NN}}$=2.76 TeV}'',
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.12.066}{{\em Phys. Lett.}
+  {\bfseries B719} (2013) },
+\href{http://arxiv.org/abs/1205.5761}{{\ttfamily arXiv:1205.5761 [nucl-ex]}}.
+%%CITATION = ARXIV:1205.5761;%%.
+
+\bibitem{Chatrchyan:2012xq}
+{\bfseries CMS} Collaboration, S.~Chatrchyan {\em et~al.}, ``{Azimuthal
+  anisotropy of charged particles at high transverse momenta in PbPb collisions
+  at $\sqrt{s_{NN}}=2.76$ TeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.109.022301}{{\em Phys. Rev.
+  Lett.} {\bfseries 109} (2012) },
+\href{http://arxiv.org/abs/1204.1850}{{\ttfamily arXiv:1204.1850 [nucl-ex]}}.
+%%CITATION = ARXIV:1204.1850;%%.
+
+\bibitem{Chatrchyan:2012ta}
+{\bfseries CMS} Collaboration, S.~Chatrchyan {\em et~al.}, ``{Measurement of
+  the elliptic anisotropy of charged particles produced in PbPb collisions at
+  $\sqrt{s}_{NN}$=2.76 TeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevC.87.014902}{{\em Phys. Rev.}
+  {\bfseries C87} no.~1, (2013) },
+\href{http://arxiv.org/abs/1204.1409}{{\ttfamily arXiv:1204.1409 [nucl-ex]}}.
+%%CITATION = ARXIV:1204.1409;%%.
+
+\bibitem{ATLAS:2011ah}
+{\bfseries ATLAS} Collaboration, G.~Aad {\em et~al.}, ``{Measurement of the
+  pseudorapidity and transverse momentum dependence of the elliptic flow of
+  charged particles in lead-lead collisions at $\sqrt{s_{NN}}=2.76$ TeV with
+  the ATLAS detector}'',
+  \href{http://dx.doi.org/10.1016/j.physletb.2011.12.056}{{\em Phys. Lett.}
+  {\bfseries B707} (2012) },
+\href{http://arxiv.org/abs/1108.6018}{{\ttfamily arXiv:1108.6018 [hep-ex]}}.
+%%CITATION = ARXIV:1108.6018;%%.
+
+\bibitem{ATLAS:2012at}
+{\bfseries ATLAS} Collaboration, G.~Aad {\em et~al.}, ``{Measurement of the
+  azimuthal anisotropy for charged particle production in $\sqrt{s_{NN}}=2.76$
+  TeV lead-lead collisions with the ATLAS detector}'',
+  \href{http://dx.doi.org/10.1103/PhysRevC.86.014907}{{\em Phys. Rev.}
+  {\bfseries C86} (2012) },
+\href{http://arxiv.org/abs/1203.3087}{{\ttfamily arXiv:1203.3087 [hep-ex]}}.
+%%CITATION = ARXIV:1203.3087;%%.
+
 \bibitem{Abelev:2014pua}
 {\bfseries ALICE} Collaboration, B.~B. Abelev {\em et~al.}, ``{Elliptic flow of
   identified hadrons in Pb-Pb collisions at $ \sqrt{s_{\mathrm{NN}}}=2.76 $
@@ -152,24 +333,6 @@ A.~M. Poskanzer and S.~A. Voloshin, ``{Methods for analyzing anisotropic flow
 \href{http://arxiv.org/abs/1606.06057}{{\ttfamily arXiv:1606.06057 [nucl-ex]}}.
 %%CITATION = ARXIV:1606.06057;%%.
 
-\bibitem{Acharya:2018zuq}
-{\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Anisotropic flow
-  of identified particles in Pb-Pb collisions at $
-  {\sqrt{s}}_{\mathrm{NN}}=5.02 $ TeV}'',
-  \href{http://dx.doi.org/10.1007/JHEP09(2018)006}{{\em JHEP} {\bfseries 09}
-  (2018) },
-\href{http://arxiv.org/abs/1805.04390}{{\ttfamily arXiv:1805.04390 [nucl-ex]}}.
-%%CITATION = ARXIV:1805.04390;%%.
-
-\bibitem{Kovtun:2004de}
-P.~Kovtun, D.~T. Son, and A.~O. Starinets, ``{Viscosity in strongly interacting
-  quantum field theories from black hole physics}'',
-  \href{http://dx.doi.org/10.1103/PhysRevLett.94.111601}{{\em Phys. Rev. Lett.}
-  {\bfseries 94} (2005) },
-\href{http://arxiv.org/abs/hep-th/0405231}{{\ttfamily arXiv:hep-th/0405231
-  [hep-th]}}.
-%%CITATION = HEP-TH/0405231;%%.
-
 \bibitem{Adam:2016izf}
 {\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Anisotropic flow of
   charged particles in Pb-Pb collisions at $\sqrt{s_{\rm NN}}=5.02$ TeV}'',
@@ -178,70 +341,14 @@ P.~Kovtun, D.~T. Son, and A.~O. Starinets, ``{Viscosity in strongly interacting
 \href{http://arxiv.org/abs/1602.01119}{{\ttfamily arXiv:1602.01119 [nucl-ex]}}.
 %%CITATION = ARXIV:1602.01119;%%.
 
-\bibitem{Teaney:2010vd}
-D.~Teaney and L.~Yan, ``{Triangularity and Dipole Asymmetry in Heavy Ion
-  Collisions}'', \href{http://dx.doi.org/10.1103/PhysRevC.83.064904}{{\em Phys.
-  Rev.} {\bfseries C83} (2011) },
-\href{http://arxiv.org/abs/1010.1876}{{\ttfamily arXiv:1010.1876 [nucl-th]}}.
-%%CITATION = ARXIV:1010.1876;%%.
-
-\bibitem{Teaney:2013dta}
-D.~Teaney and L.~Yan, ``{Event-plane correlations and hydrodynamic simulations
-  of heavy ion collisions}'',
-  \href{http://dx.doi.org/10.1103/PhysRevC.90.024902}{{\em Phys. Rev.}
-  {\bfseries C90} no.~2, (2014) },
-\href{http://arxiv.org/abs/1312.3689}{{\ttfamily arXiv:1312.3689 [nucl-th]}}.
-%%CITATION = ARXIV:1312.3689;%%.
-
-\bibitem{Bhalerao:2014xra}
-R.~S. Bhalerao, J.-Y. Ollitrault, and S.~Pal, ``{Characterizing flow
-  fluctuations with moments}'',
-  \href{http://dx.doi.org/10.1016/j.physletb.2015.01.019}{{\em Phys. Lett.}
-  {\bfseries B742} (2015) },
-\href{http://arxiv.org/abs/1411.5160}{{\ttfamily arXiv:1411.5160 [nucl-th]}}.
-%%CITATION = ARXIV:1411.5160;%%.
-
-\bibitem{Qian:2017ier}
-J.~Qian, U.~Heinz, R.~He, and L.~Huo, ``{Differential flow correlations in
-  relativistic heavy-ion collisions}'',
-  \href{http://dx.doi.org/10.1103/PhysRevC.95.054908}{{\em Phys. Rev.}
-  {\bfseries C95} no.~5, (2017) },
-\href{http://arxiv.org/abs/1703.04077}{{\ttfamily arXiv:1703.04077 [nucl-th]}}.
-%%CITATION = ARXIV:1703.04077;%%.
-
-\bibitem{Yan:2015jma}
-L.~Yan and J.-Y. Ollitrault, ``{$\nu_4, \nu_5, \nu_6, \nu_7$: nonlinear
-  hydrodynamic response versus LHC data}'',
-  \href{http://dx.doi.org/10.1016/j.physletb.2015.03.040}{{\em Phys. Lett.}
-  {\bfseries B744} (2015) },
-\href{http://arxiv.org/abs/1502.02502}{{\ttfamily arXiv:1502.02502 [nucl-th]}}.
-%%CITATION = ARXIV:1502.02502;%%.
-
-\bibitem{Acharya:2017zfg}
-{\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Linear and
-  non-linear flow modes in Pb-Pb collisions at $\sqrt{s_{\rm NN}} =$ 2.76
-  TeV}'', \href{http://dx.doi.org/10.1016/j.physletb.2017.07.060}{{\em Phys.
-  Lett.} {\bfseries B773} (2017) },
-\href{http://arxiv.org/abs/1705.04377}{{\ttfamily arXiv:1705.04377 [nucl-ex]}}.
-%%CITATION = ARXIV:1705.04377;%%.
-
-\bibitem{ALICE:2011ab}
-{\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{Higher harmonic
-  anisotropic flow measurements of charged particles in Pb-Pb collisions at
-  $\sqrt{s_{NN}}$=2.76 TeV}'',
-  \href{http://dx.doi.org/10.1103/PhysRevLett.107.032301}{{\em Phys. Rev.
-  Lett.} {\bfseries 107} (2011) },
-\href{http://arxiv.org/abs/1105.3865}{{\ttfamily arXiv:1105.3865 [nucl-ex]}}.
-%%CITATION = ARXIV:1105.3865;%%.
-
-\bibitem{ATLAS:2012at}
-{\bfseries ATLAS} Collaboration, G.~Aad {\em et~al.}, ``{Measurement of the
-  azimuthal anisotropy for charged particle production in $\sqrt{s_{NN}}=2.76$
-  TeV lead-lead collisions with the ATLAS detector}'',
-  \href{http://dx.doi.org/10.1103/PhysRevC.86.014907}{{\em Phys. Rev.}
-  {\bfseries C86} (2012) },
-\href{http://arxiv.org/abs/1203.3087}{{\ttfamily arXiv:1203.3087 [hep-ex]}}.
-%%CITATION = ARXIV:1203.3087;%%.
+\bibitem{Acharya:2018zuq}
+{\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Anisotropic flow
+  of identified particles in Pb-Pb collisions at $
+  {\sqrt{s}}_{\mathrm{NN}}=5.02 $ TeV}'',
+  \href{http://dx.doi.org/10.1007/JHEP09(2018)006}{{\em JHEP} {\bfseries 09}
+  (2018) },
+\href{http://arxiv.org/abs/1805.04390}{{\ttfamily arXiv:1805.04390 [nucl-ex]}}.
+%%CITATION = ARXIV:1805.04390;%%.
 
 \bibitem{Chatrchyan:2013kba}
 {\bfseries CMS} Collaboration, S.~Chatrchyan {\em et~al.}, ``{Measurement of
@@ -261,6 +368,87 @@ L.~Yan and J.-Y. Ollitrault, ``{$\nu_4, \nu_5, \nu_6, \nu_7$: nonlinear
 \href{http://arxiv.org/abs/1804.02944}{{\ttfamily arXiv:1804.02944 [nucl-ex]}}.
 %%CITATION = ARXIV:1804.02944;%%.
 
+\bibitem{Acharya:2018ihu}
+{\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Anisotropic flow
+  in Xe-Xe collisions at $\mathbf{\sqrt{s_{\rm{NN}}} = 5.44}$ TeV}'',
+  \href{http://dx.doi.org/10.1016/j.physletb.2018.06.059}{{\em Phys. Lett.}
+  {\bfseries B784} (2018) },
+\href{http://arxiv.org/abs/1805.01832}{{\ttfamily arXiv:1805.01832 [nucl-ex]}}.
+%%CITATION = ARXIV:1805.01832;%%.
+
+\bibitem{Adam:2015eta}
+{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Event shape
+  engineering for inclusive spectra and elliptic flow in Pb-Pb collisions at
+  $\sqrt{s_{NN}} = 2.76$ TeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevC.93.034916}{{\em Phys. Rev.}
+  {\bfseries C93} no.~3, (2016) },
+\href{http://arxiv.org/abs/1507.06194}{{\ttfamily arXiv:1507.06194 [nucl-ex]}}.
+%%CITATION = ARXIV:1507.06194;%%.
+
+\bibitem{Kovtun:2004de}
+P.~Kovtun, D.~T. Son, and A.~O. Starinets, ``{Viscosity in strongly interacting
+  quantum field theories from black hole physics}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.94.111601}{{\em Phys. Rev. Lett.}
+  {\bfseries 94} (2005) },
+\href{http://arxiv.org/abs/hep-th/0405231}{{\ttfamily arXiv:hep-th/0405231
+  [hep-th]}}.
+%%CITATION = HEP-TH/0405231;%%.
+
+\bibitem{Niemi:2015voa}
+H.~Niemi, K.~J. Eskola, R.~Paatelainen, and K.~Tuominen, ``{Predictions for
+  5.023 TeV Pb + Pb collisions at the CERN Large Hadron Collider}'',
+  \href{http://dx.doi.org/10.1103/PhysRevC.93.014912}{{\em Phys. Rev.}
+  {\bfseries C93} no.~1, (2016) },
+\href{http://arxiv.org/abs/1511.04296}{{\ttfamily arXiv:1511.04296 [hep-ph]}}.
+%%CITATION = ARXIV:1511.04296;%%.
+
+\bibitem{Teaney:2010vd}
+D.~Teaney and L.~Yan, ``{Triangularity and Dipole Asymmetry in Heavy Ion
+  Collisions}'', \href{http://dx.doi.org/10.1103/PhysRevC.83.064904}{{\em Phys.
+  Rev.} {\bfseries C83} (2011) },
+\href{http://arxiv.org/abs/1010.1876}{{\ttfamily arXiv:1010.1876 [nucl-th]}}.
+%%CITATION = ARXIV:1010.1876;%%.
+
+\bibitem{Teaney:2013dta}
+D.~Teaney and L.~Yan, ``{Event-plane correlations and hydrodynamic simulations
+  of heavy ion collisions}'',
+  \href{http://dx.doi.org/10.1103/PhysRevC.90.024902}{{\em Phys. Rev.}
+  {\bfseries C90} no.~2, (2014) },
+\href{http://arxiv.org/abs/1312.3689}{{\ttfamily arXiv:1312.3689 [nucl-th]}}.
+%%CITATION = ARXIV:1312.3689;%%.
+
+\bibitem{Qian:2017ier}
+J.~Qian, U.~Heinz, R.~He, and L.~Huo, ``{Differential flow correlations in
+  relativistic heavy-ion collisions}'',
+  \href{http://dx.doi.org/10.1103/PhysRevC.95.054908}{{\em Phys. Rev.}
+  {\bfseries C95} no.~5, (2017) },
+\href{http://arxiv.org/abs/1703.04077}{{\ttfamily arXiv:1703.04077 [nucl-th]}}.
+%%CITATION = ARXIV:1703.04077;%%.
+
+\bibitem{Bhalerao:2014xra}
+R.~S. Bhalerao, J.-Y. Ollitrault, and S.~Pal, ``{Characterizing flow
+  fluctuations with moments}'',
+  \href{http://dx.doi.org/10.1016/j.physletb.2015.01.019}{{\em Phys. Lett.}
+  {\bfseries B742} (2015) },
+\href{http://arxiv.org/abs/1411.5160}{{\ttfamily arXiv:1411.5160 [nucl-th]}}.
+%%CITATION = ARXIV:1411.5160;%%.
+
+\bibitem{Yan:2015jma}
+L.~Yan and J.-Y. Ollitrault, ``{$\nu_4, \nu_5, \nu_6, \nu_7$: nonlinear
+  hydrodynamic response versus LHC data}'',
+  \href{http://dx.doi.org/10.1016/j.physletb.2015.03.040}{{\em Phys. Lett.}
+  {\bfseries B744} (2015) },
+\href{http://arxiv.org/abs/1502.02502}{{\ttfamily arXiv:1502.02502 [nucl-th]}}.
+%%CITATION = ARXIV:1502.02502;%%.
+
+\bibitem{Acharya:2017zfg}
+{\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Linear and
+  non-linear flow modes in Pb-Pb collisions at $\sqrt{s_{\rm NN}} =$ 2.76
+  TeV}'', \href{http://dx.doi.org/10.1016/j.physletb.2017.07.060}{{\em Phys.
+  Lett.} {\bfseries B773} (2017) },
+\href{http://arxiv.org/abs/1705.04377}{{\ttfamily arXiv:1705.04377 [nucl-ex]}}.
+%%CITATION = ARXIV:1705.04377;%%.
+
 \bibitem{Voloshin:1996nv}
 S.~A. Voloshin, ``{Transverse radial expansion and directed flow}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.55.R1630}{{\em Phys. Rev.}
@@ -277,15 +465,6 @@ P.~Huovinen, P.~F. Kolb, U.~W. Heinz, P.~V. Ruuskanen, and S.~A. Voloshin,
 \href{http://arxiv.org/abs/hep-ph/0101136}{{\ttfamily arXiv:hep-ph/0101136
   [hep-ph]}}.
 %%CITATION = HEP-PH/0101136;%%.
-
-\bibitem{Adam:2015eta}
-{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Event shape
-  engineering for inclusive spectra and elliptic flow in Pb-Pb collisions at
-  $\sqrt{s_{NN}} = 2.76$ TeV}'',
-  \href{http://dx.doi.org/10.1103/PhysRevC.93.034916}{{\em Phys. Rev.}
-  {\bfseries C93} no.~3, (2016) },
-\href{http://arxiv.org/abs/1507.06194}{{\ttfamily arXiv:1507.06194 [nucl-ex]}}.
-%%CITATION = ARXIV:1507.06194;%%.
 
 \bibitem{Voloshin:2002wa}
 S.~A. Voloshin, ``{Anisotropic flow}'',
@@ -312,6 +491,14 @@ D.~Molnar and S.~A. Voloshin, ``{Elliptic flow at large transverse momenta from
   {\bfseries C85} (2012) },
 \href{http://arxiv.org/abs/1203.2644}{{\ttfamily arXiv:1203.2644 [nucl-ex]}}.
 %%CITATION = ARXIV:1203.2644;%%.
+
+\bibitem{Zhu:2016puf}
+X.~Zhu, Y.~Zhou, H.~Xu, and H.~Song, ``{Correlations of flow harmonics in 2.76A
+  TeV Pb--Pb collisions}'',
+  \href{http://dx.doi.org/10.1103/PhysRevC.95.044902}{{\em Phys. Rev.}
+  {\bfseries C95} no.~4, (2017) },
+\href{http://arxiv.org/abs/1608.05305}{{\ttfamily arXiv:1608.05305 [nucl-th]}}.
+%%CITATION = ARXIV:1608.05305;%%.
 
 \bibitem{Aamodt:2008zz}
 {\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{The ALICE

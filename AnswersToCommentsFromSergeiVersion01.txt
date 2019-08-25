@@ -1,0 +1,385 @@
+21-22``increased discriminatory power'' -- either prove/show or omit
+
+Answer: thanks, we replaced it with "new discriminatory power"
+
+---->>>>> Probably “additional” would be better
+
+Answer: ok thanks that's indeed better. I changed it. 
+____________________________________________________________________________________
+51``initial density profile of neutrons'' - reads strange, rephrase
+
+Answer: Removed "anisotropic initial". 
+
+---->>>>> I would suggest to remove the word”nucleon”. Initial — is fine.Something as initial energy density in the transverse plane..
+
+Answer: ok thanks. It's done. 
+____________________________________________________________________________________
+Eq.1- it should be d^p, not dp^3- it does not work with pseudorapidity. Should be corrected
+
+Answer: done  
+
+---->>>>> Unfortunately the new equation is also incorrect: it should read as  1+2v…
+
+Answer: Thanks, corrected the equation as suggested. 
+____________________________________________________________________________________
+57 refs 6-10 looks a bit strange for eq. 1. But if one starts from that period, include http://arxiv.org/abs/nucl-th/0606022 which was the first in this row (e.g. Ref [6] mention these proceedings)
+
+Answer: We would include it but the problem is that we cannot cite proceedings. Maybe you could suggest a paper instead? 
+In any case, we added two more citations:
+arXiv:hep-ph/9407282[hep-ph]
+arXiv:nucl-ex/9805001 [nucl-ex]
+
+
+---->>>>> I do not understand why you think proceeding can not be cited. Usually we avoid that for experimental results, and especiallyfor those of ALICE, but even the latter sometimes used. If you quote the papers [6,10] the proceedings has to be addedNot sure why you added the second one. Unless you use any methods from that paper it is not needed.
+
+Answer: ok, from what I understood the collaboration policy is to not cite the proceedings but if there is no paper on the topic it is ok. So if this is the only reference of course we can cite it. So I included it in the next version.  
+ 
+And about the second reference (arXiv:nucl-ex/9805001 [nucl-ex]) you're absolutely right. it was only to cite the azimuthal particle distribution and its Fourier expansion. We removed this citation as suggested. 
+____________________________________________________________________________________
+
+62 Refs to RHIC - why do they start from far not the first paper? Similarly for LHC.
+
+Answer: Thanks, we will do a thorough check on the references specially for RHIC.
+
+---->>>>>You quote only some of the PID measurements, but the discussion at this place is more general 
+
+Answer: We included the relevant measurements from RHIC as well as other LHC papers on anisotropic flow. 
+____________________________________________________________________________________
+
+65-67 Ref to a theory paper is needed. Again, why rather late ref [19] and not earlier papers?
+Answer: We added this reference for the theory part: arXiv:1007.5469
+In reference [19], it is clearly shown that the predictions from the same models separate more in higher harmonics. 
+
+---->>>>> The paper [19] has nothing to do with showing that higher harmonics depend stronger on viscosity(as any other experimental paper). [19] has reference to hydro calculations, if you want you can use those.
+
+Answer: added the reference to the hydro calculations as suggested. 
+
+____________________________________________________________________________________
+
+74``recently'' - omit?  It should be explain what is meant by``linearly'' here. For example the nonlinear terms in vn dependence on epsn was known long ago.
+
+Answer: "recently" is removed. Linear here means that Vn depends only on its corresponding eccentricity. 
+
+---->>>>> What linearity means should be explained in the text,  e.g. mention the eccentricities of different harmonics. Even better,  to mention that it is not e.g such nonlinear terms as eps2^3 in v2 term
+
+Answer: Thanks, we changed this line to read as following: 
+"Model calculations show that v2 and to a large extent, v3 are linearly proportional to their corresponding initial spatial anisotropy coefficients, ε2 and ε3, respectively [8] while for larger values of n, nonlinearities are observed , i.e. vn  ̸∝ εn [9]."
+____________________________________________________________________________________
+82 not clear what exactly was done in [24], ``in a single event'' looks incorrect
+
+Answer: Removed the reference. It is now rephrased to: "In particular, for a single event, Vn with n = 4,5,6 can be decomposed to the linear (Vn^L) and non-linear (Vn^NL ) modes ..."
+
+---->>>>> Vn’s as defined just before Eq 2 is defined for the event sample, not a single event. text should be corrected/clarifies
+
+Answer: thanks. We corrected the previous definition. Now after equation 2, it reads: "where the brackets denote an average over all particles in an event."
+____________________________________________________________________________________
+88-89 interplay of radial flow and ... coefficients???
+
+Answer: Could you clarify a bit? If you mean that "coefficients" should be replaced with something better I removed it and now it is addressed with anisotropic flow. 
+
+---->>>>> Radial flow can not interfere with coefficient, it can interfere with anisotropic flow, etc.,,,“Objects” should have the same “dimension” 
+
+Answer: ok, thanks. We have changed it accordingly. It now reads: 
+"These measurements have revealed that an interplay between radial flow and anisotropic flow leads to a ..."
+____________________________________________________________________________________
+
+
+87-97. The presentation of both most important features of vn(pt) is rather poor, with the twisted logic. The ``mass dependence'' was first introduced in:Transverse radial expansion and directed flow Sergei A. Voloshin (Heidelberg U.). Nov 1996. 8 pp.
+
+Published in Phys.Rev. C55 (1997) R1630-R1632
+
+Later, it was discussed in relation to hydro calculations in Radial and elliptic flow at RHIC: Further predictions P. Huovinen (LBL, Berkeley), P.F. Kolb (Ohio State U. & Regensburg U.), Ulrich W. Heinz (Ohio State U.), P.V. Ruuskanen (Jyvaskyla U.), S.A. Voloshin (Wayne State U.). Jan 2001. 6 pp. Published in Phys.Lett. B503 (2001) 58-64 
+
+There exist several publication on that published earlier than what is quoted quark coalescence and the corresponding scaling of vn(pt) was also proposed before the measurements quoted and not after.
+
+Answer: Thanks for the suggestions and pointing to the very nice early works. We included those 2 references in the introduction. 
+About quark coalescence, we would really appreciate if you could suggest the references that are prior to the one we have cited. We will be very happy to take your suggestions. Thanks.
+
+---->>>>> The scaling, as well as the entire coalescence mechanism explaining several “puzzles” was proposed in my 2002 QM talk. This reference should be the first here. PRL with Molnar also describes the same but later. 
+
+Answer: This reference is included and the first reference to coalescence mechanism. -> reference [54]
+The paper with Molnar is reference [55].  
+
+____________________________________________________________________________________
+100 what constraints were established in [24]?
+
+Answer: The models need tuning to match the data but if you for example look at Xn,mk there is more distinct and evident difference between the models themselves as opposed to the results of the same models for vn. For example, X_4,22 is independent of initial conditions and thus can be used to better constrain eta/s, while X_5,32 is insensitive to eta/s but depends on initial conditions, thus better constrains the initial conditions w/o an influence from eta/s.
+
+---->>>>>I am not aware if/how those models describe “simple” vns. Please provide the reference.
+
+Answer: Thanks for your comment. In the previous nonlinear flow paper (reference [24] here) they used MC-Glb and MC-KLN with eta/s = 0.08 and 0.2 which was studied in simple vn and compared to ALICE measurements at 2.76 TeV. Here is a link to this paper: 
+
+https://arxiv.org/pdf/1608.05305.pdf
+
+We added this reference as suggested. 
+
+____________________________________________________________________________________
+
+100-104 These statements need support and/or references
+
+Answer: Done. We added a reference to the higher order flow papers: 
+https://arxiv.org/pdf/1805.04390.pdf
+and
+https://arxiv.org/abs/1105.3865
+
+---->>>>>I am confused. The text is about pt dependence of NL modes but the references to vn’x?
+
+Answer: There are no papers on pt dependent NL modes (experimental or theoretical) that we are aware of. Based on pT differential vn measurements and its prediction by the models + the measurements for pT integrated NL modes, we expect to put a more stringent constraint on the initial conditions and transport properties. Please let us know if you think we should soften them.
+
+____________________________________________________________________________________
+166 inelastic cross section is ambiguous (and likely not correct). What is meant by inelastic cross section here?
+
+Answer: inelastic cross-section between the two colliding nuclei: σ^{inel}_NN
+
+fraction of inelastic cross-section is how we define centrality with. 
+
+"Two nucleons from different nuclei are assumed to collide if the relative transverse distance between centers is less than the distance corresponding to the inelastic nucleon-nucleon cross section d<√(σ^{inel}_NN/π)." As explained in ref. [41]
+
+---->>>>> Elastic cross-section is defined bye the process when two nuclei are left intact. It means that any EM processes, dissociation, etc are inelastic processes. The most relevant to mention here are the diffractive processes. Is it a fraction of all hadronic non-diffractive, non single diffractive. etc.? 
+
+Answer: You're correct. fraction of inelastic cross section is not how centrality is defined in a nucleus-nucleus collision. It is used in pp collision. So we changed it to: 
+
+"fraction of total nucleus-nucleus collision"
+
+____________________________________________________________________________________
+
+189 What was the fraction of tracks with ITS hits?
+
+Answer: The fraction should be 100% as we do a global tracking. 
+
+---->>>>> It used to be that if the track does not have a jit in the silicon it is still left. Do you have a dca distribution somewhere (to refer to other analyses is also fine here)?
+
+Answer: So in hybrid tracking we use TPC tracks even if they don't have a hit in the ITS. The default tracking here is TPC+ITS tracking. So we require at least one hit in either SPD or SDD. 
+
+We have the dca distribution for both tracking options: https://twiki.cern.ch/twiki/bin/view/ALICE/DCAdistribution
+Our apologies for not including legends in the figures. Red histogram corresponds to filterbit 96 (default in this paper) and blue corresponds to hybrid tracking (filterbit 768).
+____________________________________________________________________________________
+
+203 What is the systematic error on vn(pt) for kaons with 75\% purity?
+
+Answer: The purity for kaons have been varied for systematics from 75% to 80% and 87%. The effect these variations is shown in percentages in table 3 for different non-linear modes and centralities. Note that the maximum variation over all centralities is reported. Which is for example: 1-5% for v422.
+
+---->>>>> What is the meaning of the ranges? This should be probably added to the caption. 
+
+Answer: The ranges in percentage represent the maximum systematics uncertainties from 0-5% up to 50-60% centrality class for each non-linear flow mode. Since we report the systematics for a pT differential measurement, in order not to overwhelm the reader we summarise these uncertainties by only reporting the maximum systematics uncertainties in the pT range of interest (0.4<pT<6 for pions and protons and 0.4<pT<4 for kaons). 
+
+For instance: the maximum systematics uncertainties from variations on PID purity are 0% of the magnitude of v422 in e.g. 10-20% centrality class and 2% of the magnitude of v422 in e.g. 50-60% centrality interval. 
+OK, we added this to the caption. 
+
+By increasing the purity we decrease the number of candidates in the sample. What matters is to show that even by increasing purity the value of vn does not change dramatically. We have included the comparison between three kaon results with purity of 75%, 80% and 87% in this link: 
+
+https://twiki.cern.ch/twiki/pub/ALICE/NonlinearFlowPID/kaonv422allpurities.pdf
+
+The comparison shows that the three measurements are compatible within 1 sigma. 
+
+---->>>>> But the real question — why not to extrapolate to 100% purity? There is nothing specific for the particular values used
+
+
+Answer: default Kaon purity in this analysis is always above 75%. for 0<pT<2 GeV the purity is above 90%. for 2<pT<2.5 GeV above 85%, for 2.5<pT<3 GeV above 80%, and for 3<pT<4 GeV above 75%. 
+
+100% purity is not efficient and as you mentioned the only way to achieve it would be via extrapolation. We tried to perform this for a given pT bin where purity drops: pT = 3.75 GeV/c
+Here is a link to the extrapolated result: 
+
+https://twiki.cern.ch/twiki/pub/ALICE/Kaonpurityv422/kaonpurityatpT375GeV.pdf
+
+We repeated the exercise with other pT bins as well. The results confirm that the results are compatible within 1sigma. 
+
+
+The other thing to consider is the fact that above 3 GeV the contamination in kaon sample is dominantly from pions and the kaon results match that of pions so we do not expect any effect from this contamination. 
+
+
+____________________________________________________________________________________
+Eq6 (and 7-9)Is it the definition for v422? Why this particular denominator?
+
+Answer: Yes, this is the definition. It was also used in the integrated non-linear flow paper (arXiv:1705.04377).  It is introduced first in arXiv:1502.02502 
+
+---->>>>> It will be useful to add why this particular denominator is used. We discussed it with You at the time of the “integrated” paper
+
+Answer: Thanks, we included the following lines in the paper.
+
+"The measured vA(B) coefficients are calculated using dn,mk(pT) and cmkmk multi-particle correlators according to
+d_n,mk(pT) = <<vn(pT)v_mv_k>>, c_mkmk =<<v^2_m v^2_k>>."
+  
+
+****************
+****************
+____________________________________________________________________________________
+eq 10 a similar question as to eq.4
+
+Answer: Could you please clarify?  Eq. 4 talks about the cumulant-based initial anisotropy. Eq. 10 is the correlation method used to extract v4,22.
+ 
+---->>>>> What I mean is the choice of normalization — denominator. Why sqrt(c2222) and not just c22?
+
+Answer: In the numerator of v422 we are trying to calculate the correlation between V_4 and V_2ˆ2 which yields <v_4*v_2^2*cos(4Ψ_4 - 4Ψ_2)>.
+And in order to remove this v2ˆ2 in the numerator we need to divide by sqrt(<v2^4>) and <v2^4> = <<cos(2φ1+2φ2-3φ3-4φ4)>>. 
+
+****************
+****************
+____________________________________________________________________________________
+
+Chapter 5 With a very few exceptions, it is totally unclear why these are other cuts were selected for the systematic uncertainty estimates.For example, why decay vertex was varied from 5 to 10 and not to 15 or 20? What exactly was the purpose of this test. Similarly with all other tests. Even when the purpose was clear. e.g. using different PID method to achieve a better purity, it was not clear of the difference was extrapolated to 100\% purity... or something else was done
+
+Answer: The default values are either the default values used in ALICE or the suggestion from DPG. In some cases for example PID, by increasing minimum purity the efficiency drops and in turn the statistics, so one has to find a middle ground where the particles have a good level of purity and the results do not suffer as much from fluctuation. We didn't extrapolate to 100%. The purity level was increased and used as systematics. 
+
+These cut variations were chosen such that it either followed commonly used variations in previous analyses; or in such a way that it tightens the variation so it affected at least 10% of selected candidates whenever possible. Of course, one could in principle tighten the constrains even more, but then the size of the selected sample shrinks significantly and the variation will be affected by large statistical uncertainties. Specifically in decay radius case, the variation is even tighter, since by varying the lower bound from 5 to 10 we exclude ~25% candidates (see attached QA figure in twiki: https://twiki.cern.ch/twiki/bin/view/ALICE/V0reconstruction). 
+
+---->>>>> Sorry, “common”, “suggested”, is not an answer. It should be clear why this or other cut is used, what it is expected to do, e.g. change the feed-down from this to that. Extrapolation to 100% is also needed, otherwise it should be explicitly stated in the result section - that this is the result not for kaons, but for kaon candidates with that purity.
+
+Answer: As we mentioned earlier, above 3 GeV the contamination in kaon sample is dominantly from pions and the kaon results match that of pions so we do not expect any effect from this contamination and below 3 GeV: for 0<pT<2 GeV the purity is above 90%, for 2<pT<2.5 GeV above 85%, for 2.5<pT<3 GeV above 80%. Figure https://twiki.cern.ch/twiki/pub/ALICE/NonlinearFlowPID/kaonv422allpurities.pdf shows that even by changing the minimum purity level from 75% up to 87% the results are compatible within 1sigma and the extrapolation of the results to 100% also shows that even for 100% purity results would be compatible within 1 sigma. 
+
+
+****************
+****************
+____________________________________________________________________________________
+328-329 Not clear. It also seems that the cause and the mechanisms are mixed in this sentence.
+
+Answer: Sorry for the confusion. We try to rephrase it as:
+"Higher order flow coefficients (n > 3) are mainly generated by inhomogeneities in the initial density profile, the collision geometry as well as the non-linear hydrodynamic response of the system." changed to
+"Higher order flow coefficients (n > 3) are generated by inhomogeneities in the initial density profile and the collision geometry."
+However, if you have any better suggestion, we are happy to take it in the new version.
+
+---->>>>> New text is better, but I am not sure what exactly you want to say here.Why only n>3? The phrase seems to be relevant for all harmonics.
+
+Answer: You are correct. This applies to all harmonics. It is just that we are interested in n>3 here. 
+We removed n>3 as suggested. 
+
+____________________________________________________________________________________
+344-348 It would be good to compare the centrality dependence of the PID integral vn's with the corresponding linear terms
+
+Answer: We did a comparison using published vn results to extract the linear terms in 2 centrality percentiles and these comparisons can be found in the twiki: https://twiki.cern.ch/twiki/bin/viewauth/ALICE/LinearFlowTerms
+
+---->>>>> From my point of view such a comparison would be the main results of this paper. Otherwise why not to limit ourselves only to integral values. Unfortunately from the plots providedit is very difficult to see any details ( in the region where errors are small). probably one can plot the deviations of the NL results from rescaled (e.g. by 0.85) fit to the linear models. Again, instead of linear modes one could use the “total” vns (which should have rather small error bars)
+
+
+Answer: Sorry, you're right the plots were too zoomed out to see any potential differences. We checked the comparison between vn and vnNL more carefully. The differences/ratios between the mass ordering and particle type grouping of vn and vnNL have been obtained and included in 
+https://twiki.cern.ch/twiki/bin/view/ALICE/V4vsV422. More detailed answer can be found in the comment below "Fig 6 and following."
+
+ 
+****************
+****************
+____________________________________________________________________________________
+352-352 The explanations, as given, is incorrect. The multiplicity and anisotropic flow are independent quantities. With or without``depletion'' one might have either large or small flow.Also, reference is needed here
+
+Answer: In our naive understanding, for more central collisions when the system is larger and hence the lifetime is larger, the average radial flow velocity is also larger and in turn the anisotropic flow is pushed more towards higher pT. And you can see this in the crossing point between different particle species. The crossing point moves to lower pT values as centrality decreases. We have seen this effect also in the anisotropic flow measurements like: arXiv:1805.04390, arXiv:1405.4632,  arXiv:1606.06057
+
+This reference is added: https://arxiv.org/pdf/1105.3226.pdf
+
+---->>>>> The crossing point is a completely different story. It does not happen in pure hydro, and in reality depends on change in the region where the  NCQ scaling works. The data was consistent with that - at some point we did this estimate with Alex Dobrin, but unfortunately it did not go into the paper. The mechanism of the splitting itself is explained in papers discussed in comments to lines 87-97  
+
+Answer: We included these paper here as a reference. 
+
+You are completely correct. In pure hydro the crossing does not happen. The crossing is a product of the particle production mechanism and hydro. 
+But as we understood if the system size becomes larger, the pressure gradient also increases, therefore radial flow becomes larger which pushes the particles to even higher pT, and that in turn pushes the crossing to even higher pT. 
+
+
+****************
+****************
+____________________________________________________________________________________
+
+Fig 6 and following.One would need to compare the relative splitting to that on linear modes
+
+Answer: True, but we only measure non-linear modes in this analysis. we did a comparison with some kind of linear terms extracted from the published vn results. We have included them in the twiki: 
+https://twiki.cern.ch/twiki/bin/viewauth/ALICE/LinearFlowTerms
+
+---->>>>> Such a discussion is needed in the paper. See my comments above 
+
+Answer: We did an in depth comparison between the vnNL and vn results for pions and protons to compare the features: mass ordering and particle type grouping. This study is included in twiki: 
+https://twiki.cern.ch/twiki/bin/view/ALICE/V4vsV422
+
+These comparisons overall, show no apparent difference between the anisotropic flow and the non-linear flow modes in terms of mass ordering or particle type grouping which is also reflected in the plots in: https://twiki.cern.ch/twiki/bin/view/ALICE/V4vsV422
+
+In particular comparisons for mass ordering both via taking a difference and ratios are shown in : 
+
+difference: https://twiki.cern.ch/twiki/pub/ALICE/V4vsV422/MassorderingDifferencev422v4_firsthalf_allcentralities.pdf
+ratio: https://twiki.cern.ch/twiki/pub/ALICE/V4vsV422/MassorderingRatiov422v4_firsthalf_allcentralities.pdf 
+
+The differences are compatible with 0 within 1σ. The ratios are compatible with 1 within 1 or 2σ. 
+
+comparisons for particle type grouping:
+difference: https://twiki.cern.ch/twiki/pub/ALICE/V4vsV422/MassorderingDifferencev422v4_secondhalf_allcentralities.pdf
+ratio: https://twiki.cern.ch/twiki/pub/ALICE/V4vsV422/MassorderingRatiov422v4_secondhalf_allcentralities.pdf
+
+The differences are compatible with 0 within 1 or 2σ and the ratios are compatible with 1 within 1 or 2σ. 
+
+We also performed the same exercise for the model calculations by comparing their predictions in v422 and v4. 
+Here is the link to these comparisons, differences and ratios: 
+
+https://twiki.cern.ch/twiki/bin/view/ALICE/V4vsV422
+
+Where figure 11 and 12 show the comparisons, 13 and 14 show the differences and 15 and 16 show the ratios of the mass orderings in v422 and v4.
+
+As a result, we added a few lines to the paper mentioning that the mass ordering  and particle type grouping in the non-linear modes is compatible with that seen in vn measurements. 
+
+"The features seen in the measurement of non-linear flow modes can be further studied by comparing to that of total flow coefficients. Such comparisons have been performed for v4,22 ( pT ) (this study) and v4(pT) measurements [40] by taking the relative difference of pions wrt protons at a given pT in both modes. This comparison shows that the observed mass ordering in low pT region (0 < pT < 2.5 GeV/c) is of the same magnitude in v4,22 and v4. In the intermediate pT region (pT > 2.5 GeV/c) the observed particle type grouping also shows the same magnitude in both flow modes."
+
+Please let us know if these lines are not sufficient and more in depth discussion is needed and/or they should be revised.
+
+****************
+****************
+____________________________________________________________________________________
+Fig 8 and following phi meson its not mentioned in the legend
+
+Answer: Yes, because phi measurements are only done in v422. 
+
+---->>>>> They were missing also in Fig10, but I see that you added it in the new version. Thanks.
+____________________________________________________________________________________
+
+Chapter 6 requires the comparison of the model with the ``plain'' vn's (or the reference where it was done)
+
+Answer: We make a comparison in the twiki between vn, vnL and vn,mk of pions and protons. 
+https://twiki.cern.ch/twiki/bin/view/ALICE/LinearFlowTerms
+
+---->>>>> I was talking about the models. If we show model comparison to NL modes we have to show (or provide reference) how these models describe the “plain” vns. 
+
+
+Answer: Correct. We have done an in-depth study also in model predictions for vn. 
+
+we tried to quantify the performance of these models in reproducing the measurements of vn wrt non-linear flow modes by 
+
+1) taking the χ2/N_dof between each model and the measurement
+
+2) fitting the relative ratios between the models and the data (both v_n and v_n,mk)
+
+These exercises are included in the following twiki link: 
+
+https://twiki.cern.ch/twiki/bin/view/ALICE/Nonlinearflowvsmodels
+https://twiki.cern.ch/twiki/bin/view/ALICE/PublishedTotalFlowMeasurements
+
+Our interpretation of the compatibility of different models with the measurements as included in the new version of the paper: 
+
+"These two models have been already utilised to reproduce the pT-differential vn measurements for identified particles [40]. In order to compare the performance of these two models in vn and vn,mk measurements, the relative ratios have been obtained between each model and the measurements. Tables 5 and 6 summarize these relative ratios for non-linear flow modes and anisotropic flow, respectively. The ranges in the tables present the minimum and maximum value of a pol0 fit to the relative ratios obtained from most-central to mid-peripheral collisions. These values should be taken with caution as the non-linear flow modes have smaller magnitude and any discrepancy between the models and the data gets magnified in the ratios. Comparison between the two tables shows that the AMPT IC reproduces v4,22 with ∼20% higher discrepancy on average compared to v4, while, TRENTo IC performs better in v4,22 compared to v4 with ∼7%.
+
+All in all, this study shows lower discrepancy between the model calculations and anisotropic flow wrt. that of non-linear flow modes, indicating a larger sensitivity to the initial conditions and transport properties in non-linear flow modes. As a result, it is necessary to tune the input parameters of hydrodynamic models using the non-linear flow measurements, to constrain the values of transport properties and the initial conditions of the system."
+
+____________________________________________________________________________________
+
+419remove ``at best''. How these 20\% were estimated?
+
+Answer: It is at best 20%.
+https://twiki.cern.ch/twiki/bin/view/ALICE/ScalingProperties
+
+---->>>>> I did look through all the figures and could not find anything which would indicate a scaling violation of more than  of 20%. What did you look at?There might be also a misunderstanding of what the scaling is. It might work only in a very small pt region (which in principle might not even exist, but we are “lucky” that we see it,This is the region where the quark coalescence is still dominant (over fragmentation) but the processis “rare” and the coalescence math works. For example the low pt regions is likely fully dominated by coalescence, but we just do not know how to describe it. Then if I look at the region of quark pt ~1.2 GeVI do no see any data which, taking into account the experimental errors would indicate the violationof more than 20% (which is probably even on the upper limit).
+
+KET _empirical_ scaling is a totally different story. It was proposed by PHENIX collaborationas an experimental observation, which somehow effectively “combined” mass splitting at lower ptswith NCQ scaling at higher pt. This one was indeed shown to be totally off at LHC, and if I remember correctly,Roy Lacey discussed how to “remedy this one, but I did not follow this discussion.  
+
+The fact that both the mass splitting as well as the NCQ scaling is very similar in NL modes and “plain” vn’s is a very important one and I would make it as one of the main results of this study.It also emphasizes that the definitions of the NL modes provided in Eq5 are rather unfortunate(I know that they were not provided by you. And that they were “bad” it was clear from the very“beginning”).   According the Eq. 5 e.g v4,NL \propto v2^2, which is clearly not confirmed by the data(as it should be, as the real scaling is with eps2^2). I think that a discussion of this observation would also increase the value of this paper.   
+
+
+Answer: You are correct. The approximation is around 20% in v422. We concluded based on the relative ratio plots for NCQ scaling for all centralities and particle species and harmonics. In the case of v532 the approximation becomes slightly more (~25%) specially taking into account charged kaons as shown for 1<p_{T}<1.3 GeV/c in the following link:
+
+https://twiki.cern.ch/twiki/pub/ALICE/ScalingProperties/Ratio_v523_gap00_NCQ_1.pdf
+
+We changed the text to "at an approximate level of 20%".
+
+
+We have included a new subsection in the paper which reads: 
+
+"The features seen in the measurement of non-linear flow modes can be further studied by comparing to that of total flow coefficients. Such comparisons have been performed for v4,22 ( pT ) (this study) and v4(pT) measurements [40] by taking the relative difference of pions wrt protons at a given pT in both modes. This comparison shows that the observed mass ordering in low pT region (0 < pT < 2.5 GeV/c) is of the same magnitude in v4,22 and v4. In the intermediate pT region (pT > 2.5 GeV/c) the observed particle type grouping also shows the same magnitude in both flow modes."
+
+Please let us know if you think we should add more to the details of this subsection. 
+
+
+****************
+****************
+____________________________________________________________________________________
+

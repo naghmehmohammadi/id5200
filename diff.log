@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.3)  2 JUL 2019 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.3)  13 AUG 2019 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -768,173 +768,181 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count155
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count156
+\float@exts=\toks40
+\float@box=\box45
+\@float@everytoks=\toks41
+\@floatcapt=\box46
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count156
-\cp@tempcnt=\count157
+\c@cp@cntr=\count157
+\cp@tempcnt=\count158
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count158
+\c@r@tfl@t=\count159
 \rotFPtop=\skip72
 \rotFPbot=\skip73
-\rot@float@box=\box45
-\rot@mess@toks=\toks40
+\rot@float@box=\box47
+\rot@mess@toks=\toks42
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box46
-\UL@hyphenbox=\box47
+\UL@box=\box48
+\UL@hyphenbox=\box49
 \UL@skip=\skip74
-\UL@hook=\toks41
+\UL@hook=\toks43
 \UL@height=\dimen192
-\UL@pe=\count159
+\UL@pe=\count160
 \UL@pixel=\dimen193
-\ULC@box=\box48
+\ULC@box=\box50
 Package: ulem 2012/05/18
 \ULdepth=\dimen194
 ) (./diff.aux)
 \openout1 = `diff.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 55.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count160
+\scratchcounter=\count161
 \scratchdimen=\dimen195
-\scratchbox=\box49
-\nofMPsegments=\count161
-\nofMParguments=\count162
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count163
+\scratchbox=\box51
+\nofMPsegments=\count162
+\nofMParguments=\count163
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count164
 \MPscratchDim=\dimen196
-\MPnumerator=\count164
-\makeMPintoPDFobject=\count165
-\everyMPtoPDFconversion=\toks43
+\MPnumerator=\count165
+\makeMPintoPDFobject=\count166
+\everyMPtoPDFconversion=\toks45
 )
-\AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 52.
+\AtBeginShipoutBox=\box52
+Package hyperref Info: Link coloring OFF on input line 55.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count166
+\c@section@level=\count167
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 
 (./diff.out) (./diff.out)
 \@outlinefile=\write4
 \openout4 = `diff.out'.
 
  ABD: EveryShipout initializing macros
-<alicelogo.pdf, id=77, 116.1138pt x 142.61281pt>
+<alicelogo.pdf, id=71, 116.1138pt x 142.61281pt>
 File: alicelogo.pdf Graphic file (type pdf)
  <use alicelogo.pdf>
-Package pdftex.def Info: alicelogo.pdf used on input line 186.
+Package pdftex.def Info: alicelogo.pdf used on input line 189.
 (pdftex.def)             Requested size: 46.3313pt x 56.9055pt.
 
-<cernlogo.pdf, id=78, 426.59375pt x 427.5975pt>
+<cernlogo.pdf, id=72, 426.59375pt x 427.5975pt>
 File: cernlogo.pdf Graphic file (type pdf)
  <use cernlogo.pdf>
-Package pdftex.def Info: cernlogo.pdf used on input line 186.
+Package pdftex.def Info: cernlogo.pdf used on input line 189.
 (pdftex.def)             Requested size: 56.76749pt x 56.9055pt.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 186.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 189.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 186.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 186.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 189.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 189.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 186.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 189.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 18
-6.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 18
-6.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 18
-6.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 18
-6.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 186.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 189.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 186.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 189.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 186.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 189.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 186.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 189.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 190.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 190.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 190.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 190.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 190.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 190.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 193.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 196.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 194.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 197.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 194.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 197.
  [1
 
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./alice
 logo.pdf> <./cernlogo.pdf>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 204.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 207.
  (./diff.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
@@ -945,489 +953,661 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
  [2
 
 ]
-Overfull \hbox (13.04843pt too wide) in paragraph at lines 243--258
-|   []   [][]|   []   []\T1/ptm/m/n/10.95 can be cal-cu-lated from the trans-ve
-rse po-si-tions of the []|   []   |   []   |   []   |   [][][]|   []
+
+Package natbib Warning: Citation `Poskanzer:1998yz' on page 3 undefined on inpu
+t line 220.
+
+
+Overfull \hbox (36.34966pt too wide) in paragraph at lines 248--268
+\T1/ptm/m/n/10.95 This ini-tial state spa-tial ir-reg-u-lar-ity []|   []   |   
+[]   [][]|   []   |   []   []quan-ti-fied with the stan-dard ([]|   [][][]|   [
+][])
  []
 
-[3]
-Overfull \hbox (0.32593pt too wide) in paragraph at lines 314--316
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
-]   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Overfull \hbox (5.98666pt too wide) in paragraph at lines 317--330
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []
- []
-
-[4] [5] [6]
+[3] [4] [5] [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 369.
+(hyperref)                removing `math shift' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 369.
+(hyperref)                removing `\pi' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 369.
+(hyperref)                removing `superscript' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pm' on input line 369.
+(hyperref)                removing `\pm' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 369.
+(hyperref)                removing `math shift' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 369.
+(hyperref)                removing `math shift' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 369.
+(hyperref)                removing `superscript' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pm' on input line 369.
+(hyperref)                removing `\pm' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 369.
+(hyperref)                removing `math shift' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 369.
+(hyperref)                removing `math shift' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 369.
+(hyperref)                removing `math shift' on input line 355.
 
 
-LaTeX Warning: Reference `SubSec:K0sLambdaRec' on page 7 undefined on input lin
-e 373.
-
-
-LaTeX Warning: Reference `SubSec:PhiRec' on page 7 undefined on input line 373.
-
+LaTeX Warning: Reference `SysVar' on page 7 undefined on input line 359.
 
 [7]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 400.
+(hyperref)                removing `math shift' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 400.
+(hyperref)                removing `superscript' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 400.
+(hyperref)                removing `subscript' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 400.
+(hyperref)                removing `math shift' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 400.
+(hyperref)                removing `math shift' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Lambda' on input line 400.
+(hyperref)                removing `\Lambda' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 400.
+(hyperref)                removing `math shift' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 400.
+(hyperref)                removing `math shift' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 400.
+(hyperref)                removing `\phi' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 400.
+(hyperref)                removing `math shift' on input line 372.
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{subsection.
-3.3}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.442 
-      ]
-Overfull \hbox (8.13394pt too wide) in paragraph at lines 452--454
-|   []   |   []   |   []   |   []   |   [][][]|   []   |   []   |   []   |   []
-   []$\OML/ztmcm/m/it/10.95 p[]$\T1/ptm/m/n/10.95 -differential non-linear []| 
-  []   |   []   |   []   |   []   |   []   |   []
+LaTeX Warning: Reference `tab:V0scuts' on page 8 undefined on input line 379.
+
+
+LaTeX Warning: Reference `SysVar' on page 8 undefined on input line 389.
+
+[8]
+Overfull \hbox (34.79619pt too wide) in paragraph at lines 412--417
+\T1/ptm/m/n/10.95 cor-rec-tions. In this anal-y-sis, []|   []   [][]|   []   []
+is mea-sured by []|   []   |   []   |   []   |   []   |   [][][]|   []
  []
 
 
-Overfull \hbox (0.32593pt too wide) in paragraph at lines 470--475
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
-]   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+Overfull \hbox (37.94922pt too wide) detected at line 441
+[]\OML/ztmcm/m/it/10.95 d[][][]\OT1/ztmcm/m/n/10.95 (\OT1/ptm/m/it/10.95 M[][][
+]\OT1/ztmcm/m/n/10.95 ) = [](\OT1/ptm/m/it/10.95 M[][][]\OT1/ztmcm/m/n/10.95 )[
+][]\OML/ztmcm/m/it/10.95 d[][][][][][][] \OT1/ztmcm/m/n/10.95 + [](\OT1/ptm/m/i
+t/10.95 M[][][]\OT1/ztmcm/m/n/10.95 )[][]\OML/ztmcm/m/it/10.95 d[][][][][]\OT1/
+ztmcm/m/n/10.95 (\OT1/ptm/m/it/10.95 M[][][]\OT1/ztmcm/m/n/10.95 )\OML/ztmcm/m/
+it/10.95 ;
  []
 
 [9]
-
-LaTeX Warning: Reference `SubSec:K0sLambdaRec' on page 10 undefined on input li
-ne 502.
-
-
-LaTeX Warning: Reference `SubSec:PhiRec' on page 10 undefined on input line 502
-.
-
-<figures/analysisMethod/flowmass_Phi.pdf, id=327, 569.12625pt x 547.04375pt>
+<figures/analysisMethod/flowmass_Phi.pdf, id=335, 569.12625pt x 547.04375pt>
 File: figures/analysisMethod/flowmass_Phi.pdf Graphic file (type pdf)
 
 <use figures/analysisMethod/flowmass_Phi.pdf>
 Package pdftex.def Info: figures/analysisMethod/flowmass_Phi.pdf used on input 
-line 511.
+line 451.
 (pdftex.def)             Requested size: 256.10445pt x 246.1674pt.
- [10] [11 <./figures/analysisMethod/flowmass_Phi.pdf, page is rotated 90 degree
-s>]
-
-LaTeX Warning: Reference `SubSec:Identification' on page 12 undefined on input 
-line 646.
 
 
-LaTeX Warning: Reference `SubSec:K0sLambdaRec' on page 12 undefined on input li
-ne 654.
+LaTeX Warning: Reference `SysVar' on page 10 undefined on input line 463.
 
-[12]
 
-LaTeX Warning: Reference `subsection:NCQscaling' on page 13 undefined on input 
-line 832.
+LaTeX Warning: Reference `tab:V0scuts' on page 10 undefined on input line 463.
+
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.471 
+       <./figures/analysisMethod/flowmass_Phi.pdf, page is rotated 90 degrees>]
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 618--637
+[][]
+ []
+
+[12pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.777 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{table.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.777 \newpage
+              ]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 785.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 835.
+(hyperref)                removing `subscript' on input line 785.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 835.
+(hyperref)                removing `math shift' on input line 785.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 835.
-
-[13]
-<figures/results/All_v422_gap00_CentDep_PID2.pdf, id=409, 569.12625pt x 368.376
+<figures/results/All_v422_gap00_CentDep_PID2.pdf, id=411, 569.12625pt x 368.376
 25pt>
 File: figures/results/All_v422_gap00_CentDep_PID2.pdf Graphic file (type pdf)
  <use figures/results/All_v422_gap00_CentDep_PID2.pdf>
 Package pdftex.def Info: figures/results/All_v422_gap00_CentDep_PID2.pdf used o
-n input line 846.
+n input line 798.
 (pdftex.def)             Requested size: 466.68655pt x 302.07047pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 846--847
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 798--799
  [] 
  []
 
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
 
-<figures/results/All_v523_gap00_CentDep_PID2.pdf, id=412, 569.12625pt x 368.376
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.805 
+       <./figures/results/All_v422_gap00_CentDep_PID2.pdf, page is rotated 90 d
+egrees>]
+<figures/results/All_v523_gap00_CentDep_PID2.pdf, id=463, 569.12625pt x 368.376
 25pt>
 File: figures/results/All_v523_gap00_CentDep_PID2.pdf Graphic file (type pdf)
  <use figures/results/All_v523_gap00_CentDep_PID2.pdf>
 Package pdftex.def Info: figures/results/All_v523_gap00_CentDep_PID2.pdf used o
-n input line 858.
+n input line 808.
 (pdftex.def)             Requested size: 466.68655pt x 302.07047pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 858--859
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 808--809
  [] 
  []
 
 
-<figures/results/All_v633_gap00_CentDep_PID2.pdf, id=415, 569.12625pt x 368.376
+<figures/results/All_v633_gap00_CentDep_PID2.pdf, id=467, 569.12625pt x 368.376
 25pt>
 File: figures/results/All_v633_gap00_CentDep_PID2.pdf Graphic file (type pdf)
  <use figures/results/All_v633_gap00_CentDep_PID2.pdf>
 Package pdftex.def Info: figures/results/All_v633_gap00_CentDep_PID2.pdf used o
-n input line 868.
+n input line 820.
 (pdftex.def)             Requested size: 466.68655pt x 302.07047pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 868--869
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 820--821
  [] 
  []
 
 
-<figures/results/All_v6222_gap00_CentDep_PID2.pdf, id=416, 569.12625pt x 237.88
+<figures/results/All_v6222_gap00_CentDep_PID2.pdf, id=468, 569.12625pt x 237.88
 875pt>
 File: figures/results/All_v6222_gap00_CentDep_PID2.pdf Graphic file (type pdf)
  <use figures/results/All_v6222_gap00_CentDep_PID2.pdf>
 Package pdftex.def Info: figures/results/All_v6222_gap00_CentDep_PID2.pdf used 
-on input line 876.
+on input line 828.
 (pdftex.def)             Requested size: 466.68655pt x 195.07002pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 876--877
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 828--829
  [] 
  []
 
-[14 <./figures/results/All_v422_gap00_CentDep_PID2.pdf, page is rotated 90 degr
-ees>]
-<figures/results/All_v422_gap00_PID2_3by3.pdf, id=469, 569.12625pt x 501.875pt>
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.834 \newpage
+               <./figures/results/All_v523_gap00_CentDep_PID2.pdf, page is rota
+ted 90 degrees>] [15pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.845 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.845 
+       <./figures/results/All_v633_gap00_CentDep_PID2.pdf, page is rotated 90 d
+egrees> <./figures/results/All_v6222_gap00_CentDep_PID2.pdf, page is rotated 90
+ degrees>]
+<figures/results/All_v422_gap00_PID2_3by3.pdf, id=616, 569.12625pt x 500.87125p
+t>
 File: figures/results/All_v422_gap00_PID2_3by3.pdf Graphic file (type pdf)
-<use figures/results/All_v422_gap00_PID2_3by3.pdf>
+ <use figures/results/All_v422_gap00_PID2_3by3.pdf>
 Package pdftex.def Info: figures/results/All_v422_gap00_PID2_3by3.pdf used on i
-nput line 898.
-(pdftex.def)             Requested size: 466.68655pt x 411.54016pt.
+nput line 849.
+(pdftex.def)             Requested size: 466.68655pt x 410.71707pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 898--899
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 849--850
  [] 
  []
 
 
-<figures/results/All_v523_gap00_PID2_3by3.pdf, id=473, 569.12625pt x 501.875pt>
+<figures/results/All_v523_gap00_PID2_3by3.pdf, id=620, 569.12625pt x 500.87125p
+t>
 File: figures/results/All_v523_gap00_PID2_3by3.pdf Graphic file (type pdf)
-<use figures/results/All_v523_gap00_PID2_3by3.pdf>
+ <use figures/results/All_v523_gap00_PID2_3by3.pdf>
 Package pdftex.def Info: figures/results/All_v523_gap00_PID2_3by3.pdf used on i
-nput line 911.
-(pdftex.def)             Requested size: 466.68655pt x 411.54016pt.
+nput line 860.
+(pdftex.def)             Requested size: 466.68655pt x 410.71707pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 911--912
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 860--861
  [] 
  []
 
 
-<figures/results/All_v633_gap00_PID2_3by2.pdf, id=474, 569.12625pt x 364.36125p
+<figures/results/All_v633_gap00_PID2_3by2.pdf, id=621, 569.12625pt x 364.36125p
 t>
 File: figures/results/All_v633_gap00_PID2_3by2.pdf Graphic file (type pdf)
  <use figures/results/All_v633_gap00_PID2_3by2.pdf>
 Package pdftex.def Info: figures/results/All_v633_gap00_PID2_3by2.pdf used on i
-nput line 923.
+nput line 870.
 (pdftex.def)             Requested size: 466.68655pt x 298.77815pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 923--924
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 870--871
  [] 
  []
 
 
-<figures/results/All_v6222_gap00_PID2_3by3.pdf, id=475, 569.12625pt x 501.875pt
->
+<figures/results/All_v6222_gap00_PID2_3by3.pdf, id=622, 569.12625pt x 500.87125
+pt>
 File: figures/results/All_v6222_gap00_PID2_3by3.pdf Graphic file (type pdf)
  <use figures/results/All_v6222_gap00_PID2_3by3.pdf>
 Package pdftex.def Info: figures/results/All_v6222_gap00_PID2_3by3.pdf used on 
-input line 935.
-(pdftex.def)             Requested size: 466.68655pt x 411.54016pt.
+input line 880.
+(pdftex.def)             Requested size: 466.68655pt x 410.71707pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 935--936
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 880--881
  [] 
  []
 
-[15 <./figures/results/All_v523_gap00_CentDep_PID2.pdf, page is rotated 90 degr
-ees>] [16 <./figures/results/All_v633_gap00_CentDep_PID2.pdf, page is rotated 9
-0 degrees> <./figures/results/All_v6222_gap00_CentDep_PID2.pdf, page is rotated
- 90 degrees>] [17 <./figures/results/All_v422_gap00_PID2_3by3.pdf, page is rota
-ted 90 degrees>]
-<figures/scaling/All_v422_gap00_NCQ_3by3.pdf, id=686, 569.12625pt x 501.875pt>
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.887 \newpage
+               <./figures/results/All_v422_gap00_PID2_3by3.pdf, page is rotated
+ 90 degrees>] [17pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.895 
+       <./figures/results/All_v523_gap00_PID2_3by3.pdf, page is rotated 90 degr
+ees>]
+<figures/scaling/All_v422_gap00_NCQ_3by3.pdf, id=745, 569.12625pt x 501.875pt>
 File: figures/scaling/All_v422_gap00_NCQ_3by3.pdf Graphic file (type pdf)
 
 <use figures/scaling/All_v422_gap00_NCQ_3by3.pdf>
 Package pdftex.def Info: figures/scaling/All_v422_gap00_NCQ_3by3.pdf used on in
-put line 961.
+put line 899.
 (pdftex.def)             Requested size: 466.68655pt x 411.54016pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 961--962
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 899--900
  [] 
  []
 
 
-<figures/scaling/All_v523_gap00_NCQ_3by3.pdf, id=687, 569.12625pt x 501.875pt>
+<figures/scaling/All_v523_gap00_NCQ_3by3.pdf, id=746, 569.12625pt x 501.875pt>
 File: figures/scaling/All_v523_gap00_NCQ_3by3.pdf Graphic file (type pdf)
 
 <use figures/scaling/All_v523_gap00_NCQ_3by3.pdf>
 Package pdftex.def Info: figures/scaling/All_v523_gap00_NCQ_3by3.pdf used on in
-put line 972.
+put line 908.
 (pdftex.def)             Requested size: 466.68655pt x 411.54016pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 972--973
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 908--909
  [] 
  []
 
 
-<figures/scaling/All_v633_gap00_NCQ_3by2.pdf, id=688, 569.12625pt x 364.36125pt
+<figures/scaling/All_v633_gap00_NCQ_3by2.pdf, id=747, 569.12625pt x 364.36125pt
 >
 File: figures/scaling/All_v633_gap00_NCQ_3by2.pdf Graphic file (type pdf)
  <use figures/scaling/All_v633_gap00_NCQ_3by2.pdf>
 Package pdftex.def Info: figures/scaling/All_v633_gap00_NCQ_3by2.pdf used on in
-put line 984.
+put line 918.
 (pdftex.def)             Requested size: 466.68655pt x 298.77815pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 984--985
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 918--919
  [] 
  []
 
 
-<figures/scaling/All_v6222_gap00_NCQ_3by3.pdf, id=689, 569.12625pt x 501.875pt>
+<figures/scaling/All_v6222_gap00_NCQ_3by3.pdf, id=748, 569.12625pt x 501.875pt>
 File: figures/scaling/All_v6222_gap00_NCQ_3by3.pdf Graphic file (type pdf)
 <use figures/scaling/All_v6222_gap00_NCQ_3by3.pdf>
 Package pdftex.def Info: figures/scaling/All_v6222_gap00_NCQ_3by3.pdf used on i
-nput line 995.
+nput line 927.
 (pdftex.def)             Requested size: 466.68655pt x 411.54016pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 995--996
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 927--928
  [] 
  []
 
-[18 <./figures/results/All_v523_gap00_PID2_3by3.pdf, page is rotated 90 degrees
->]pdfTeX warning (ext4): destination with the same identifier (name{subsection.
-6.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1003 \subsection{Comparison with models}
-                                          
-Overfull \hbox (0.45601pt too wide) in paragraph at lines 1006--1027
-|   []   |   []   [][]|   []   |   []   |   []   |   []   |   []   |   []   |  
- []   |   []   |   []   |   []   |   []   |   []
- []
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+ has been already used, duplicate ignored
 
-[19 <./figures/results/All_v633_gap00_PID2_3by2.pdf, page is rotated 90 degrees
->] [20 <./figures/results/All_v6222_gap00_PID2_3by3.pdf, page is rotated 90 deg
-rees>]
-<figures/model/TrentoAndAMPT_v422_gap00_PID2.pdf, id=872, 569.12625pt x 451.687
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.936 \newpage
+               <./figures/results/All_v633_gap00_PID2_3by2.pdf, page is rotated
+ 90 degrees>] [19pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.946 
+       <./figures/results/All_v6222_gap00_PID2_3by3.pdf, page is rotated 90 deg
+rees>] [20pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.956 
+       <./figures/scaling/All_v422_gap00_NCQ_3by3.pdf, page is rotated 90 degre
+es>] [21pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.962 
+       <./figures/scaling/All_v523_gap00_NCQ_3by3.pdf, page is rotated 90 degre
+es>]
+<figures/model/TrentoAndAMPT_v422_gap00_PID2.pdf, id=979, 569.12625pt x 451.687
 5pt>
 File: figures/model/TrentoAndAMPT_v422_gap00_PID2.pdf Graphic file (type pdf)
  <use figures/model/TrentoAndAMPT_v422_gap00_PID2.pdf>
 Package pdftex.def Info: figures/model/TrentoAndAMPT_v422_gap00_PID2.pdf used o
-n input line 1056.
+n input line 965.
 (pdftex.def)             Requested size: 415.45871pt x 329.72913pt.
 
-<figures/model/TrentoAndAMPT_v523_gap00_PID2.pdf, id=873, 569.12625pt x 451.687
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<figures/model/TrentoAndAMPT_v523_gap00_PID2.pdf, id=980, 569.12625pt x 451.687
 5pt>
 File: figures/model/TrentoAndAMPT_v523_gap00_PID2.pdf Graphic file (type pdf)
  <use figures/model/TrentoAndAMPT_v523_gap00_PID2.pdf>
 Package pdftex.def Info: figures/model/TrentoAndAMPT_v523_gap00_PID2.pdf used o
-n input line 1078.
+n input line 974.
 (pdftex.def)             Requested size: 415.45871pt x 329.72913pt.
 
-<figures/model/TrentoAndAMPT_v633_gap00_PID2.pdf, id=874, 569.12625pt x 451.687
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<figures/model/TrentoAndAMPT_v633_gap00_PID2.pdf, id=981, 569.12625pt x 451.687
 5pt>
 File: figures/model/TrentoAndAMPT_v633_gap00_PID2.pdf Graphic file (type pdf)
  <use figures/model/TrentoAndAMPT_v633_gap00_PID2.pdf>
 Package pdftex.def Info: figures/model/TrentoAndAMPT_v633_gap00_PID2.pdf used o
-n input line 1098.
+n input line 982.
 (pdftex.def)             Requested size: 415.45871pt x 329.72913pt.
 
-<figures/model/TrentoAndAMPT_v6222_gap00_PID2.pdf, id=875, 569.12625pt x 451.68
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<figures/model/TrentoAndAMPT_v6222_gap00_PID2.pdf, id=982, 569.12625pt x 451.68
 75pt>
 File: figures/model/TrentoAndAMPT_v6222_gap00_PID2.pdf Graphic file (type pdf)
  <use figures/model/TrentoAndAMPT_v6222_gap00_PID2.pdf>
 Package pdftex.def Info: figures/model/TrentoAndAMPT_v6222_gap00_PID2.pdf used 
-on input line 1119.
+on input line 991.
 (pdftex.def)             Requested size: 415.45871pt x 329.72913pt.
- [21 <./figures/scaling/All_v422_gap00_NCQ_3by3.pdf, page is rotated 90 degrees
->] [22 <./figures/scaling/All_v523_gap00_NCQ_3by3.pdf, page is rotated 90 degre
-es>] [23 <./figures/scaling/All_v633_gap00_NCQ_3by2.pdf, page is rotated 90 deg
-rees>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1171
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (4.6837pt too wide) in paragraph at lines 998--1002
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
+]   |   []   []$\OML/ztmcm/m/it/10.95 p[]$[]|   []   |   []   |   []   |   []  
+ |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1021
+[][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1080 \DIFdelend \DIFaddbegin \subsection
+                                          {\DIFadd{Comparison with $v_{n}$ o...
+ <./figures/scaling/All_v633_gap00_NCQ_3by2.pdf, page is rotated 90 degrees>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1080.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1080.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1080.
+
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1108 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1108 
+        <./figures/scaling/All_v6222_gap00_NCQ_3by3.pdf, page is rotated 90 deg
+rees>] [24pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1108 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1108 
+        <./figures/model/TrentoAndAMPT_v422_gap00_PID2.pdf, page is rotated 90 
+degrees>] [25pdfTeX warning (ext4): destination with the same identifier (name{
+figure.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1132 \DIFdelend \newpage
+                           <./figures/model/TrentoAndAMPT_v523_gap00_PID2.pdf, 
+page is rotated 90 degrees>] [26pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1141 
+        <./figures/model/TrentoAndAMPT_v633_gap00_PID2.pdf, page is rotated 90 
+degrees>] [27pdfTeX warning (ext4): destination with the same identifier (name{
+figure.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1159 \newpage
+                <./figures/model/TrentoAndAMPT_v6222_gap00_PID2.pdf, page is ro
+tated 90 degrees>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1170
 .
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [24 <./figures/scaling/All_v6222_gap00_NCQ_3by3.pdf, page is rotated 90 degre
-es>] [25 <./figures/model/TrentoAndAMPT_v422_gap00_PID2.pdf, page is rotated 90
- degrees>] [26 <./figures/model/TrentoAndAMPT_v523_gap00_PID2.pdf, page is rota
-ted 90 degrees>]
-[27 <./figures/model/TrentoAndAMPT_v633_gap00_PID2.pdf, page is rotated 90 degr
-ees>] [28 <./figures/model/TrentoAndAMPT_v6222_gap00_PID2.pdf, page is rotated 
-90 degrees>] [29] [30]
+) [28] [29] [30] [31] [32] [33]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1719.
+(hyperref)                removing `math shift' on input line 2030.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1719.
+(hyperref)                removing `subscript' on input line 2030.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1719.
+(hyperref)                removing `math shift' on input line 2030.
 
 
-<figures/scaling/All_v422_gap00_KET_3by3.pdf, id=1439, 569.12625pt x 501.875pt>
+<figures/scaling/All_v422_gap00_KET_3by3.pdf, id=1549, 569.12625pt x 501.875pt>
 File: figures/scaling/All_v422_gap00_KET_3by3.pdf Graphic file (type pdf)
 <use figures/scaling/All_v422_gap00_KET_3by3.pdf>
 Package pdftex.def Info: figures/scaling/All_v422_gap00_KET_3by3.pdf used on in
-put line 1729.
+put line 2038.
 (pdftex.def)             Requested size: 466.68655pt x 411.54016pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 1729--1730
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 2038--2039
  [] 
  []
 
 
-<figures/scaling/All_v523_gap00_KET_3by3.pdf, id=1440, 569.12625pt x 501.875pt>
+<figures/scaling/All_v523_gap00_KET_3by3.pdf, id=1550, 569.12625pt x 501.875pt>
 File: figures/scaling/All_v523_gap00_KET_3by3.pdf Graphic file (type pdf)
 <use figures/scaling/All_v523_gap00_KET_3by3.pdf>
 Package pdftex.def Info: figures/scaling/All_v523_gap00_KET_3by3.pdf used on in
-put line 1741.
+put line 2048.
 (pdftex.def)             Requested size: 466.68655pt x 411.54016pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 1741--1742
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 2048--2049
  [] 
  []
 
 
-<figures/scaling/All_v633_gap00_KET_3by2.pdf, id=1441, 569.12625pt x 364.36125p
+<figures/scaling/All_v633_gap00_KET_3by2.pdf, id=1551, 569.12625pt x 364.36125p
 t>
 File: figures/scaling/All_v633_gap00_KET_3by2.pdf Graphic file (type pdf)
  <use figures/scaling/All_v633_gap00_KET_3by2.pdf>
 Package pdftex.def Info: figures/scaling/All_v633_gap00_KET_3by2.pdf used on in
-put line 1753.
+put line 2058.
 (pdftex.def)             Requested size: 466.68655pt x 298.77815pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 1753--1754
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 2058--2059
  [] 
  []
 
 
-<figures/scaling/All_v6222_gap00_KET_3by3.pdf, id=1442, 569.12625pt x 501.875pt
+<figures/scaling/All_v6222_gap00_KET_3by3.pdf, id=1552, 569.12625pt x 501.875pt
 >
 File: figures/scaling/All_v6222_gap00_KET_3by3.pdf Graphic file (type pdf)
  <use figures/scaling/All_v6222_gap00_KET_3by3.pdf>
 Package pdftex.def Info: figures/scaling/All_v6222_gap00_KET_3by3.pdf used on i
-nput line 1765.
+nput line 2068.
 (pdftex.def)             Requested size: 466.68655pt x 411.54016pt.
 
-Overfull \hbox (11.44247pt too wide) in paragraph at lines 1765--1766
+Overfull \hbox (11.44247pt too wide) in paragraph at lines 2068--2069
  [] 
  []
 
-[31 <./figures/scaling/All_v422_gap00_KET_3by3.pdf, page is rotated 90 degrees>
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1780.
- [32 <./figures/scaling/All_v523_gap00_KET_3by3.pdf, page is rotated 90 degrees
->] [33 <./figures/scaling/All_v633_gap00_KET_3by2.pdf, page is rotated 90 degre
-es>] [34 <./figures/scaling/All_v6222_gap00_KET_3by3.pdf, page is rotated 90 de
-grees>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1780.
+
+Package natbib Warning: There were undefined citations.
+
+[34pdfTeX warning (ext4): destination with the same identifier (name{figure.A.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2083 \end{document}
+                      <./figures/scaling/All_v422_gap00_KET_3by3.pdf, page is r
+otated 90 degrees>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2083.
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.A.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2083 \end{document}
+                      <./figures/scaling/All_v523_gap00_KET_3by3.pdf, page is r
+otated 90 degrees>] [36pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.A.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2083 \end{document}
+                      <./figures/scaling/All_v633_gap00_KET_3by2.pdf, page is r
+otated 90 degrees>] [37pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.A.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2083 \end{document}
+                      <./figures/scaling/All_v6222_gap00_KET_3by3.pdf, page is 
+rotated 90 degrees>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2083.
  (./diff.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1780.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1780.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2083.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2083.
 
 Package rerunfilecheck Info: File `diff.out' has not changed.
-(rerunfilecheck)             Checksum: 846BCE1C904AED5CDF30041852B213F1;1152.
+(rerunfilecheck)             Checksum: D9CB7A94AD2BC9ED774F6B7A41706985;1094.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1780.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2083.
  ) 
 Here is how much of TeX's memory you used:
- 19460 strings out of 492995
- 354079 string characters out of 6132704
- 453029 words of memory out of 5000000
- 22388 multiletter control sequences out of 15000+600000
+ 19608 strings out of 492995
+ 356638 string characters out of 6132704
+ 519969 words of memory out of 5000000
+ 22506 multiletter control sequences out of 15000+600000
  91193 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,56p,1975b,652s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,56p,1945b,760s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1450,10 +1630,10 @@ onts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on diff.pdf (34 pages, 1083340 bytes).
+Output written on diff.pdf (37 pages, 1109647 bytes).
 PDF statistics:
- 1719 PDF objects out of 1728 (max. 8388607)
- 1105 compressed objects within 12 object streams
- 156 named destinations out of 1000 (max. 500000)
- 272 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1837 PDF objects out of 2073 (max. 8388607)
+ 1219 compressed objects within 13 object streams
+ 182 named destinations out of 1000 (max. 500000)
+ 256 words of extra memory for PDF output out of 10000 (max. 10000000)
 

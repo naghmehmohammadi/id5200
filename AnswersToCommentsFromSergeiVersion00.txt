@@ -9,7 +9,7 @@ ________________________________________________________________________________
 
 21-22``increased discriminatory power'' -- either prove/show or omit
 
-Answer: what do you suggest to replace it with?
+Answer: thanks, we replaced it with "new discriminatory power"
 ____________________________________________________________________________________
 51``initial density profile of neutrons'' - reads strange, rephrase
 
@@ -17,7 +17,7 @@ Answer: Removed "anisotropic initial".
 ____________________________________________________________________________________
 Eq.1- it should be d^p, not dp^3- it does not work with pseudorapidity. Should be corrected
 
-Answer: Thanks for noticing it.  
+Answer: done  
 ____________________________________________________________________________________
 57 refs 6-10 looks a bit strange for eq. 1. But if one starts from that period, include http://arxiv.org/abs/nucl-th/0606022 which was the first in this row (e.g. Ref [6] mention these proceedings)
 
@@ -29,7 +29,7 @@ ________________________________________________________________________________
 
 62 Refs to RHIC - why do they start from far not the first paper? Similarly for LHC.
 
-Answer: which paper do you mean? 
+Answer: Thanks, we will do a thorough check on the references specially for RHIC. 
 ____________________________________________________________________________________
 
 65-67 Ref to a theory paper is needed. Again, why rather late ref [19] and not earlier papers?
@@ -38,7 +38,7 @@ In reference [19], it is clearly shown that the predictions from the same models
 ____________________________________________________________________________________
 Eq 3. I believe Eq.3 (as presented) was first written by Teaney-Yan
 
-Answer: ok, we changed the references. 
+Answer: done
 ____________________________________________________________________________________
 
 74``recently'' - omit?  It should be explain what is meant by``linearly'' here. For example the nonlinear terms in vn dependence on epsn was known long ago.
@@ -47,7 +47,7 @@ Answer: "recently" is removed. Linear here means that Vn depends only on its cor
 ____________________________________________________________________________________
 82 not clear what exactly was done in [24], ``in a single event'' looks incorrect
 
-Answer: Removed the reference. Sorry but what do you propose to replace it with? This is also used in the charged particle NL flow paper. 
+Answer: Removed the reference. It is now rephrased to: "In particular, for a single event, Vn with n = 4,5,6 can be decomposed to the linear (Vn^L) and non-linear (Vn^NL ) modes ..."
 ____________________________________________________________________________________
 87 reads awkward, rephrase
 
@@ -67,8 +67,8 @@ Later, it was discussed in relation to hydro calculations in Radial and elliptic
 
 There exist several publication on that published earlier than what is quoted quark coalescence and the corresponding scaling of vn(pt) was also proposed before the measurements quoted and not after.
 
-Answer: We included those 2 references in the introduction. 
-About quark coalescence, could you suggest the references that are prior to the one we have cited? Thanks
+Answer: Thanks for the suggestions and pointing to the very nice early works. We included those 2 references in the introduction. 
+About quark coalescence, we would really appreciate if you could suggest the references that are prior to the one we have cited. We will be very happy to take your suggestions. Thanks.
 ____________________________________________________________________________________
 95 Remove ``previous''
 
@@ -76,12 +76,12 @@ Answer: done
 ____________________________________________________________________________________
 100 what constraints were established in [24]?
 
-Answer: The models need tuning to match the data but if you for example look at Xn,mk there is more distinct and evident difference between the models themselves as opposed to the results of the same models for vn. 
+Answer: The models need tuning to match the data but if you for example look at Xn,mk there is more distinct and evident difference between the models themselves as opposed to the results of the same models for vn. For example, X_4,22 is independent of initial conditions and thus can be used to better constrain eta/s, while X_5,32 is insensitive to eta/s but depends on initial conditions, thus better constrains the initial conditions w/o an influence from eta/s.
 ____________________________________________________________________________________
 
 100-104 These statements need support and/or references
 
-Answer: They are measuring the non-linear hydrodynamic response in higher harmonics. We already have established that higher harmonics are more sensitive to transport properties and initial conditions of the system. By measuring nonlinear modes we have take advantage of the fact that they don't require much statistics unlike their total flow harmonics. But in any case we added a reference to the higher order flow papers: 
+Answer: Done. We added a reference to the higher order flow papers: 
 https://arxiv.org/pdf/1805.04390.pdf
 and
 https://arxiv.org/abs/1105.3865
@@ -107,7 +107,7 @@ ________________________________________________________________________________
 
 203 What is the systematic error on vn(pt) for kaons with 75\% purity?
 
-Answer: We didn't measure vn(pT) in this analysis. This is a minimum purity and depends on pT. Supposedly, systematic error on vn(pT) should not be larger than what we've reported for v422.   
+Answer: The purity for kaons have been varied for systematics from 75% to 80% and 87%. The effect these variations is shown in percentages in table 3 for different non-linear modes and centralities. Note that the maximum variation over all centralities is reported. Which is for example: 1-5% for v422.
 ____________________________________________________________________________________
 Eq6 (and 7-9)Is it the definition for v422? Why this particular denominator?
 
@@ -120,11 +120,14 @@ Answer: Of course, this is a general sentence referring to eq. 6 up to 9 and the
 ____________________________________________________________________________________
 260-261 unless more details are given on ``generic framework'' I would not use this term and directly refer for the method to [40]
 
-Answer: sure, thanks. 
+Answer: done, we rephrased it to:
+"These correlators are calculated using the Generic Framework introduced in Ref.[40], which allows precise non-uniform acceptance and efficiency corrections."
+ 
 ____________________________________________________________________________________
 eq 10 a similar question as to eq.4
 
-Answer: Could you clarify?  Eq. 4 talks about the cumulant-based initial anisotropy. Eq. 10 is the correlation method used to extract v4,22.  
+Answer: Could you please clarify?  Eq. 4 talks about the cumulant-based initial anisotropy. Eq. 10 is the correlation method used to extract v4,22.
+ 
 ____________________________________________________________________________________
 
 Chapter 5 With a very few exceptions, it is totally unclear why these are other cuts were selected for the systematic uncertainty estimates.For example, why decay vertex was varied from 5 to 10 and not to 15 or 20? What exactly was the purpose of this test. Similarly with all other tests. Even when the purpose was clear. e.g. using different PID method to achieve a better purity, it was not clear of the difference was extrapolated to 100\% purity... or something else was done
@@ -135,10 +138,10 @@ These cut variations were chosen such that it either followed commonly used vari
 ____________________________________________________________________________________
 328-329 Not clear. It also seems that the cause and the mechanisms are mixed in this sentence.
 
-Answer: Could you suggest a better way of rephrasing it? Thanks a lot. 
-Would it be better if it is rephrased as in: 
-"Higher order flow coefficients (n > 3) are mainly generated by inhomogeneities in the initial density profile, the collision geometry as well as the non-linear hydrodynamic response of the system." ====>>>> 
+Answer: Sorry for the confusion. We try to rephrase it as:
+"Higher order flow coefficients (n > 3) are mainly generated by inhomogeneities in the initial density profile, the collision geometry as well as the non-linear hydrodynamic response of the system." changed to
 "Higher order flow coefficients (n > 3) are generated by inhomogeneities in the initial density profile and the collision geometry."
+However, if you have any better suggestion, we are happy to take it in the new version.
 ____________________________________________________________________________________
 337-338 Does the shorter life-time affects only nonlinear terms?
 
@@ -150,24 +153,24 @@ Answer: We did a comparison using published vn results to extract the linear ter
 ____________________________________________________________________________________
 352 change ``non-linear response of the system'' to ``anisotropic flow''
 
-Answer: ok thanks.
+Answer: done.
 ____________________________________________________________________________________
 352-352 The explanations, as given, is incorrect. The multiplicity and anisotropic flow are independent quantities. With or without``depletion'' one might have either large or small flow.Also, reference is needed here
 
-Answer: I have to disagree. In more central collisions when the system is larger and hence the lifetime is larger, the average radial flow velocity is also larger and in turn the anisotropic flow is pushed more towards higher pT. And you can see this in the crossing point between different particle species. The crossing point moves to lower pT values as centrality decreases. We have seen this effect also in the anisotropic flow measurements like: arXiv:1805.04390, arXiv:1405.4632,  arXiv:1606.06057
+Answer: In our naive understanding, for more central collisions when the system is larger and hence the lifetime is larger, the average radial flow velocity is also larger and in turn the anisotropic flow is pushed more towards higher pT. And you can see this in the crossing point between different particle species. The crossing point moves to lower pT values as centrality decreases. We have seen this effect also in the anisotropic flow measurements like: arXiv:1805.04390, arXiv:1405.4632,  arXiv:1606.06057
 
 This reference is added: https://arxiv.org/pdf/1105.3226.pdf
 ____________________________________________________________________________________
 
 Fig 6 and following.One would need to compare the relative splitting to that on linear modes
 
-Answer: True, but we only measure non-linear modes in this analysis. we did a comparison with the linear terms extracted from the published vn results. We have included them in the twiki: 
+Answer: True, but we only measure non-linear modes in this analysis. we did a comparison with some kind of linear terms extracted from the published vn results. We have included them in the twiki: 
 https://twiki.cern.ch/twiki/bin/viewauth/ALICE/LinearFlowTerms
 ____________________________________________________________________________________
 
 361-362``triggering the development of calculations...', ``as a next step'' --wrong. See comments above.
 
-Answer: Could you explain what is wrong and how you suggest to fix it? Thanks.
+Answer: Thanks, we removed ``triggering the development of calculations".
 ____________________________________________________________________________________
 366-365 The scaling holds at RHIC and LHC approximately with the same accuracy. Text has to be corrected.
 
@@ -178,11 +181,11 @@ Answer: It was first concluded at RHIC that the scaling holds.
 "This scaling behavior was observed in Au+Au collisions at 200 GeV [15]" in https://arxiv.org/pdf/nucl-ex/0701010.pdf where [15] is https://arxiv.org/pdf/nucl-ex/0309003.pdf
 and contains the same measurement in https://arxiv.org/pdf/nucl-ex/0306007.pdf
 
-Later measurements using other particle species showed the scaling holds only in an approximate level and the same at the LHC. The text reflects that:  "This scaling, worked initially at RHIC energies, although later measurements revealed sizeable deviations from a perfect scaling [13–16]. Recently, ALICE measurements showed that the NCQ scaling at LHC energies holds at best at an approximate level of 20% for vn [17–19]"
+Later measurements using other particle species showed the scaling holds only in an approximate level and the same at the LHC. The text reflects that:  "This scaling, worked initially at RHIC energies, although later measurements revealed sizeable deviations from a perfect scaling [13–16]. ALICE measurements showed that the NCQ scaling at LHC energies holds at best at an approximate level of 20% for vn [17–19]"
 ____________________________________________________________________________________
 366 remove ``at best''. BTW 20\% is what would be expected in this model, though in reality it seems to be better than that.
 
-Answer: It is at best 20% and that was also claimed in the elliptic flow paper (arXiv:1405.4632 ) and later higher harmonics paper (arXiv:1606.06057). We have included the double ratios for the scaling in the twiki: 
+Answer: It is not better than 20% and that was also claimed in the elliptic flow paper (arXiv:1405.4632 ) and later higher harmonics paper (arXiv:1606.06057). We have included the double ratios for the scaling in the twiki: 
 It is at best 20%.
 https://twiki.cern.ch/twiki/bin/view/ALICE/ScalingProperties
 
@@ -200,9 +203,7 @@ https://twiki.cern.ch/twiki/bin/view/ALICE/LinearFlowTerms
 ____________________________________________________________________________________
 406-410 all those statements need some quantitative support by corresponding numbers. The corresponding text does not fit the conclusion section and better to be moved to technique/sytematics sections.
 
-Answer: It is shown many times before that a multi-particle correlation technique is less prone to non-flow. I can put a reference but it shouldn't need to be quantitatively supported. As for the systematic checks, they were discussed in the systematics section and it is important to mention them briefly in the conclusions section. 
-
-It's a summary of the whole paper. One needs to summarize the method and then describe the findings. I don't have a strong opinion on it though. If you think it is not needed I will remove it. 
+Answer: We moved it. 
 ____________________________________________________________________________________
 
 437 interplay of non-linear modes does not read well. I would change to``anisotropic flow''

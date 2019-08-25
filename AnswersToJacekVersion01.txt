@@ -1,0 +1,26 @@
+Answer to comments from Jacek:
+
+For systematic uncertainties estimation the cuts variations were pretty large (e.g. TPC number clusters 70 - 100, TPC chi2 /ndf 2 - 4,...). This way we might overestimate a bit systematic uncertainties
+
+
+Answer: 
+What matters here is to confirm that even with very large variations, the systematics are well under control.
+
+
+
+__________________________________________________________________________________
+
+The comparison of non-linear and liner modes is to be done (agree with Sergei) and more critical view on the models would be a good addition
+
+
+Answer: 
+As discussed today. Instead of moving to linear flow mode, discuss what’s new with non-linear flow mode, in addition to vn(pt). We can discuss v4 prefers one model while v4,22 prefers the other.
+
+
+__________________________________________________________________________________
+
+Figure vertical axis titles should not overlap with labels
+
+
+Answer: 
+This you should check. I personally do not like “Panos’s style” as I tell you today. There is a nice ALICE template and I do not see why we can not use it.

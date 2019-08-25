@@ -1,0 +1,9 @@
+For systematic uncertainties estimation the cuts variations were pretty large (e.g. TPC number clusters 70 - 100, TPC chi2 /ndf 2 - 4,...). This way we might overestimate a bit systematic uncertainties
+
+
+The comparison of non-linear and liner modes is to be done (agree with Sergei) and more critical view on the models would be a good addition
+
+
+Figure vertical axis titles should not overlap with labels
+
+

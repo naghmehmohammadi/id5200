@@ -1,0 +1,52 @@
+For systematic uncertainties estimation the cuts variations were pretty large (e.g. TPC number clusters 70 - 100, TPC chi2 /ndf 2 - 4,...). This way we might overestimate a bit systematic uncertainties
+
+Answer:  Sorry the table was old. And it propagated to the text as well. The default cut on TPC NCls is 70 and we vary it down to 60 and up to 90 which changes the statistics by 2%. So the systematics rising from this variation is really not overestimated and under control. 
+You could see that for example by varying number of TPC space points: the maximum systematics measured in the results through all centralities and pT values is 1-2% for v422 of pions.
+
+For chi2 we checked for chi2< 4 and chi2<3. The text is fixed now. In this case as well, the systematics seems under control and not at all overestimated (of course with the correct value of the variation, i.e. chi2<3)
+
+_______________________________________________________________________________________
+
+The comparison of non-linear and liner modes is to be done (agree with Sergei) and more critical view on the models would be a good addition
+
+Answer: Thanks, we have quantified the difference between the models and the results and also discussed the differences (if any) wrt the published vn results. These studies are included in the wiki: https://twiki.cern.ch/twiki/bin/view/ALICE/HydroComparison
+
+As it was asked by other IRC, here is the reply (which is the same to others)
+
+we tried to quantify the performance of these models in reproducing the measurements of total flow wrt non-linear flow modes by 
+
+
+1) taking the χ2/N_dof between each model and the measurement
+
+2) fitting the relative ratios between the models and the data (both v_n and v_n,mk)
+
+These exercises are included in the following twiki link: 
+
+https://twiki.cern.ch/twiki/bin/view/ALICE/Nonlinearflowvsmodels
+https://twiki.cern.ch/twiki/bin/view/ALICE/PublishedTotalFlowMeasurements
+
+Our interpretation of the compatibility of different models with the measurements as included in the new version of the paper: 
+
+
+"These two models have been already utilised to reproduce the pT-differential vn measurements for identified particles [40]. In order to compare the performance of these two models in vn and vn,mk measurements, the relative ratios have been obtained between each model and the measurements. Tables 5 and 6 summarize these relative ratios for non-linear flow modes and anisotropic flow, respectively. The ranges in the tables present the minimum and maximum value of a pol0 fit to the relative ratios obtained from most-central to mid-peripheral collisions. These values should be taken with caution as the non-linear flow modes have smaller magnitude and any discrepancy between the models and the data gets magnified in the ratios. Comparison between the two tables shows that the AMPT IC reproduces v4,22 with ∼20% higher discrepancy on average compared to v4, while, TRENTo IC performs better in v4,22 compared to v4 with ∼7%.
+
+All in all, this study shows lower discrepancy between the model calculations and anisotropic flow wrt. that of non-linear flow modes, indicating a larger sensitivity to the initial conditions and transport properties in non-linear flow modes. As a result, it is necessary to tune the input parameters of hydrodynamic models using the non-linear flow measurements, to constrain the values of transport properties and the initial conditions of the system."
+
+
+In addition we also compared the character features (mass ordering and particle type grouping) in v422 and v4 and the results are compatible. We did the same exercise with the models which shows the same mass ordering in v4 and v422.
+
+Here is a link to these comparisons: 
+https://twiki.cern.ch/twiki/bin/view/ALICE/V4vsV422
+
+As a result, we added a few lines to the paper mentioning that the mass ordering  and particle type grouping in the non-linear modes is compatible with that seen in vn measurements. 
+
+"The features seen in the measurement of non-linear flow modes can be further studied by comparing to that of total flow coefficients. Such comparisons have been performed for v4,22 ( pT ) (this study) and v4(pT) measurements [40] by taking the relative difference of pions wrt protons at a given pT in both modes. This comparison shows that the observed mass ordering in low pT region (0 < pT < 2.5 GeV/c) is of the same magnitude in v4,22 and v4. In the intermediate pT region (pT > 2.5 GeV/c) the observed particle type grouping also shows the same magnitude in both flow modes."
+ 
+
+_______________________________________________________________________________________
+
+Figure vertical axis titles should not overlap with labels
+
+Answer: Thanks. We have fixed this issue in the new version. 
+
+
