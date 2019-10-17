@@ -18,7 +18,7 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \citation{Borsanyi:2010cj,Bhattacharya:2014ara}
 \citation{Shuryak:1984nq,Cleymans:1985wb,Bass:1998vz}
-\citation{Bhalerao:2006tp,Alver:2008zza,Alver:2010gr,Alver:2010dn,Manly:2005zy}
+\citation{Miller:2003kd,Bhalerao:2006tp,Alver:2008zza,Alver:2010gr,Alver:2010dn,Manly:2005zy,Voloshin:2006gz}
 \citation{Voloshin:1994mz}
 \citation{Voloshin:2006gz,Bhalerao:2006tp,Alver:2008zza,Alver:2010gr,Alver:2010dn}
 \citation{Adams:2003am,Abelev:2007qg,Adler:2003kt,Adare:2006ti,Alver:2007qw,Adcox:2002ms,Adamczyk:2013gw,Adler:2004cj,Afanasiev:2009wq,Adare:2011tg,Ackermann:2000tr,Adler:2001nb,Adler:2002ct,Adler:2002pu,Adams:2003zg,Adams:2004wz,Adams:2004bi}
@@ -29,7 +29,6 @@
 \citation{Alver:2010dn}
 \citation{Teaney:2010vd,Alver:2010gr}
 \citation{Alver:2010gr}
-\citation{Alver:2010dn}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{3}{section.1}}
 \newlabel{Sec:Introduction}{{1}{3}{Introduction}{section.1}{}}
 \newlabel{Eq:Fourier}{{1}{3}{Introduction}{equation.1.1}{}}
@@ -38,13 +37,14 @@
 \citation{Teaney:2013dta,Qian:2017ier}
 \citation{Bhalerao:2014xra,Yan:2015jma}
 \citation{Yan:2015jma,Acharya:2017zfg}
-\citation{ALICE:2011ab,ATLAS:2012at,Chatrchyan:2013kba,Acharya:2018lmh,Acharya:2018ihu}
+\citation{Acharya:2017gsw,Bhalerao:2014xra}
+\citation{Voloshin:2008dg,ALICE:2011ab,ATLAS:2012at,Chatrchyan:2013kba,Acharya:2018lmh,Acharya:2018ihu}
 \citation{Voloshin:1996nv,Huovinen:2001cy}
-\citation{Abelev:2014pua,Adam:2015eta,Adam:2016nfo,Acharya:2018zuq}
 \citation{Adams:2003am,Abelev:2007qg,Adler:2003kt,Adare:2006ti}
+\citation{Abelev:2014pua,Adam:2015eta,Adam:2016nfo,Acharya:2018zuq}
+\citation{Voloshin:1996nv,Huovinen:2001cy}
 \citation{Voloshin:2002wa,Molnar:2003ff}
-\citation{Adare:2012vq}
-\citation{Abelev:2014pua,Adam:2016nfo}
+\citation{Adare:2006ti,Adare:2012vq,Abelev:2014pua,Adam:2016nfo}
 \newlabel{Eq:epsilonnprime}{{4}{4}{Introduction}{equation.1.4}{}}
 \newlabel{Eq:V4V5V6}{{5}{4}{Introduction}{equation.1.5}{}}
 \newlabel{Eq:V422}{{6}{4}{Introduction}{equation.1.6}{}}
@@ -77,13 +77,13 @@
 \newlabel{Sec:EventTrackIdentification}{{3}{7}{Event sample, track selection and particle identification}{section.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Trigger selection and data sample}{7}{subsection.3.1}}
 \newlabel{SubSec:Event}{{3.1}{7}{Trigger selection and data sample}{subsection.3.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Selection of primary $\pi ^{\pm }$, $\rm  {K}^{\pm }$\nobreakspace  {}and $\rm  {p+\mathaccentV {bar}016{p}}$}{7}{subsection.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Selection of primary $\pi ^{\pm }$, $\rm  {K}^{\pm }$\nobreakspace  {}and $\rm  {p+\overline  {p}}$}{7}{subsection.3.2}}
 \newlabel{SubSec:Track}{{3.2}{7}{Selection of primary \pion , \kaon ~and \proton }{subsection.3.2}{}}
 \citation{Olive_2016}
 \citation{doi:10.1080/14786440108520416}
 \citation{Olive_2016}
 \citation{Adam:2016acv}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Reconstruction of $\rm  {K^{0}_{S}}$, $\Lambda +\mathaccentV {bar}016{\Lambda }$\nobreakspace  {}and $\phi $ meson}{8}{subsection.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Reconstruction of $\rm  {K^{0}_{S}}$, $\Lambda +\overline  {\Lambda }$\nobreakspace  {}and $\phi $ meson}{8}{subsection.3.3}}
 \newlabel{SubSec:K0sLambdaPhiRec}{{3.3}{8}{Reconstruction of \Ks , \lambdas ~and $\phi $ meson}{subsection.3.3}{}}
 \citation{Acharya:2017zfg}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Analysis method}{9}{section.4}}
@@ -96,31 +96,45 @@
 \newlabel{Eq:VA6222}{{15}{9}{Analysis method}{equation.4.15}{}}
 \newlabel{Eq:dnmk}{{16}{9}{Analysis method}{equation.4.16}{}}
 \citation{Barlow:2002yb}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Reconstruction and $d_{4,22}$ measurement of $\phi $-meson. Upper panel: extraction of $N^{\rm  {sig}}$ and $N^{\rm  {bkg}}$ by fitting the invariant mass (${\it  M}_{\rm  {inv}}$) distribution for $\phi $-meson for $3<p_{\rm  {T}}<4.5\nobreakspace  {}{\rm  GeV}/c$ at 10-20\% centrality interval, lower panel: extraction of $d_{4,22}^{sig}$ by fitting Eq. \ref  {Eq:dnmk} to the invariant mass dependence of $d_{4,22}^{\rm  total}$.}}{10}{figure.1}}
-\newlabel{d422_phi_meson}{{1}{10}{Reconstruction and $d_{4,22}$ measurement of $\phi $-meson. Upper panel: extraction of $N^{\rm {sig}}$ and $N^{\rm {bkg}}$ by fitting the invariant mass (${\it M}_{\rm {inv}}$) distribution for $\phi $-meson for $3<p_{\rm {T}}<4.5~{\rm GeV}/c$ at 10-20\% centrality interval, lower panel: extraction of $d_{4,22}^{sig}$ by fitting Eq. \ref {Eq:dnmk} to the invariant mass dependence of $d_{4,22}^{\rm total}$}{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Reconstruction and $d_{4,22}$ measurement of $\phi $-meson. Upper panel: extraction of $N^{\rm  {sig}}$ and $N^{\rm  {bkg}}$ by fitting the invariant mass (${\it  M}_{\rm  {inv}}$) distribution for $\phi $-meson candidates from pair of kaons with opposite charges for $3<p_{\rm  {T}}<4.5\nobreakspace  {}{\rm  GeV}/c$ at 10-20\% centrality interval, lower panel: extraction of $d_{4,22}^{sig}$ by fitting Eq. \ref  {Eq:dnmk} to the invariant mass dependence of $d_{4,22}^{\rm  total}$.}}{10}{figure.1}}
+\newlabel{d422_phi_meson}{{1}{10}{Reconstruction and $d_{4,22}$ measurement of $\phi $-meson. Upper panel: extraction of $N^{\rm {sig}}$ and $N^{\rm {bkg}}$ by fitting the invariant mass (${\it M}_{\rm {inv}}$) distribution for $\phi $-meson candidates from pair of kaons with opposite charges for $3<p_{\rm {T}}<4.5~{\rm GeV}/c$ at 10-20\% centrality interval, lower panel: extraction of $d_{4,22}^{sig}$ by fitting Eq. \ref {Eq:dnmk} to the invariant mass dependence of $d_{4,22}^{\rm total}$}{figure.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {5}Systematic uncertainties}{10}{section.5}}
 \newlabel{Sec:Systematics}{{5}{10}{Systematic uncertainties}{section.5}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces List of the maximum relative systematic uncertainties from each individual source for $v_{n,mk}$ of $\pi ^{\pm }$, $\rm  {K}^{\pm }$\nobreakspace  {}and $\rm  {p+\mathaccentV {bar}016{p}}$expressed in percentages. The uncertainties depend on the transverse momenta and centrality interval. Hence here maximum and minimum values are listed.}}{11}{table.1}}
-\newlabel{SystematicsValues:PID}{{1}{11}{List of the maximum relative systematic uncertainties from each individual source for $v_{n,mk}$ of \pion , \kaon ~and \proton expressed in percentages. The uncertainties depend on the transverse momenta and centrality interval. Hence here maximum and minimum values are listed}{table.1}{}}
 \citation{Alver:2010gr,Acharya:2017zfg}
-\citation{Alver:2010gr}
-\citation{Acharya:2017zfg}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces List of the maximum relative systematic uncertainties from each individual source for $v_{n,mk}$ of $\rm  {K^{0}_{S}}$, $\Lambda +\mathaccentV {bar}016{\Lambda }$\nobreakspace  {}and $\phi $-meson expressed in percentages. The uncertainties depend on the transverse momenta and centrality interval. Hence here maximum and minimum values are listed. "N/A" indicates that a certain check was not applicable to the given particle of interest. If a source was checked and proved to be of negligible effect, the field is marked with "-".}}{12}{table.2}}
-\newlabel{SystematicsValues:V0}{{2}{12}{List of the maximum relative systematic uncertainties from each individual source for $v_{n,mk}$ of \Ks , \lambdas ~and $\phi $-meson expressed in percentages. The uncertainties depend on the transverse momenta and centrality interval. Hence here maximum and minimum values are listed. "N/A" indicates that a certain check was not applicable to the given particle of interest. If a source was checked and proved to be of negligible effect, the field is marked with "-"}{table.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces List of the maximum relative systematic uncertainties from each individual source for $v_{n,mk}$ of $\pi ^{\pm }$, $\rm  {K}^{\pm }$\nobreakspace  {}and $\rm  {p+\overline  {p}}$. The uncertainties depend on the transverse momenta. Percentage ranges are given to account for all centrality intervals.}}{12}{table.1}}
+\newlabel{SystematicsValues:PID}{{1}{12}{List of the maximum relative systematic uncertainties from each individual source for $v_{n,mk}$ of \pion , \kaon ~and \proton . The uncertainties depend on the transverse momenta. Percentage ranges are given to account for all centrality intervals}{table.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces List of the maximum relative systematic uncertainties from each individual source for $v_{n,mk}$ of $\rm  {K^{0}_{S}}$, $\Lambda +\overline  {\Lambda }$\nobreakspace  {}and $\phi $-meson. The uncertainties depend on the transverse momenta and centrality interval. Percentage ranges are given to account for all centrality intervals. "N/A" indicates that a certain check was not applicable to the given particle of interest. If a source was checked and proved to be of negligible effect, the field is marked with "-".}}{12}{table.2}}
+\newlabel{SystematicsValues:V0}{{2}{12}{List of the maximum relative systematic uncertainties from each individual source for $v_{n,mk}$ of \Ks , \lambdas ~and $\phi $-meson. The uncertainties depend on the transverse momenta and centrality interval. Percentage ranges are given to account for all centrality intervals. "N/A" indicates that a certain check was not applicable to the given particle of interest. If a source was checked and proved to be of negligible effect, the field is marked with "-"}{table.2}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {6}Results and discussion}{12}{section.6}}
 \newlabel{Sec:Results}{{6}{12}{Results and discussion}{section.6}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Centrality and $p_{\mathrm  {T}}$\nobreakspace  {}dependence of non-linear flow modes}{12}{subsection.6.1}}
 \newlabel{SubSec:pTdependence}{{6.1}{12}{Centrality and \pT ~dependence of non-linear flow modes}{subsection.6.1}{}}
-\citation{Voloshin:1996nv,Huovinen:2001cy,Shen:2011eg}
+\citation{Alver:2010gr}
+\citation{Acharya:2017zfg}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{4,22}$ for different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV\nobreakspace  {} grouped by particle species. Statistical and systematic uncertainties are shown as bars and boxes, respectively.}}{13}{figure.2}}
 \newlabel{v422_centralityDependence}{{2}{13}{The \pT -differential $v_{4,22}$ for different centrality intervals of Pb--Pb collisions at \sNN ~ grouped by particle species. Statistical and systematic uncertainties are shown as bars and boxes, respectively}{figure.2}{}}
-\citation{Abelev:2014pua,Adam:2016nfo,Acharya:2018zuq,Adams:2003am,Abelev:2007qg,Adler:2003kt,Adare:2006ti}
-\citation{Adams:2003am,Abelev:2007qg,Adler:2003kt,Adare:2006ti}
-\citation{Abelev:2014pua,Adam:2016nfo,Acharya:2018zuq}
-\citation{Voloshin:2002wa,Molnar:2003ff}
-\citation{Acharya:2018zuq}
+\citation{Voloshin:1996nv,Huovinen:2001cy,Shen:2011eg}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{5,32}$ for different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV\nobreakspace  {} grouped by particle species.}}{14}{figure.3}}
 \newlabel{v523_centralityDependence}{{3}{14}{The \pT -differential $v_{5,32}$ for different centrality intervals of Pb--Pb collisions at \sNN ~ grouped by particle species}{figure.3}{}}
+\citation{Abelev:2014pua,Adam:2016nfo,Acharya:2018zuq,Adams:2003am,Abelev:2007qg,Adler:2003kt,Adare:2006ti}
+\citation{Molnar:2003ff}
+\citation{Voloshin:2002wa,Molnar:2003ff}
+\citation{Abelev:2014pua,Adam:2016nfo,Acharya:2018zuq}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,33}$ for different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV\nobreakspace  {} grouped by particle species.}}{15}{figure.4}}
+\newlabel{v633_centralityDependence}{{4}{15}{The \pT -differential $v_{6,33}$ for different centrality intervals of Pb--Pb collisions at \sNN ~ grouped by particle species}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,222}$ for different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV\nobreakspace  {} grouped by particle species.}}{15}{figure.5}}
+\newlabel{v6222_centralityDependence}{{5}{15}{The \pT -differential $v_{6,222}$ for different centrality intervals of Pb--Pb collisions at \sNN ~ grouped by particle species}{figure.5}{}}
+\citation{Acharya:2018zuq}
+\citation{Acharya:2018zuq}
+\citation{Adam:2016izf}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{4,22}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV.}}{16}{figure.6}}
+\newlabel{v422_particleDependence}{{6}{16}{The \pT -differential $v_{4,22}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at \sNN }{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{5,32}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV.}}{17}{figure.7}}
+\newlabel{v523_particleDependence}{{7}{17}{The \pT -differential $v_{5,32}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at \sNN }{figure.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Comparison with $v_{n}$ of identified particles}{17}{subsection.6.2}}
+\newlabel{SubSec:comparewithvn}{{6.2}{17}{Comparison with $v_{n}$ of identified particles}{subsection.6.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,33}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV.}}{18}{figure.8}}
+\newlabel{v633_particleDependence}{{8}{18}{The \pT -differential $v_{6,33}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at \sNN }{figure.8}{}}
 \citation{Xu:2016hmp,McDonald:2016vlt,Zhao:2017yhj}
 \citation{Acharya:2018zuq}
 \citation{Zhao:2017yhj}
@@ -132,41 +146,34 @@
 \citation{Bernhard:2016tnd}
 \citation{Moreland:2014oya}
 \citation{Bernhard:2016tnd}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,222}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV.}}{19}{figure.9}}
+\newlabel{v6222_particleDependence}{{9}{19}{The \pT -differential $v_{6,222}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at \sNN }{figure.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Comparison with models}{19}{subsection.6.3}}
+\newlabel{SubSec:hydro}{{6.3}{19}{Comparison with models}{subsection.6.3}{}}
 \citation{Acharya:2018zuq}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,33}$ for different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV\nobreakspace  {} grouped by particle species.}}{15}{figure.4}}
-\newlabel{v633_centralityDependence}{{4}{15}{The \pT -differential $v_{6,33}$ for different centrality intervals of Pb--Pb collisions at \sNN ~ grouped by particle species}{figure.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,222}$ for different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV\nobreakspace  {} grouped by particle species.}}{15}{figure.5}}
-\newlabel{v6222_centralityDependence}{{5}{15}{The \pT -differential $v_{6,222}$ for different centrality intervals of Pb--Pb collisions at \sNN ~ grouped by particle species}{figure.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Comparison with models}{15}{subsection.6.2}}
-\newlabel{SubSec:hydro}{{6.2}{15}{Comparison with models}{subsection.6.2}{}}
-\citation{Acharya:2017zfg}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The $p_{\rm  {T}}/n_{q}$-dependence of $v_{4,22}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV.}}{20}{figure.10}}
+\newlabel{v422_NCQ}{{10}{20}{The $p_{\rm {T}}/n_{q}$-dependence of $v_{4,22}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at \sNN }{figure.10}{}}
 \citation{Zhao:2017yhj}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{4,22}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{16}{figure.6}}
-\newlabel{v422_particleDependence}{{6}{16}{The \pT -differential $v_{4,22}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.6}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{5,32}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{17}{figure.7}}
-\newlabel{v523_particleDependence}{{7}{17}{The \pT -differential $v_{5,32}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The $p_{\rm  {T}}/n_{q}$-dependence of $v_{5,32}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV.}}{21}{figure.11}}
+\newlabel{v523_NCQ}{{11}{21}{The $p_{\rm {T}}/n_{q}$-dependence of $v_{5,32}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at \sNN }{figure.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces List of minimum and maximum value of the fit to relative ratios between the data and each model for $v_{n} (n=2,3,4)$ of $\pi ^{\pm }$, $\rm  {K}^{\pm }$\nobreakspace  {}and $\rm  {p+\overline  {p}}$. The minimum and maximum are obtained from 0-5\% up to 40-50\% centrality intervals .}}{21}{table.3}}
+\newlabel{ModelDataComparisonflow}{{3}{21}{List of minimum and maximum value of the fit to relative ratios between the data and each model for $v_{n} (n=2,3,4)$ of \pion , \kaon ~and \proton . The minimum and maximum are obtained from 0-5\% up to 40-50\% centrality intervals }{table.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces The $p_{\rm  {T}}/n_{q}$-dependence of $v_{6,33}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV.}}{22}{figure.12}}
+\newlabel{v633_NCQ}{{12}{22}{The $p_{\rm {T}}/n_{q}$-dependence of $v_{6,33}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at \sNN }{figure.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces List of minimum and maximum value of the fit to relative ratios between the data and each model for $v_{n,mk}$ of $\pi ^{\pm }$, $\rm  {K}^{\pm }$\nobreakspace  {}and $\rm  {p+\overline  {p}}$. The minimum and maximum are obtained from 0-10\% up to 50-60\% (40-50\% for $v_{6,33}$) centrality intervals .}}{22}{table.4}}
+\newlabel{ModelDataComparisonNLflow}{{4}{22}{List of minimum and maximum value of the fit to relative ratios between the data and each model for $v_{n,mk}$ of \pion , \kaon ~and \proton . The minimum and maximum are obtained from 0-10\% up to 50-60\% (40-50\% for $v_{6,33}$) centrality intervals }{table.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The $p_{\rm  {T}}/n_{q}$-dependence of $v_{6,222}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV.}}{23}{figure.13}}
+\newlabel{v6222_NCQ}{{13}{23}{The $p_{\rm {T}}/n_{q}$-dependence of $v_{6,222}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions at \sNN }{figure.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces The comparison between $[v_{4,22}^{\pi ^{\pm }} - v_{4,22}^{\rm  p+\mathaccentV {bar}016{p}}](p_{\rm  T}) / v_{4,22}^{\rm  h^{\pm }} $ and $[v_{4}^{\pi ^{\pm }} - v_{4}^{\rm  p+\mathaccentV {bar}016{p}}](p_{\rm  T}) / v_{4}^{\rm  h^{\pm }} $ grouped into different centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV.}}{24}{figure.14}}
+\newlabel{massOrderingComparison}{{14}{24}{The comparison between $[v_{4,22}^{\pi ^{\pm }} - v_{4,22}^{\rm p+\bar {p}}](p_{\rm T}) / v_{4,22}^{\rm h^{\pm }} $ and $[v_{4}^{\pi ^{\pm }} - v_{4}^{\rm p+\bar {p}}](p_{\rm T}) / v_{4}^{\rm h^{\pm }} $ grouped into different centrality intervals of Pb--Pb collisions at \sNN }{figure.14}{}}
 \citation{Acharya:2018zuq}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,33}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{18}{figure.8}}
-\newlabel{v633_particleDependence}{{8}{18}{The \pT -differential $v_{6,33}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,222}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{19}{figure.9}}
-\newlabel{v6222_particleDependence}{{9}{19}{The \pT -differential $v_{6,222}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.9}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces List of minimum and maximum value of the fit to relative ratios between the data and each model for $v_{n,mk}$ of $\pi ^{\pm }$, $\rm  {K}^{\pm }$\nobreakspace  {}and $\rm  {p+\mathaccentV {bar}016{p}}$. The minimum and maximum are obtained from 0-10\% up to 50-60\% (40-50\% for $v_{6,33}$) centrality intervals .}}{19}{table.3}}
-\newlabel{ModelDataComparisonNLflow}{{3}{19}{List of minimum and maximum value of the fit to relative ratios between the data and each model for $v_{n,mk}$ of \pion , \kaon ~and \proton . The minimum and maximum are obtained from 0-10\% up to 50-60\% (40-50\% for $v_{6,33}$) centrality intervals }{table.3}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces List of minimum and maximum value of the fit to relative ratios between the data and each model for $v_{n} (n=2,3,4)$ of $\pi ^{\pm }$, $\rm  {K}^{\pm }$\nobreakspace  {}and $\rm  {p+\mathaccentV {bar}016{p}}$. The minimum and maximum are obtained from 0-5\% up to 40-50\% centrality intervals .}}{19}{table.4}}
-\newlabel{ModelDataComparisonflow}{{4}{19}{List of minimum and maximum value of the fit to relative ratios between the data and each model for $v_{n} (n=2,3,4)$ of \pion , \kaon ~and \proton . The minimum and maximum are obtained from 0-5\% up to 40-50\% centrality intervals }{table.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{4,22}$ for $\pi ^{\pm }$, $\rm  {K}^{\pm }$\nobreakspace  {}and $\rm  {p+\overline  {p}}$\nobreakspace  {}in 0-10\% up to 50-60\% centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeVcompared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm  T})$ and $\zeta /s({\rm  T})$) in hatched bands. The bottom panels show the difference between the measurements and each model.}}{25}{figure.15}}
+\newlabel{v422_model}{{15}{25}{The \pT -differential $v_{4,22}$ for \pion , \kaon ~and \proton ~in 0-10\% up to 50-60\% centrality intervals of Pb--Pb collisions at \sNN compared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm T})$ and $\zeta /s({\rm T})$) in hatched bands. The bottom panels show the difference between the measurements and each model}{figure.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Summary}{25}{section.7}}
+\newlabel{Sec:conclusion}{{7}{25}{Summary}{section.7}{}}
 \citation{Acharya:2018zuq}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The $p_{\rm  {T}}/n_{q}$-dependence of $v_{4,22}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{20}{figure.10}}
-\newlabel{v422_NCQ}{{10}{20}{The $p_{\rm {T}}/n_{q}$-dependence of $v_{4,22}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.10}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Comparison with $v_{n}$ of identified particles}{20}{subsection.6.3}}
-\newlabel{SubSec:comparewithvn}{{6.3}{20}{Comparison with $v_{n}$ of identified particles}{subsection.6.3}{}}
-\citation{Acharya:2018zuq}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The $p_{\rm  {T}}/n_{q}$-dependence of $v_{5,32}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{21}{figure.11}}
-\newlabel{v523_NCQ}{{11}{21}{The $p_{\rm {T}}/n_{q}$-dependence of $v_{5,32}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.11}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Summary}{21}{section.7}}
-\newlabel{Sec:conclusion}{{7}{21}{Summary}{section.7}{}}
-\citation{Acharya:2018zuq}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces The $p_{\rm  {T}}/n_{q}$-dependence of $v_{6,33}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{22}{figure.12}}
-\newlabel{v633_NCQ}{{12}{22}{The $p_{\rm {T}}/n_{q}$-dependence of $v_{6,33}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{5,32}$ for $\pi ^{\pm }$, $\rm  {K}^{\pm }$\nobreakspace  {}and $\rm  {p+\overline  {p}}$\nobreakspace  {}in 0-10\% up to 50-60\% centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeVcompared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm  T})$ and $\zeta /s({\rm  T})$) in hatched bands. The bottom panels show the difference between the measurements and each model.}}{26}{figure.16}}
+\newlabel{v523_model}{{16}{26}{The \pT -differential $v_{5,32}$ for \pion , \kaon ~and \proton ~in 0-10\% up to 50-60\% centrality intervals of Pb--Pb collisions at \sNN compared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm T})$ and $\zeta /s({\rm T})$) in hatched bands. The bottom panels show the difference between the measurements and each model}{figure.16}{}}
 \bibstyle{utphys}
 \bibdata{main}
 \bibcite{Borsanyi:2010cj}{{1}{}{{}}{{}}}
@@ -174,104 +181,106 @@
 \bibcite{Shuryak:1984nq}{{3}{}{{}}{{}}}
 \bibcite{Cleymans:1985wb}{{4}{}{{}}{{}}}
 \bibcite{Bass:1998vz}{{5}{}{{}}{{}}}
-\bibcite{Bhalerao:2006tp}{{6}{}{{}}{{}}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The $p_{\rm  {T}}/n_{q}$-dependence of $v_{6,222}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{23}{figure.13}}
-\newlabel{v6222_NCQ}{{13}{23}{The $p_{\rm {T}}/n_{q}$-dependence of $v_{6,222}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.13}{}}
-\bibcite{Alver:2008zza}{{7}{}{{}}{{}}}
-\bibcite{Alver:2010gr}{{8}{}{{}}{{}}}
-\bibcite{Alver:2010dn}{{9}{}{{}}{{}}}
-\bibcite{Manly:2005zy}{{10}{}{{}}{{}}}
-\bibcite{Voloshin:1994mz}{{11}{}{{}}{{}}}
+\bibcite{Miller:2003kd}{{6}{}{{}}{{}}}
+\bibcite{Bhalerao:2006tp}{{7}{}{{}}{{}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,33}$ for $\pi ^{\pm }$, $\rm  {K}^{\pm }$\nobreakspace  {}and $\rm  {p+\overline  {p}}$\nobreakspace  {}in 0-10\% up to 40-50\% centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeVcompared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm  T})$ and $\zeta /s({\rm  T})$) in hatched bands. The bottom panels show the difference between the measurements and each model.}}{27}{figure.17}}
+\newlabel{v633_model}{{17}{27}{The \pT -differential $v_{6,33}$ for \pion , \kaon ~and \proton ~in 0-10\% up to 40-50\% centrality intervals of Pb--Pb collisions at \sNN compared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm T})$ and $\zeta /s({\rm T})$) in hatched bands. The bottom panels show the difference between the measurements and each model}{figure.17}{}}
+\bibcite{Alver:2008zza}{{8}{}{{}}{{}}}
+\bibcite{Alver:2010gr}{{9}{}{{}}{{}}}
+\bibcite{Alver:2010dn}{{10}{}{{}}{{}}}
+\bibcite{Manly:2005zy}{{11}{}{{}}{{}}}
 \bibcite{Voloshin:2006gz}{{12}{}{{}}{{}}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{4,22}$ for different particle species in 10-20\% up to 50-60\% centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeVcompared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm  T})$ and $\zeta /s({\rm  T})$) in hatched bands. The bottom panels show the difference between the measurements and each model.}}{24}{figure.14}}
-\newlabel{v422_model}{{14}{24}{The \pT -differential $v_{4,22}$ for different particle species in 10-20\% up to 50-60\% centrality intervals of Pb--Pb collisions at \sNN compared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm T})$ and $\zeta /s({\rm T})$) in hatched bands. The bottom panels show the difference between the measurements and each model}{figure.14}{}}
-\bibcite{Adams:2003am}{{13}{}{{}}{{}}}
-\bibcite{Abelev:2007qg}{{14}{}{{}}{{}}}
-\bibcite{Adler:2003kt}{{15}{}{{}}{{}}}
-\bibcite{Adare:2006ti}{{16}{}{{}}{{}}}
-\bibcite{Alver:2007qw}{{17}{}{{}}{{}}}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{5,32}$ for different particle species in 10-20\% up to 50-60\% centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeVcompared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm  T})$ and $\zeta /s({\rm  T})$) in hatched bands. The bottom panels show the difference between the measurements and each model.}}{25}{figure.15}}
-\newlabel{v523_model}{{15}{25}{The \pT -differential $v_{5,32}$ for different particle species in 10-20\% up to 50-60\% centrality intervals of Pb--Pb collisions at \sNN compared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm T})$ and $\zeta /s({\rm T})$) in hatched bands. The bottom panels show the difference between the measurements and each model}{figure.15}{}}
-\bibcite{Adcox:2002ms}{{18}{}{{}}{{}}}
-\bibcite{Adamczyk:2013gw}{{19}{}{{}}{{}}}
-\bibcite{Adler:2004cj}{{20}{}{{}}{{}}}
-\bibcite{Afanasiev:2009wq}{{21}{}{{}}{{}}}
-\bibcite{Adare:2011tg}{{22}{}{{}}{{}}}
-\bibcite{Ackermann:2000tr}{{23}{}{{}}{{}}}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,33}$ for different particle species in 10-20\% up to 40-50\% centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeVcompared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm  T})$ and $\zeta /s({\rm  T})$) in hatched bands. The bottom panels show the difference between the measurements and each model.}}{26}{figure.16}}
-\newlabel{v633_model}{{16}{26}{The \pT -differential $v_{6,33}$ for different particle species in 10-20\% up to 40-50\% centrality intervals of Pb--Pb collisions at \sNN compared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm T})$ and $\zeta /s({\rm T})$) in hatched bands. The bottom panels show the difference between the measurements and each model}{figure.16}{}}
-\bibcite{Adler:2001nb}{{24}{}{{}}{{}}}
-\bibcite{Adler:2002ct}{{25}{}{{}}{{}}}
-\bibcite{Adler:2002pu}{{26}{}{{}}{{}}}
-\bibcite{Adams:2003zg}{{27}{}{{}}{{}}}
-\bibcite{Adams:2004wz}{{28}{}{{}}{{}}}
-\bibcite{Adams:2004bi}{{29}{}{{}}{{}}}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,222}$ for different particle species in 10-20\% up to 50-60\% centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeVcompared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm  T})$ and $\zeta /s({\rm  T})$) in hatched bands. The bottom panels show the difference between the measurements and each model.}}{27}{figure.17}}
-\newlabel{v6222_model}{{17}{27}{The \pT -differential $v_{6,222}$ for different particle species in 10-20\% up to 50-60\% centrality intervals of Pb--Pb collisions at \sNN compared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm T})$ and $\zeta /s({\rm T})$) in hatched bands. The bottom panels show the difference between the measurements and each model}{figure.17}{}}
-\bibcite{Aamodt:2010pa}{{30}{}{{}}{{}}}
-\bibcite{ALICE:2011ab}{{31}{}{{}}{{}}}
-\bibcite{Abelev:2012di}{{32}{}{{}}{{}}}
-\bibcite{Chatrchyan:2012xq}{{33}{}{{}}{{}}}
-\bibcite{Chatrchyan:2012ta}{{34}{}{{}}{{}}}
-\bibcite{ATLAS:2011ah}{{35}{}{{}}{{}}}
-\bibcite{ATLAS:2012at}{{36}{}{{}}{{}}}
-\bibcite{Abelev:2014pua}{{37}{}{{}}{{}}}
-\bibcite{Adam:2016nfo}{{38}{}{{}}{{}}}
-\bibcite{Adam:2016izf}{{39}{}{{}}{{}}}
-\bibcite{Acharya:2018zuq}{{40}{}{{}}{{}}}
-\bibcite{Chatrchyan:2013kba}{{41}{}{{}}{{}}}
-\bibcite{Acharya:2018lmh}{{42}{}{{}}{{}}}
-\bibcite{Acharya:2018ihu}{{43}{}{{}}{{}}}
-\bibcite{Adam:2015eta}{{44}{}{{}}{{}}}
-\bibcite{Kovtun:2004de}{{45}{}{{}}{{}}}
-\bibcite{Niemi:2015voa}{{46}{}{{}}{{}}}
-\bibcite{Teaney:2010vd}{{47}{}{{}}{{}}}
-\bibcite{Teaney:2013dta}{{48}{}{{}}{{}}}
-\bibcite{Qian:2017ier}{{49}{}{{}}{{}}}
-\bibcite{Bhalerao:2014xra}{{50}{}{{}}{{}}}
-\bibcite{Yan:2015jma}{{51}{}{{}}{{}}}
-\bibcite{Acharya:2017zfg}{{52}{}{{}}{{}}}
-\bibcite{Voloshin:1996nv}{{53}{}{{}}{{}}}
-\bibcite{Huovinen:2001cy}{{54}{}{{}}{{}}}
-\bibcite{Voloshin:2002wa}{{55}{}{{}}{{}}}
-\bibcite{Molnar:2003ff}{{56}{}{{}}{{}}}
-\bibcite{Adare:2012vq}{{57}{}{{}}{{}}}
-\bibcite{Zhu:2016puf}{{58}{}{{}}{{}}}
-\bibcite{Aamodt:2008zz}{{59}{}{{}}{{}}}
-\bibcite{Abelev:2014ffa}{{60}{}{{}}{{}}}
-\bibcite{Aamodt:2010pb}{{61}{}{{}}{{}}}
-\bibcite{Alme:2010ke}{{62}{}{{}}{{}}}
-\bibcite{Abbas:2013taa}{{63}{}{{}}{{}}}
-\bibcite{Abelev:2013qoq}{{64}{}{{}}{{}}}
-\bibcite{Billoir:1983mz}{{65}{}{{}}{{}}}
-\bibcite{Billoir:1985nq}{{66}{}{{}}{{}}}
-\bibcite{Abelev:2013vea}{{67}{}{{}}{{}}}
-\bibcite{Olive_2016}{{68}{}{{}}{{}}}
-\bibcite{doi:10.1080/14786440108520416}{{69}{}{{}}{{}}}
-\bibcite{Adam:2016acv}{{70}{}{{}}{{}}}
-\bibcite{Bilandzic:2013kga}{{71}{}{{}}{{}}}
-\bibcite{Barlow:2002yb}{{72}{}{{}}{{}}}
-\bibcite{Shen:2011eg}{{73}{}{{}}{{}}}
-\bibcite{Xu:2016hmp}{{74}{}{{}}{{}}}
-\bibcite{McDonald:2016vlt}{{75}{}{{}}{{}}}
-\bibcite{Zhao:2017yhj}{{76}{}{{}}{{}}}
-\bibcite{Shen:2014vra}{{77}{}{{}}{{}}}
-\bibcite{Song:2010aq}{{78}{}{{}}{{}}}
-\bibcite{Song:2007fn}{{79}{}{{}}{{}}}
-\bibcite{Lin:2004en}{{80}{}{{}}{{}}}
-\bibcite{Moreland:2014oya}{{81}{}{{}}{{}}}
-\bibcite{Bernhard:2016tnd}{{82}{}{{}}{{}}}
+\bibcite{Voloshin:1994mz}{{13}{}{{}}{{}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,222}$ for $\pi ^{\pm }$, $\rm  {K}^{\pm }$\nobreakspace  {}and $\rm  {p+\overline  {p}}$\nobreakspace  {}in 0-10\% up to 50-60\% centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeVcompared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm  T})$ and $\zeta /s({\rm  T})$) in hatched bands. The bottom panels show the difference between the measurements and each model.}}{28}{figure.18}}
+\newlabel{v6222_model}{{18}{28}{The \pT -differential $v_{6,222}$ for \pion , \kaon ~and \proton ~in 0-10\% up to 50-60\% centrality intervals of Pb--Pb collisions at \sNN compared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm T})$ and $\zeta /s({\rm T})$) in hatched bands. The bottom panels show the difference between the measurements and each model}{figure.18}{}}
+\bibcite{Adams:2003am}{{14}{}{{}}{{}}}
+\bibcite{Abelev:2007qg}{{15}{}{{}}{{}}}
+\bibcite{Adler:2003kt}{{16}{}{{}}{{}}}
+\bibcite{Adare:2006ti}{{17}{}{{}}{{}}}
+\bibcite{Alver:2007qw}{{18}{}{{}}{{}}}
+\bibcite{Adcox:2002ms}{{19}{}{{}}{{}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{4,22}$ for $\rm  {K^{0}_{S}}$\nobreakspace  {}and $\Lambda +\overline  {\Lambda }$\nobreakspace  {}in 0-10\% up to 50-60\% centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeVcompared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm  T})$ and $\zeta /s({\rm  T})$) in hatched bands. The bottom panels show the difference between the measurements and each model.}}{29}{figure.19}}
+\newlabel{v422_model_KL}{{19}{29}{The \pT -differential $v_{4,22}$ for \Ks ~and \lambdas ~in 0-10\% up to 50-60\% centrality intervals of Pb--Pb collisions at \sNN compared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm T})$ and $\zeta /s({\rm T})$) in hatched bands. The bottom panels show the difference between the measurements and each model}{figure.19}{}}
+\bibcite{Adamczyk:2013gw}{{20}{}{{}}{{}}}
+\bibcite{Adler:2004cj}{{21}{}{{}}{{}}}
+\bibcite{Afanasiev:2009wq}{{22}{}{{}}{{}}}
+\bibcite{Adare:2011tg}{{23}{}{{}}{{}}}
+\bibcite{Ackermann:2000tr}{{24}{}{{}}{{}}}
+\bibcite{Adler:2001nb}{{25}{}{{}}{{}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{5,32}$ for $\rm  {K^{0}_{S}}$\nobreakspace  {}and $\Lambda +\overline  {\Lambda }$\nobreakspace  {}in 0-10\% up to 50-60\% centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeVcompared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm  T})$ and $\zeta /s({\rm  T})$) in hatched bands. The bottom panels show the difference between the measurements and each model.}}{30}{figure.20}}
+\newlabel{v523_model_KL}{{20}{30}{The \pT -differential $v_{5,32}$ for \Ks ~and \lambdas ~in 0-10\% up to 50-60\% centrality intervals of Pb--Pb collisions at \sNN compared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm T})$ and $\zeta /s({\rm T})$) in hatched bands. The bottom panels show the difference between the measurements and each model}{figure.20}{}}
+\bibcite{Adler:2002ct}{{26}{}{{}}{{}}}
+\bibcite{Adler:2002pu}{{27}{}{{}}{{}}}
+\bibcite{Adams:2003zg}{{28}{}{{}}{{}}}
+\bibcite{Adams:2004wz}{{29}{}{{}}{{}}}
+\bibcite{Adams:2004bi}{{30}{}{{}}{{}}}
+\bibcite{Aamodt:2010pa}{{31}{}{{}}{{}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces The $p_{\mathrm  {T}}$-differential $v_{6,33}$ for $\rm  {K^{0}_{S}}$\nobreakspace  {}and $\Lambda +\overline  {\Lambda }$\nobreakspace  {}in 0-10\% up to 40-50\% centrality intervals of Pb--Pb collisions at $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeVcompared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm  T})$ and $\zeta /s({\rm  T})$) in hatched bands. The bottom panels show the difference between the measurements and each model.}}{31}{figure.21}}
+\newlabel{v633_model_KL}{{21}{31}{The \pT -differential $v_{6,33}$ for \Ks ~and \lambdas ~in 0-10\% up to 40-50\% centrality intervals of Pb--Pb collisions at \sNN compared with iEBE-VISHNU hybrid models with two different sets of initial parameters: AMPT initial conditions ($\eta /s$= 0.08 and $\zeta /s$ = 0) shown in solid bands and TRENTo initial conditions ($\eta /s({\rm T})$ and $\zeta /s({\rm T})$) in hatched bands. The bottom panels show the difference between the measurements and each model}{figure.21}{}}
+\bibcite{ALICE:2011ab}{{32}{}{{}}{{}}}
+\bibcite{Abelev:2012di}{{33}{}{{}}{{}}}
+\bibcite{Chatrchyan:2012xq}{{34}{}{{}}{{}}}
+\bibcite{Chatrchyan:2012ta}{{35}{}{{}}{{}}}
+\bibcite{ATLAS:2011ah}{{36}{}{{}}{{}}}
+\bibcite{ATLAS:2012at}{{37}{}{{}}{{}}}
+\bibcite{Abelev:2014pua}{{38}{}{{}}{{}}}
+\bibcite{Adam:2016nfo}{{39}{}{{}}{{}}}
+\bibcite{Adam:2016izf}{{40}{}{{}}{{}}}
+\bibcite{Acharya:2018zuq}{{41}{}{{}}{{}}}
+\bibcite{Chatrchyan:2013kba}{{42}{}{{}}{{}}}
+\bibcite{Adam:2015eta}{{43}{}{{}}{{}}}
+\bibcite{Acharya:2018lmh}{{44}{}{{}}{{}}}
+\bibcite{Acharya:2018ihu}{{45}{}{{}}{{}}}
+\bibcite{Kovtun:2004de}{{46}{}{{}}{{}}}
+\bibcite{Niemi:2015voa}{{47}{}{{}}{{}}}
+\bibcite{Teaney:2010vd}{{48}{}{{}}{{}}}
+\bibcite{Teaney:2013dta}{{49}{}{{}}{{}}}
+\bibcite{Qian:2017ier}{{50}{}{{}}{{}}}
+\bibcite{Bhalerao:2014xra}{{51}{}{{}}{{}}}
+\bibcite{Yan:2015jma}{{52}{}{{}}{{}}}
+\bibcite{Acharya:2017zfg}{{53}{}{{}}{{}}}
+\bibcite{Acharya:2017gsw}{{54}{}{{}}{{}}}
+\bibcite{Voloshin:2008dg}{{55}{}{{}}{{}}}
+\bibcite{Voloshin:1996nv}{{56}{}{{}}{{}}}
+\bibcite{Huovinen:2001cy}{{57}{}{{}}{{}}}
+\bibcite{Voloshin:2002wa}{{58}{}{{}}{{}}}
+\bibcite{Molnar:2003ff}{{59}{}{{}}{{}}}
+\bibcite{Adare:2012vq}{{60}{}{{}}{{}}}
+\bibcite{Zhu:2016puf}{{61}{}{{}}{{}}}
+\bibcite{Aamodt:2008zz}{{62}{}{{}}{{}}}
+\bibcite{Abelev:2014ffa}{{63}{}{{}}{{}}}
+\bibcite{Aamodt:2010pb}{{64}{}{{}}{{}}}
+\bibcite{Alme:2010ke}{{65}{}{{}}{{}}}
+\bibcite{Abbas:2013taa}{{66}{}{{}}{{}}}
+\bibcite{Abelev:2013qoq}{{67}{}{{}}{{}}}
+\bibcite{Billoir:1983mz}{{68}{}{{}}{{}}}
+\bibcite{Billoir:1985nq}{{69}{}{{}}{{}}}
+\bibcite{Abelev:2013vea}{{70}{}{{}}{{}}}
+\bibcite{Olive_2016}{{71}{}{{}}{{}}}
+\bibcite{doi:10.1080/14786440108520416}{{72}{}{{}}{{}}}
+\bibcite{Adam:2016acv}{{73}{}{{}}{{}}}
+\bibcite{Barlow:2002yb}{{74}{}{{}}{{}}}
+\bibcite{Shen:2011eg}{{75}{}{{}}{{}}}
+\bibcite{Xu:2016hmp}{{76}{}{{}}{{}}}
+\bibcite{McDonald:2016vlt}{{77}{}{{}}{{}}}
+\bibcite{Zhao:2017yhj}{{78}{}{{}}{{}}}
+\bibcite{Shen:2014vra}{{79}{}{{}}{{}}}
+\bibcite{Song:2010aq}{{80}{}{{}}{{}}}
+\bibcite{Song:2007fn}{{81}{}{{}}{{}}}
+\bibcite{Lin:2004en}{{82}{}{{}}{{}}}
+\bibcite{Moreland:2014oya}{{83}{}{{}}{{}}}
+\bibcite{Bernhard:2016tnd}{{84}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\@writefile{toc}{\contentsline {section}{\numberline {A}Additional figures}{32}{appendix.A}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}$\rm  {KE_{T}}$ scaling}{32}{subsection.A.1}}
-\newlabel{Subsubsection:KETscaling}{{A.1}{32}{$\rm {KE_{T}}$ scaling}{subsection.A.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces The $(m_{\rm  {T}} - m_{0})/n_{q}$-dependence of $v_{4,22}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{32}{figure.A.1}}
-\newlabel{v422_KET}{{A.1}{32}{The $(m_{\rm {T}} - m_{0})/n_{q}$-dependence of $v_{4,22}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.A.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {B}The ALICE Collaboration}{32}{appendix.B}}
-\newlabel{app:collab}{{B}{32}{The ALICE Collaboration}{appendix.B}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces The $(m_{\rm  {T}} - m_{0})/n_{q}$-dependence of $v_{5,32}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{33}{figure.A.2}}
-\newlabel{v523_KET}{{A.2}{33}{The $(m_{\rm {T}} - m_{0})/n_{q}$-dependence of $v_{5,32}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.A.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces The $(m_{\rm  {T}} - m_{0})/n_{q}$-dependence of $v_{6,33}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{34}{figure.A.3}}
-\newlabel{v633_KET}{{A.3}{34}{The $(m_{\rm {T}} - m_{0})/n_{q}$-dependence of $v_{6,33}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.A.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces The $(m_{\rm  {T}} - m_{0})/n_{q}$-dependence of $v_{6,222}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{35}{figure.A.4}}
-\newlabel{v6222_KET}{{A.4}{35}{The $(m_{\rm {T}} - m_{0})/n_{q}$-dependence of $v_{6,222}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.A.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Additional figures}{36}{appendix.A}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}$\rm  {KE_{T}}$ scaling}{36}{subsection.A.1}}
+\newlabel{Subsubsection:KETscaling}{{A.1}{36}{$\rm {KE_{T}}$ scaling}{subsection.A.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces The $(m_{\rm  {T}} - m_{0})/n_{q}$-dependence of $v_{4,22}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{36}{figure.A.1}}
+\newlabel{v422_KET}{{A.1}{36}{The $(m_{\rm {T}} - m_{0})/n_{q}$-dependence of $v_{4,22}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.A.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}The ALICE Collaboration}{36}{appendix.B}}
+\newlabel{app:collab}{{B}{36}{The ALICE Collaboration}{appendix.B}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces The $(m_{\rm  {T}} - m_{0})/n_{q}$-dependence of $v_{5,32}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{37}{figure.A.2}}
+\newlabel{v523_KET}{{A.2}{37}{The $(m_{\rm {T}} - m_{0})/n_{q}$-dependence of $v_{5,32}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.A.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces The $(m_{\rm  {T}} - m_{0})/n_{q}$-dependence of $v_{6,33}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{38}{figure.A.3}}
+\newlabel{v633_KET}{{A.3}{38}{The $(m_{\rm {T}} - m_{0})/n_{q}$-dependence of $v_{6,33}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.A.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces The $(m_{\rm  {T}} - m_{0})/n_{q}$-dependence of $v_{6,222}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions $\sqrt  {s_{\mathrm  {NN}}}=5.02$ TeV}}{39}{figure.A.4}}
+\newlabel{v6222_KET}{{A.4}{39}{The $(m_{\rm {T}} - m_{0})/n_{q}$-dependence of $v_{6,222}/n_{q}$ for different particle species grouped into different centrality intervals of Pb--Pb collisions \sNN }{figure.A.4}{}}
