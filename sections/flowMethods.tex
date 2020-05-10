@@ -1,20 +1,20 @@
 \section{Analysis method}
 \label{Sec:Analysis method}
-In this article the \pT-differential non-linear flow modes are calculated according to Eqs. \ref{Eq:VA422}-\ref{Eq:VA6222}. Each event is divided into two subevents ``$\rm{A}$'' and ``$\rm{B}$'', covering the ranges $-0.8< \eta < 0.0$ and $0.0 <\eta< 0.8$, respectively. Thus $v_{n,mk}(p_{\rm{T}})$ is a weighted average of $v_{n,mk}^{\rm{A}}(p_{\rm{T}})$ and $v_{n,mk}^{\rm{B}}(p_{\rm{T}})$. The measured $v_{n,mk}^{\rm{A(B)}}(p_{\rm{T}})$ coefficients are calculated using $d_{n,mk}(p_{\rm{T}})$ and $c_{mk,mk}$ multi-particle correlators given by
+In this article the \pT-differential non-linear flow modes are calculated based on Eqs. \ref{Eq:V422}-\ref{Eq:V6222}. Each event is divided into two subevents ``$\rm{A}$'' and ``$\rm{B}$'', covering the ranges $-0.8< \eta < 0.0$ and $0.0 <\eta< 0.8$, respectively. Thus $v_{\rm n,mk}(p_{\rm{T}})$ is a weighted average of $v_{\rm n,mk}^{\rm{A}}(p_{\rm{T}})$ and $v_{\rm n,mk}^{\rm{B}}(p_{\rm{T}})$. The measured $v_{\rm n,mk}^{\rm{A(B)}}(p_{\rm{T}})$ coefficients are calculated using $d_{\rm n,mk}(p_{\rm{T}})$ and $c_{\rm mk,mk}$ multi-particle correlators given by
 
 \begin{equation}
-d_{n,mk}(p_{\rm{T}}) = \langle v_{n}(p_{\rm{T}})v_{m}v_{k}\cos(n\Psi_{n}-m\Psi_{m}-k\Psi_{k}) \rangle,
+d_{\rm n,mk}(p_{\rm{T}}) = \langle v_{\rm n}(p_{\rm{T}})v_{\rm m}v_{\rm k}\cos(n\Psi_{\rm n}-m\Psi_{\rm m}-k\Psi_{\rm k}) \rangle,
 \label{Eq:dnmki}
 \end{equation}
 
 
 \begin{equation}
-c_{mk,mk} = \langle v_{m}^{2}v_{k}^{2}\rangle.
+c_{\rm mk,mk} = \langle v_{\rm m}^{2}v_{\rm k}^{2}\rangle.
 \label{Eq:cmkimki}
 \end{equation}
 
  
-These correlators are obtained using the Generic Framework with sub-event method originally used in \cite{Acharya:2017zfg}, which allows precise non-uniform acceptance and efficiency corrections. In this analysis, $d_{n,mk}(p_{\rm{T}})$ is measured by correlating the azimuthal angle of particle of interest ($\varphi_{1}(p_{\rm T})$) from subevent ``$\rm{A}$''(``$\rm{B}$'') with that of reference particles from subevent ``$\rm{B}$''(``$\rm{A}$'') and $c_{mk,mk}$ by selecting half of the reference particles from subevent ``$\rm{A}$'' and the other half from ``$\rm{B}$''. Thus, Eqs.\ref{Eq:V422} to \ref{Eq:V6222} for $v_{n,mk}^{\rm{A}}(p_{\rm{T}})$ translate to
+These correlators were obtained using the Generic Framework with sub-event method originally used in \cite{Bilandzic:2013kga,Acharya:2017zfg,Pacik:2711398}, which allows precise non-uniform acceptance and efficiency corrections. In this analysis, $d_{\rm n,mk}(p_{\rm{T}})$ is measured by correlating the azimuthal angle of the particle of interest ($\varphi_{1}(p_{\rm T})$) from subevent ``$\rm{A}$''(``$\rm{B}$'') with that of reference particles\footnote{Later in the text particle of interest and reference particles will be referred to as POI and RFP, respectively.} from subevent ``$\rm{B}$''(``$\rm{A}$'') and $c_{\rm mk,mk}$ by selecting half of the reference particles from subevent ``$\rm{A}$'' and the other half from ``$\rm{B}$''. Thus, Eqs.\ref{Eq:V422} to \ref{Eq:V6222} for $v_{\rm n,mk}^{\rm{A}}(p_{\rm{T}})$ translate to
 
 \begin{align}
 v_{4,22}^{\rm{A}}(p_{\rm{T}}) &= \frac{d_{4,22}^{\rm{A}}(p_{\rm{T}})}{\sqrt{c_{22,22}}} =  \frac{\langle\langle \cos(4\varphi^{\rm{A}}_{1}(p_{\rm{T}})-2\varphi^{\rm{B}}_{2}-2\varphi^{\rm{B}}_{3})\rangle\rangle}{\sqrt{\langle\langle \cos(2\varphi^{\rm{A}}_{1}+2\varphi^{\rm{A}}_{2}-2\varphi^{\rm{B}}_{3}-2\varphi^{\rm{B}}_{4}) \rangle\rangle}}, \label{Eq:VA422} \\
@@ -24,32 +24,25 @@ v_{6,222}^{\rm{A}}(p_{\rm{T}}) &= \frac{d_{6,222}^{\rm{A}}(p_{\rm{T}})}{\sqrt{c_
 \label{Eq:VA6222}
 \end{align}
 
-%where $d^{\rm{A}}_{n,-m,-k}(p_{\rm{T}})$ and $c_{m,k,-m,-k}$ are each multi-particle correlations calculated with 2 subevent method generic framework. Details of this technique can be found in \cite{Bilandzic:2013kga}. 
 where $\langle\langle\rangle\rangle$ denotes an average over all particles and events.
-%The final measured $v_{n,mk}$ coefficients are calculated as a weighted average of $v_{n,mk}^{\rm{A}}$ and $v_{n,mk}^{\rm{B}}$ with the inverse of the square of the statistical uncertainty being the weight.
+This multi-particle correlation technique by construction removes a significant part of non-flow correlations. In order to further reduce residual non-flow contributions, a pseudorapidity gap was applied between the two pseudorapidity regions ($|\Delta\eta|>0.4$). In addition, particles with like-sign charges were correlated. These two variations do not significantly affect the results but any variation was included in the final systematics in Tab. \ref{SystematicsValues:PID}.
 
-%The $v_{n,mk}(p_{\rm{T}})$ of the \Ks, \lambdas~and $\phi$ meson cannot directly be measured using Eq. \ref{Eq:VA422}-\ref{Eq:VA6222} as they cannot be identified on a particle-by-particle basis.
-This multi-particle correlation technique by construction removes a significant part of non-flow correlations. In order to further reduce residual non-flow contributions, a pseudorapidity gap was applied between the two pseudorapidity regions ($|\Delta\eta|>0.4$). In addition, particles with like-sign charges were correlated. These two variations did not affect the results significantly but any variation was included in the final systematics in Tab. \ref{SystematicsValues:PID}.
-
-For charged hadrons, i.e. \pion, \kaon~and \proton, the $d_{n,mk}$ correlators are calculated on a track-by-track basis as a function of \pT~for each centrality percentile. For particle species reconstructed on a statistical basis from decay products, i.e. \Ks, \lambdas~and $\phi$ meson, the selected sample contains both signal and the background. Therefore, the $d_{n,mk}$ correlators are measured as a function of invariant mass (${\it M}_{\rm inv}$)~and \pT~for each centrality percentile. The $d_{n,mk}$ vs. \minv~method is based on the additivity of correlations and is a weighted sum of the $d_{n,mk}^{\rm{sig}}$ and $d_{n,mk}^{\rm{bkg}}$ according to
+For charged hadrons, i.e.\,\pion, \kaon~and \proton, the $d_{\rm n,mk}$ correlators are calculated on a track-by-track basis as a function of \pT~for each centrality percentile. For particle species reconstructed on a statistical basis from the decay products, i.e.\,\Ks, \lambdas~and $\phi$ meson, the selected sample contains both signal and the background. Therefore, the $d_{\rm n,mk}$ correlators are measured as a function of invariant mass (${\it M}_{\rm inv}$)~and \pT~for each centrality percentile. The $d_{\rm n,mk}$ vs. \minv~method is based on the additivity of correlations and is a weighted sum of the $d_{\rm n,mk}^{\rm{sig}}$ and $d_{\rm n,mk}^{\rm{bkg}}$ according to
 
 \begin{equation}
-d_{n,mk}^{\rm total}({\it M}_{\rm inv}, p_{\rm T}) = \frac{N^{\rm sig}}{N^{\rm sig}+N^{\rm bkg}}({\it M}_{\rm inv}, p_{\rm T})\,d_{n,mk}^{\rm sig}(p_{\rm T})+\frac{N^{\rm bkg}}{N^{{\rm sig}}+N^{{\rm bkg}}}({\it M}_{\rm inv}, p_{\rm T})\,d_{n,mk}^{\rm bkg}({\it M}_{\rm inv}, p_{\rm T}),
+d_{\rm n,mk}^{\rm total}({\it M}_{\rm inv}, p_{\rm T}) = \frac{N^{\rm sig}}{N^{\rm sig}+N^{\rm bkg}}({\it M}_{\rm inv}, p_{\rm T})\,d_{\rm n,mk}^{\rm sig}(p_{\rm T})+\frac{N^{\rm bkg}}{N^{{\rm sig}}+N^{{\rm bkg}}}({\it M}_{\rm inv}, p_{\rm T})\,d_{\rm n,mk}^{\rm bkg}({\it M}_{\rm inv}, p_{\rm T}),
 \label{Eq:dnmk}
 \end{equation}
 
-where $N^{\rm{sig}}$ and $N^{\rm{bkg}}$ are signal and background yields obtained for each \pT~interval and centrality percentile from fits to \Ks, \lambdas~and $\phi$ meson invariant mass distributions. To obtain the \pT-differential yield of \Ks~and \lambdas, invariant mass distributions at various \pT~intervals are parametrised as a sum of two Gaussian distribution and a third-order polynomial function. The latter is introduced to account for residual contamination (background yield) that are present in the \Ks~and \lambdas~signals after the topological and daughter track selections. The \Ks~and \lambdas~yields are extracted by integration of the Gaussian distribution. %The v_{n,mk}(\pT) results are reported for 1 < \pT < 6 GeV/c for \Ks and 1 < \pT < 6 GeV/c for \lambdas.
-Similarly, to obtain the \pT-differential yield of $\phi$-mesons, the invariant mass distributions of the candidate yield is parametrized as a sum of a Breit-Wigner distribution and a third-order polynomial function, the latter introduced to account for residual contamination.
+where $N^{\rm{sig}}$ and $N^{\rm{bkg}}$ are signal and background yields obtained for each \pT~interval and centrality percentile from fits to the \Ks, \lambdas~and $\phi$ meson invariant mass distributions. To obtain the \pT-differential yield of \Ks~and \lambdas, the invariant mass distributions at various \pT~intervals were parametrised as a sum of two Gaussian distributions and a third-order polynomial function. The latter was introduced to account for residual contamination (background yield) that is present in the \Ks~and \lambdas~signals after the topological and daughter track selections. The \Ks~and \lambdas~yields were extracted by integration of the Gaussian distribution. The obtained yields were not corrected for feed-down from higher mass baryons ($\Xi^{\pm}$,$\Omega^{\pm}$) as earlier studies have shown that these have a negligible effect on the measured $v_{\rm n}$ \cite{Abelev:2014pua}. Similarly, to obtain the \pT-differential yield of $\phi$-mesons, the invariant mass distributions of the candidate yield was parametrized as a sum of a Breit-Wigner distribution and a third-order polynomial function, the latter introduced to account for residual contamination.
 
-To extract $d_{n,mk}^{\rm{sig}}$ in a given \pT~range, $d_{n,mk}^{\rm total}({\it M}_{\rm inv})$ is fitted together with the fit values from the invariant mass distribution and parametrising $d_{n,mk}^{\rm{bkg}}({\it M}_{\rm inv})$ with a first order polynomial function. Figure \ref{d422_phi_meson} illustrates this procedure for the $\phi$-meson, with the invariant mass distribution in the upper panel and the measurement of $d_{4,22}^{\rm total}({\it M}_{\rm inv})$ in the lower panel. 
+To extract $d_{\rm n,mk}^{\rm{sig}}$ in a given \pT~range, $d_{\rm n,mk}^{\rm total}({\it M}_{\rm inv})$ was fitted together with the fit values from the invariant mass distribution and parametrising $d_{\rm n,mk}^{\rm{bkg}}({\it M}_{\rm inv})$ with a first order polynomial function. Figure \ref{d422_phi_meson} illustrates this procedure for the $\phi$-meson, with the invariant mass distribution in the upper panel and the measurement of $d_{4,22}^{\rm total}({\it M}_{\rm inv})$ in the lower panel. 
 
 \begin{figure}[!htb]
 \begin{center}
-\includegraphics[scale=0.45]{figures/analysisMethod/flowmass_Phi.pdf}
+\includegraphics[scale=0.45]{figures/analysisMethod/flowmass_new.pdf}
 \end{center}
-\caption{Reconstruction and $d_{4,22}$ measurement of $\phi$-meson. Upper panel: extraction of $N^{\rm{sig}}$ and $N^{\rm{bkg}}$ by fitting the invariant mass (${\it M}_{\rm{inv}}$) distribution for $\phi$-meson candidates from pair of kaons with opposite charges for $3<p_{\rm{T}}<4.5~{\rm GeV}/c$ at 10-20\% centrality interval, lower panel: extraction of $d_{4,22}^{sig}$ by fitting Eq. \ref{Eq:dnmk} to the invariant mass dependence of $d_{4,22}^{\rm total}$.}
+\caption{Reconstruction and $d_{4,22}$ measurement of $\phi$-mesons. Upper panel: extraction of $N^{\rm{sig}}$ and $N^{\rm{bkg}}$ by fitting the invariant mass (${\it M}_{\rm{inv}}$) distribution for $\phi$-meson candidates from pairs of kaons with opposite charges for $3<p_{\rm{T}}<4.5~{\rm GeV}/c$ and the 10--20\% centrality interval, lower panel: extraction of $d_{4,22}^{\rm sig}$ by fitting Eq. \ref{Eq:dnmk} to the invariant mass dependence of $d_{4,22}^{\rm total}$.}
 \label{d422_phi_meson}
 \end{figure}
-
-
-%To estimate the signal and background yields, the invariant mass distributions of selected candidates are fitted with sum of the signal and background yields. 
+ 
